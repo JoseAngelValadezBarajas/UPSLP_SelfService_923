@@ -1,0 +1,48 @@
+{
+  "agreementForm1098TEdit": {
+    "btnCancel": "Cancel",
+    "btnSave": "Save",
+    "lblAcceptance": "Acceptance",
+    "lblAcceptanceRequired": "Enter an acceptance",
+    "lblAgreementTitle": "Consent form",
+    "lblContent": "Content",
+    "lblContentHelpText": "This field accepts HTML. Use links with the target=\"_blank\" attribute to open the url in other tab.",
+    "lblContentRequired": "Enter a content",
+    "lblEnable": "Enable consent and tax form download",
+    "lblGeneralTitle": "General",
+    "lblPreview": "Preview",
+    "lblTitle": "Title",
+    "lblTitleRequired": "Enter a title"
+  },
+  "deleteTaxYearSettingConfirmation": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete {0}? Deleting this tax form will remove it from your list.",
+    "lblTitle": "Delete Tax Form"
+  },
+  "taxYearSettings": {
+    "btnAdd": "Add",
+    "btnDelete": "Delete",
+    "btnEdit": "Edit",
+    "btnPreview": "Preview",
+    "lblAvailable": "Available",
+    "lblNoResults": "There are no tax year settings at this moment.",
+    "lblNotAvailable": "Not available",
+    "lblTaxYearsSettingsTitle": "Tax form download"
+  },
+  "taxYearsettingsEdit": {
+    "btnCancel": "Cancel",
+    "btnPreview": "Preview",
+    "btnSave": "Save",
+    "lblAddTitle": "Add Tax Form",
+    "lblAvailable": "Available for students",
+    "lblEditTitle": "Editing Tax Form",
+    "lblPdfFileName": "Template file name",
+    "lblPdfFileNameRequired": "Select a template file name",
+    "lblTaxYear": "Tax year",
+    "lblTaxYearRequired": "Select a tax year",
+    "lblXmlFileName": "Configuration file name",
+    "lblXmlFileNameRequired": "Select a configuration file name",
+    "lblYearDuplicated": "Tax year is duplicated. Select a unique year."
+  }
+}

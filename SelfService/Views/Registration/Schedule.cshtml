@@ -1,0 +1,12 @@
+@section Styles{
+    <link rel="stylesheet" href="~/css/StudentSchedule.css" asp-append-version="true" />
+}
+<div id="root"></div>
+@if (ViewBag.PersonId != null && ViewBag.PersonId > 0)
+{
+    <input id="hdnPersonId" type="hidden" value="@ViewBag.PersonId" />
+}
+@section Scripts{
+    <script src="~/js/StudentSchedule.js" asp-append-version="true"></script>
+    <script src="~/js/RegistrationVendors.js" asp-append-version="true"></script>
+}

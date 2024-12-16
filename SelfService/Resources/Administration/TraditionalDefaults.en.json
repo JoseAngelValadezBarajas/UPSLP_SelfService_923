@@ -1,0 +1,18 @@
+{
+  "lblCancelButton": "Cancel",
+  "lblCheckBoxText": "Use defaults for traditional registration students with invalid academic records.",
+  "lblClassLevel": "Class level (Optional)",
+  "lblCollege": "College (Optional)",
+  "lblCreditLimits": "Credit limits",
+  "lblCurriculum": "Curriculum",
+  "lblCurriculumRequired": "Curriculum is required",
+  "lblDegree": "Degree",
+  "lblDegreeRequired": "Degree is required",
+  "lblDepartment": "Department (Optional)",
+  "lblDropDownEmptyText": "Select...",
+  "lblLegend": "Select the defaults used for traditional students. These defaults will be used only for new students, graduated or when they have no active academic records.",
+  "lblPopulation": "Population (Optional)",
+  "lblProgram": "Program",
+  "lblProgramRequired": "Program is required",
+  "lblSaveButton": "Save"
+}

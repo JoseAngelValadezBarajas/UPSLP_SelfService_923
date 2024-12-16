@@ -1,0 +1,58 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Request type</Title>
+    <Author>Ellucian</Author>
+    <Shortcut>requestType</Shortcut>
+    <Description>Code snippet for a request type</Description>
+    <SnippetTypes>
+      <SnippetType>React Components</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>year</ID>
+        <ToolTip>Year</ToolTip>
+        <Default>year</Default>
+      </Literal>
+      <Literal>
+        <ID>controllerName</ID>
+        <ToolTip>Controller name</ToolTip>
+        <Default>controllerName</Default>
+      </Literal>
+      <Literal>
+        <ID>actionName</ID>
+        <ToolTip>Action name</ToolTip>
+        <Default>actionName</Default>
+      </Literal>
+      <Literal>
+        <ID>functionName</ID>
+        <ToolTip>Function name</ToolTip>
+        <Default>functionName</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[/* Copyright $year$ Ellucian Company L.P. and its affiliates.
+ * File: $name$.ts */
+
+// Helpers
+import Request from '@hedtech/powercampus-design-system/helpers/Request';
+
+// Functions for requests
+const $name$ = {
+    $functionName$(value: number, resolver: (json: string) => void): void {
+        const data = {value };
+        Request.post(this.$functionName$.name, '/$controllerName$/$actionName$', data, resolver);
+    },
+};
+
+// Export object with the requests
+export default $name$;]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

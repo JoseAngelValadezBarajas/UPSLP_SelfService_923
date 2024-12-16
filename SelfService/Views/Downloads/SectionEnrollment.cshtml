@@ -1,0 +1,93 @@
+﻿@model SelfService.Models.Classes.SectionEnrollmentDownloadViewModel
+
+<table class="">
+    <tr>
+        <th>
+            @Html.Label(Model.Resources.LblFullname)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPeopleId)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblWithdrawn)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblEmail)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblCurriculum)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblClassLevel)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblClassLoad)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblCreditType)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblCredits)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblAttendance)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblStatusHeader)
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Students)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeopleId)
+            </td>
+            <td>
+                @if (item.Withdrawn)
+                {
+                    @Html.Label(Model.Resources.LblWithdrawn)
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Curriculum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClassLoad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreditType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Credits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Attendance)
+            </td>
+            <td>
+                @switch (item.Status)
+                {
+                    case "A":
+                        @Html.Label(Model.Resources.LblStatusAdd)
+                        break;
+                    case "D":
+                        @Html.Label(Model.Resources.LblStatusDrop)
+                        break;
+                    case "H":
+                        @Html.Label(Model.Resources.LblStatusHold)
+                        break;
+                }
+            </td>
+            <td></td>
+        </tr>
+    }
+</table>

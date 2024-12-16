@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+	<AutoRefresh>0</AutoRefresh>
+	<DataSources>
+		<DataSource Name="StudentSchedule">
+			<ConnectionProperties>
+				<DataProvider>System.Data.DataSet</DataProvider>
+				<ConnectString>/* Local Connection */</ConnectString>
+			</ConnectionProperties>
+			<rd:DataSourceID>2daae5b8-cc3b-412c-954a-e2b07bf9a80b</rd:DataSourceID>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="AcademicInformation">
+			<Query>
+				<DataSourceName>StudentSchedule</DataSourceName>
+				<CommandText>/* Local Query */</CommandText>
+			</Query>
+			<Fields>
+				<Field Name="Advisors">
+					<DataField>Advisors</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Curriculum">
+					<DataField>Curriculum</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="ProgramDegree">
+					<DataField>ProgramDegree</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+			</Fields>
+			<rd:DataSetInfo>
+				<rd:DataSetName>StudentSchedule</rd:DataSetName>
+				<rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+				<rd:TableName>AcademicInformation</rd:TableName>
+				<rd:TableAdapterFillMethod />
+				<rd:TableAdapterGetDataMethod />
+				<rd:TableAdapterName />
+			</rd:DataSetInfo>
+		</DataSet>
+		<DataSet Name="Schedule">
+			<Query>
+				<DataSourceName>StudentSchedule</DataSourceName>
+				<CommandText>/* Local Query */</CommandText>
+			</Query>
+			<Fields>
+				<Field Name="Session">
+					<DataField>Session</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="SessionDesc">
+					<DataField>SessionDesc</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="ScheduleIndex">
+					<DataField>ScheduleIndex</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+				<Field Name="Filter">
+					<DataField>Filter</DataField>
+					<rd:TypeName>System.String</rd:TypeName>
+				</Field>
+			</Fields>
+			<rd:DataSetInfo>
+				<rd:DataSetName>StudentSchedule</rd:DataSetName>
+				<rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+				<rd:TableName>Schedule</rd:TableName>
+				<rd:TableAdapterFillMethod />
+				<rd:TableAdapterGetDataMethod />
+				<rd:TableAdapterName />
+			</rd:DataSetInfo>
+		</DataSet>
+	</DataSets>
+	<ReportSections>
+		<ReportSection>
+			<Body>
+				<ReportItems>
+					<Rectangle Name="Rectangle1">
+						<ReportItems>
+							<Tablix Name="Tablix4">
+								<TablixBody>
+									<TablixColumns>
+										<TablixColumn>
+											<Width>6.49091cm</Width>
+										</TablixColumn>
+										<TablixColumn>
+											<Width>6.49091cm</Width>
+										</TablixColumn>
+										<TablixColumn>
+											<Width>6.49091cm</Width>
+										</TablixColumn>
+									</TablixColumns>
+									<TablixRows>
+										<TablixRow>
+											<Height>0.6926cm</Height>
+											<TablixCells>
+												<TablixCell>
+													<CellContents>
+														<Subreport Name="AcademicInformation">
+															<ReportName>AcademicInformation</ReportName>
+															<Parameters>
+																<Parameter Name="Advisors">
+																	<Value>=Fields!Advisors.Value</Value>
+																</Parameter>
+																<Parameter Name="Curriculum">
+																	<Value>=Fields!Curriculum.Value</Value>
+																</Parameter>
+																<Parameter Name="ProgramDegree">
+																	<Value>=Fields!ProgramDegree.Value</Value>
+																</Parameter>
+																<Parameter Name="lblAdvisors">
+																	<Value>=Parameters!lblAdvisors.Value</Value>
+																</Parameter>
+															</Parameters>
+															<Style>
+																<Border>
+																	<Style>None</Style>
+																</Border>
+															</Style>
+														</Subreport>
+														<ColSpan>3</ColSpan>
+													</CellContents>
+												</TablixCell>
+												<TablixCell />
+												<TablixCell />
+											</TablixCells>
+										</TablixRow>
+									</TablixRows>
+								</TablixBody>
+								<TablixColumnHierarchy>
+									<TablixMembers>
+										<TablixMember />
+										<TablixMember />
+										<TablixMember />
+									</TablixMembers>
+								</TablixColumnHierarchy>
+								<TablixRowHierarchy>
+									<TablixMembers>
+										<TablixMember>
+											<Group Name="Details1" />
+										</TablixMember>
+									</TablixMembers>
+								</TablixRowHierarchy>
+								<DataSetName>AcademicInformation</DataSetName>
+								<Top>0cm</Top>
+								<Left>0cm</Left>
+								<Height>0.6926cm</Height>
+								<Width>19.47273cm</Width>
+								<Visibility>
+									<Hidden>=IIF(CountRows() &gt; 0, false, true)</Hidden>
+								</Visibility>
+								<Style>
+									<Border>
+										<Style>None</Style>
+									</Border>
+								</Style>
+							</Tablix>
+							<Tablix Name="Tablix1">
+								<TablixBody>
+									<TablixColumns>
+										<TablixColumn>
+											<Width>6.49091cm</Width>
+										</TablixColumn>
+										<TablixColumn>
+											<Width>6.49091cm</Width>
+										</TablixColumn>
+										<TablixColumn>
+											<Width>6.49091cm</Width>
+										</TablixColumn>
+									</TablixColumns>
+									<TablixRows>
+										<TablixRow>
+											<Height>0.6cm</Height>
+											<TablixCells>
+												<TablixCell>
+													<CellContents>
+														<Subreport Name="Schedule">
+															<ReportName>Schedule</ReportName>
+															<Parameters>
+																<Parameter Name="ScheduleIndex">
+																	<Value>=Fields!ScheduleIndex.Value</Value>
+																</Parameter>
+																<Parameter Name="Session">
+																	<Value>=Fields!SessionDesc.Value</Value>
+																</Parameter>
+																<Parameter Name="SessionDesc">
+																	<Value>=Fields!SessionDesc.Value</Value>
+																</Parameter>
+																<Parameter Name="Filter">
+																	<Value>=Fields!Filter.Value</Value>
+																</Parameter>
+																<Parameter Name="lblSection">
+																	<Value>=Parameters!lblSection.Value</Value>
+																</Parameter>
+																<Parameter Name="lblSession">
+																	<Value>=Parameters!lblSession.Value</Value>
+																</Parameter>
+																<Parameter Name="lblSubtype">
+																	<Value>=Parameters!lblSubtype.Value</Value>
+																</Parameter>
+																<Parameter Name="lblType">
+																	<Value>=Parameters!lblType.Value</Value>
+																</Parameter>
+																<Parameter Name="lblCreditType">
+																	<Value>=Parameters!lblCreditType.Value</Value>
+																</Parameter>
+																<Parameter Name="lblFees">
+																	<Value>=Parameters!lblFees.Value</Value>
+																</Parameter>
+																<Parameter Name="lblNoSchedule">
+																	<Value>=Parameters!lblNoSchedule.Value</Value>
+																</Parameter>
+																<Parameter Name="lblMultipleMeetingTimes">
+																	<Value>=Parameters!lblMultipleMeetingTimes.Value</Value>
+																</Parameter>
+																<Parameter Name="lblFloor">
+																	<Value>=Parameters!lblFloor.Value</Value>
+																</Parameter>
+																<Parameter Name="lblRoom">
+																	<Value>=Parameters!lblRoom.Value</Value>
+																</Parameter>
+																<Parameter Name="lblNoInstructor">
+																	<Value>=Parameters!lblNoInstructor.Value</Value>
+																</Parameter>
+																<Parameter Name="lblMultipleInstructors">
+																	<Value>=Parameters!lblMultipleInstructors.Value</Value>
+																</Parameter>
+																<Parameter Name="lblDropPendingApproval">
+																	<Value>=Parameters!lblDropPendingApproval.Value</Value>
+																</Parameter>
+																<Parameter Name="lblDropDenied">
+																	<Value>=Parameters!lblDropDenied.Value</Value>
+																</Parameter>
+																<Parameter Name="lblPermissionDenied">
+																	<Value>=Parameters!lblPermissionDenied.Value</Value>
+																</Parameter>
+																<Parameter Name="lblApprovalDenied">
+																	<Value>=Parameters!lblApprovalDenied.Value</Value>
+																</Parameter>
+																<Parameter Name="lblOnWaitlist">
+																	<Value>=Parameters!lblOnWaitlist.Value</Value>
+																</Parameter>
+																<Parameter Name="lblPermissionRequested">
+																	<Value>=Parameters!lblPermissionRequested.Value</Value>
+																</Parameter>
+																<Parameter Name="lblAwaitingApproval">
+																	<Value>=Parameters!lblAwaitingApproval.Value</Value>
+																</Parameter>
+																<Parameter Name="lblRegisterNow">
+																	<Value>=Parameters!lblRegisterNow.Value</Value>
+																</Parameter>
+																<Parameter Name="lblSeatAvailable">
+																	<Value>=Parameters!lblSeatAvailable.Value</Value>
+																</Parameter>
+																<Parameter Name="lblPermissionApproved">
+																	<Value>=Parameters!lblPermissionApproved.Value</Value>
+																</Parameter>
+																<Parameter Name="lblAwaitingApproval">
+																	<Value>=Parameters!lblAwaitingApproval.Value</Value>
+																</Parameter>
+																<Parameter Name="lblRegisterNow">
+																	<Value>=Parameters!lblRegisterNow.Value</Value>
+																</Parameter>
+																<Parameter Name="lblSeatDeadline">
+																	<Value>=Parameters!lblSeatDeadline.Value</Value>
+																</Parameter>
+																<Parameter Name="lblPermissionApproved">
+																	<Value>=Parameters!lblPermissionApproved.Value</Value>
+																</Parameter>
+																<Parameter Name="lblDenied">
+																	<Value>=Parameters!lblDenied.Value</Value>
+																</Parameter>
+																<Parameter Name="lblInCart">
+																	<Value>=Parameters!lblInCart.Value</Value>
+																</Parameter>
+																<Parameter Name="lblPending">
+																	<Value>=Parameters!lblPending.Value</Value>
+																</Parameter>
+																<Parameter Name="lblRegistered">
+																	<Value>=Parameters!lblRegistered.Value</Value>
+																</Parameter>
+																<Parameter Name="lblCredits">
+																	<Value>=Parameters!lblCredits.Value</Value>
+																</Parameter>
+																<Parameter Name="lblInstructors">
+																	<Value>=Parameters!lblInstructors.Value</Value>
+																</Parameter>
+																<Parameter Name="lblStatus">
+																	<Value>=Parameters!lblStatus.Value</Value>
+																</Parameter>
+																<Parameter Name="lblDuration">
+																	<Value>=Parameters!lblDuration.Value</Value>
+																</Parameter>
+																<Parameter Name="lblAdvisorAuthorizationNeeded">
+																	<Value>=Parameters!lblAdvisorAuthorizationNeeded.Value</Value>
+																</Parameter>
+															</Parameters>
+															<Style>
+																<Border>
+																	<Style>None</Style>
+																</Border>
+															</Style>
+														</Subreport>
+														<ColSpan>3</ColSpan>
+														<rd:Selected>true</rd:Selected>
+													</CellContents>
+												</TablixCell>
+												<TablixCell />
+												<TablixCell />
+											</TablixCells>
+										</TablixRow>
+									</TablixRows>
+								</TablixBody>
+								<TablixColumnHierarchy>
+									<TablixMembers>
+										<TablixMember />
+										<TablixMember />
+										<TablixMember />
+									</TablixMembers>
+								</TablixColumnHierarchy>
+								<TablixRowHierarchy>
+									<TablixMembers>
+										<TablixMember>
+											<Group Name="Details" />
+										</TablixMember>
+									</TablixMembers>
+								</TablixRowHierarchy>
+								<DataSetName>Schedule</DataSetName>
+								<Top>0.7743cm</Top>
+								<Left>0cm</Left>
+								<Height>0.6cm</Height>
+								<Width>19.47273cm</Width>
+								<ZIndex>1</ZIndex>
+								<Style>
+									<Border>
+										<Style>None</Style>
+									</Border>
+								</Style>
+							</Tablix>
+						</ReportItems>
+						<KeepTogether>true</KeepTogether>
+						<Top>0.10583cm</Top>
+						<Left>0.46743cm</Left>
+						<Height>1.44486cm</Height>
+						<Width>19.47273cm</Width>
+						<Style>
+							<Border>
+								<Style>None</Style>
+							</Border>
+						</Style>
+					</Rectangle>
+					<Textbox Name="Textbox13">
+						<CanGrow>true</CanGrow>
+						<KeepTogether>true</KeepTogether>
+						<Paragraphs>
+							<Paragraph>
+								<TextRuns>
+									<TextRun>
+										<Value>=IIF(Parameters!RegisteredCount.Value &gt; 0, Parameters!lblRegisteredCredits.Value + ": " + Parameters!RegisteredCredits.Value, string.Empty )</Value>
+										<Style />
+									</TextRun>
+								</TextRuns>
+								<Style />
+							</Paragraph>
+						</Paragraphs>
+						<rd:DefaultName>Textbox13</rd:DefaultName>
+						<Top>2.25652cm</Top>
+						<Left>0.96859cm</Left>
+						<Height>0.6cm</Height>
+						<Width>5.21992cm</Width>
+						<ZIndex>1</ZIndex>
+						<Style>
+							<Border>
+								<Style>None</Style>
+							</Border>
+							<PaddingLeft>2pt</PaddingLeft>
+							<PaddingRight>2pt</PaddingRight>
+							<PaddingTop>2pt</PaddingTop>
+							<PaddingBottom>2pt</PaddingBottom>
+						</Style>
+					</Textbox>
+					<Textbox Name="Textbox14">
+						<CanGrow>true</CanGrow>
+						<KeepTogether>true</KeepTogether>
+						<Paragraphs>
+							<Paragraph>
+								<TextRuns>
+									<TextRun>
+										<Value>=IIF(Parameters!RegisteredCount.Value &gt; 0, Parameters!lblRegisteredCourses.Value + ": " + Parameters!RegisteredCount.Value, string.Empty )</Value>
+										<Style />
+									</TextRun>
+								</TextRuns>
+								<Style />
+							</Paragraph>
+						</Paragraphs>
+						<rd:DefaultName>Textbox13</rd:DefaultName>
+						<Top>1.65652cm</Top>
+						<Left>0.96859cm</Left>
+						<Height>0.6cm</Height>
+						<Width>5.21992cm</Width>
+						<ZIndex>2</ZIndex>
+						<Style>
+							<Border>
+								<Style>None</Style>
+							</Border>
+							<PaddingLeft>2pt</PaddingLeft>
+							<PaddingRight>2pt</PaddingRight>
+							<PaddingTop>2pt</PaddingTop>
+							<PaddingBottom>2pt</PaddingBottom>
+						</Style>
+					</Textbox>
+				</ReportItems>
+				<Height>3.07333cm</Height>
+				<Style />
+			</Body>
+			<Width>20.56724cm</Width>
+			<Page>
+				<PageHeader>
+					<Height>2.25454cm</Height>
+					<PrintOnFirstPage>true</PrintOnFirstPage>
+					<PrintOnLastPage>true</PrintOnLastPage>
+					<ReportItems>
+						<Textbox Name="Textbox3">
+							<CanGrow>true</CanGrow>
+							<KeepTogether>true</KeepTogether>
+							<Paragraphs>
+								<Paragraph>
+									<TextRuns>
+										<TextRun>
+											<Value>=Parameters!Year.Value+"/"+Parameters!Term.Value+IIF(string.IsNullOrEmpty(Parameters!Session.Value), string.Empty,"/"+Parameters!Session.Value )</Value>
+											<Style>
+												<FontSize>12pt</FontSize>
+												<FontWeight>Bold</FontWeight>
+											</Style>
+										</TextRun>
+									</TextRuns>
+									<Style />
+								</Paragraph>
+							</Paragraphs>
+							<rd:DefaultName>Textbox3</rd:DefaultName>
+							<Top>0.41247cm</Top>
+							<Left>0.96859cm</Left>
+							<Height>0.70584cm</Height>
+							<Width>18.52178cm</Width>
+							<Style>
+								<Border>
+									<Style>None</Style>
+								</Border>
+								<PaddingLeft>2pt</PaddingLeft>
+								<PaddingRight>2pt</PaddingRight>
+								<PaddingTop>2pt</PaddingTop>
+								<PaddingBottom>2pt</PaddingBottom>
+							</Style>
+						</Textbox>
+						<Textbox Name="FullName">
+							<CanGrow>true</CanGrow>
+							<KeepTogether>true</KeepTogether>
+							<Paragraphs>
+								<Paragraph>
+									<TextRuns>
+										<TextRun>
+											<Value>=Parameters!FullName.Value</Value>
+											<Style>
+												<FontSize>12pt</FontSize>
+											</Style>
+										</TextRun>
+									</TextRuns>
+									<Style />
+								</Paragraph>
+							</Paragraphs>
+							<rd:DefaultName>FullName</rd:DefaultName>
+							<Top>1.11831cm</Top>
+							<Left>0.96859cm</Left>
+							<Height>0.70584cm</Height>
+							<Width>18.52178cm</Width>
+							<ZIndex>1</ZIndex>
+							<Style>
+								<Border>
+									<Style>None</Style>
+								</Border>
+								<PaddingLeft>2pt</PaddingLeft>
+								<PaddingRight>2pt</PaddingRight>
+								<PaddingTop>2pt</PaddingTop>
+								<PaddingBottom>2pt</PaddingBottom>
+							</Style>
+						</Textbox>
+					</ReportItems>
+					<Style>
+						<Border>
+							<Style>None</Style>
+						</Border>
+					</Style>
+				</PageHeader>
+				<PageFooter>
+					<Height>1.05508cm</Height>
+					<PrintOnFirstPage>true</PrintOnFirstPage>
+					<PrintOnLastPage>true</PrintOnLastPage>
+					<ReportItems>
+						<Textbox Name="Textbox1">
+							<CanGrow>true</CanGrow>
+							<KeepTogether>true</KeepTogether>
+							<Paragraphs>
+								<Paragraph>
+									<TextRuns>
+										<TextRun>
+											<Value>=Parameters!lblPage.Value &amp; Globals!PageNumber &amp; Parameters!lblOf.Value &amp; Globals!TotalPages</Value>
+											<Style>
+												<Color>="Silver"</Color>
+											</Style>
+										</TextRun>
+									</TextRuns>
+									<Style>
+										<TextAlign>Right</TextAlign>
+									</Style>
+								</Paragraph>
+							</Paragraphs>
+							<rd:DefaultName>Textbox1</rd:DefaultName>
+							<Top>0.17639cm</Top>
+							<Left>15.42404cm</Left>
+							<Height>0.6cm</Height>
+							<Width>4.06633cm</Width>
+							<Style>
+								<Border>
+									<Style>None</Style>
+								</Border>
+								<PaddingLeft>2pt</PaddingLeft>
+								<PaddingRight>2pt</PaddingRight>
+								<PaddingTop>2pt</PaddingTop>
+								<PaddingBottom>2pt</PaddingBottom>
+							</Style>
+						</Textbox>
+						<Textbox Name="Textbox2">
+							<CanGrow>true</CanGrow>
+							<KeepTogether>true</KeepTogether>
+							<Paragraphs>
+								<Paragraph>
+									<TextRuns>
+										<TextRun>
+											<Value>=Globals!ExecutionTime</Value>
+											<Style>
+												<Format>yyyy/MM/dd   h:mm tt</Format>
+												<Color>="Silver"</Color>
+											</Style>
+										</TextRun>
+									</TextRuns>
+									<Style>
+										<TextAlign>Left</TextAlign>
+									</Style>
+								</Paragraph>
+							</Paragraphs>
+							<rd:DefaultName>Textbox2</rd:DefaultName>
+							<Top>0.1905cm</Top>
+							<Left>0.75297cm</Left>
+							<Height>0.6cm</Height>
+							<Width>6.61691cm</Width>
+							<ZIndex>1</ZIndex>
+							<Style>
+								<Border>
+									<Style>None</Style>
+								</Border>
+								<PaddingLeft>2pt</PaddingLeft>
+								<PaddingRight>2pt</PaddingRight>
+								<PaddingTop>2pt</PaddingTop>
+								<PaddingBottom>2pt</PaddingBottom>
+							</Style>
+						</Textbox>
+					</ReportItems>
+					<Style>
+						<Border>
+							<Style>None</Style>
+						</Border>
+					</Style>
+				</PageFooter>
+				<PageHeight>27.94cm</PageHeight>
+				<PageWidth>21.59cm</PageWidth>
+				<LeftMargin>0.2cm</LeftMargin>
+				<RightMargin>0.2cm</RightMargin>
+				<TopMargin>0.2cm</TopMargin>
+				<BottomMargin>0.2cm</BottomMargin>
+				<ColumnSpacing>1.27cm</ColumnSpacing>
+				<Style />
+			</Page>
+		</ReportSection>
+	</ReportSections>
+	<ReportParameters>
+		<ReportParameter Name="RegisteredCredits">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="Year">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="Term">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="Session">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="RegisteredCount">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="FullName">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblRegisteredCourses">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblRegisteredCredits">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblAdvisors">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblSection">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblSession">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblSubtype">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblType">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblDuration">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblCreditType">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblFees">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblMultipleMeetingTimes">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblFloor">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblRoom">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblNoSchedule">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblNoInstructor">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblMultipleInstructors">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblDropPendingApproval">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblDropDenied">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblPermissionDenied">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblApprovalDenied">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblOnWaitlist">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblPermissionRequested">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblAwaitingApproval">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblRegisterNow">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblSeatAvailable">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblPermissionApproved">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblDenied">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblInCart">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblPending">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblRegistered">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblCredits">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblInstructors">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblStatus">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblPage">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblOf">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblAdvisorAuthorizationNeeded">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+		<ReportParameter Name="lblSeatDeadline">
+			<DataType>String</DataType>
+			<Nullable>true</Nullable>
+			<AllowBlank>true</AllowBlank>
+			<Prompt>ReportParameter1</Prompt>
+		</ReportParameter>
+	</ReportParameters>
+	<ReportParametersLayout>
+		<GridLayoutDefinition>
+			<NumberOfColumns>4</NumberOfColumns>
+			<NumberOfRows>11</NumberOfRows>
+			<CellDefinitions>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>0</RowIndex>
+					<ParameterName>RegisteredCredits</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>0</RowIndex>
+					<ParameterName>Year</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>0</RowIndex>
+					<ParameterName>Term</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>0</RowIndex>
+					<ParameterName>Session</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>1</RowIndex>
+					<ParameterName>RegisteredCount</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>1</RowIndex>
+					<ParameterName>FullName</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>1</RowIndex>
+					<ParameterName>lblRegisteredCourses</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>2</RowIndex>
+					<ParameterName>lblRegisteredCredits</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>2</RowIndex>
+					<ParameterName>lblAdvisors</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>2</RowIndex>
+					<ParameterName>lblSection</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>2</RowIndex>
+					<ParameterName>lblSession</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>3</RowIndex>
+					<ParameterName>lblSubtype</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>3</RowIndex>
+					<ParameterName>lblType</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>3</RowIndex>
+					<ParameterName>lblDuration</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>3</RowIndex>
+					<ParameterName>lblCreditType</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>4</RowIndex>
+					<ParameterName>lblFees</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>4</RowIndex>
+					<ParameterName>lblMultipleMeetingTimes</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>4</RowIndex>
+					<ParameterName>lblFloor</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>4</RowIndex>
+					<ParameterName>lblRoom</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>5</RowIndex>
+					<ParameterName>lblNoSchedule</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>5</RowIndex>
+					<ParameterName>lblNoInstructor</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>5</RowIndex>
+					<ParameterName>lblMultipleInstructors</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>5</RowIndex>
+					<ParameterName>lblDropPendingApproval</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>6</RowIndex>
+					<ParameterName>lblDropDenied</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>6</RowIndex>
+					<ParameterName>lblPermissionDenied</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>6</RowIndex>
+					<ParameterName>lblApprovalDenied</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>6</RowIndex>
+					<ParameterName>lblOnWaitlist</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>7</RowIndex>
+					<ParameterName>lblPermissionRequested</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>7</RowIndex>
+					<ParameterName>lblAwaitingApproval</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>7</RowIndex>
+					<ParameterName>lblRegisterNow</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>7</RowIndex>
+					<ParameterName>lblSeatAvailable</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>8</RowIndex>
+					<ParameterName>lblPermissionApproved</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>8</RowIndex>
+					<ParameterName>lblDenied</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>8</RowIndex>
+					<ParameterName>lblInCart</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>8</RowIndex>
+					<ParameterName>lblPending</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>9</RowIndex>
+					<ParameterName>lblRegistered</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>9</RowIndex>
+					<ParameterName>lblCredits</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>9</RowIndex>
+					<ParameterName>lblInstructors</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>9</RowIndex>
+					<ParameterName>lblStatus</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>0</ColumnIndex>
+					<RowIndex>10</RowIndex>
+					<ParameterName>lblPage</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>1</ColumnIndex>
+					<RowIndex>10</RowIndex>
+					<ParameterName>lblOf</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>2</ColumnIndex>
+					<RowIndex>10</RowIndex>
+					<ParameterName>lblAdvisorAuthorizationNeeded</ParameterName>
+				</CellDefinition>
+				<CellDefinition>
+					<ColumnIndex>3</ColumnIndex>
+					<RowIndex>10</RowIndex>
+					<ParameterName>lblSeatDeadline</ParameterName>
+				</CellDefinition>
+			</CellDefinitions>
+		</GridLayoutDefinition>
+	</ReportParametersLayout>
+	<ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+	<rd:ReportUnitType>Cm</rd:ReportUnitType>
+	<rd:ReportID>941a1138-199f-4966-ad7a-5d9eb4be33da</rd:ReportID>
+</Report>

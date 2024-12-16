@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "AdministrationId",
+    "Text": "Administration"
+  },
+  {
+    "Id": "AdmissionsId",
+    "Text": "Admissions"
+  },
+  {
+    "Id": "AdvisingId",
+    "Text": "Advising"
+  },
+  {
+    "Id": "ClassesId",
+    "Text": "Classes"
+  },
+  {
+    "Id": "ContinuingEducationId",
+    "Text": "Continuing Education"
+  },
+  {
+    "Id": "DepartmentId",
+    "Text": "Department"
+  },
+  {
+    "Id": "FinancesId",
+    "Text": "Finances"
+  },
+  {
+    "Id": "GradesId",
+    "Text": "Grades"
+  },
+  {
+    "Id": "PlanningId",
+    "Text": "Planning"
+  },
+  {
+    "Id": "RegistrationId",
+    "Text": "Registration"
+  },
+  {
+    "Id": "SearchId",
+    "Text": "Search"
+  },
+  {
+    "Id": "MakeGiftId",
+    "Text": "Make a Gift"
+  },
+  {
+    "Id": "SharedAccessId",
+    "Text": "Shared Access"
+  },
+  {
+    "Id": "ChecklistId",
+    "Text": "Checklist"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "lblAddForm": "Agregar formulario",
+  "lblApplicationStatus": "Estatus de la solicitud de admisión",
+  "lblDescription": "Descripción",
+  "lblFormName": "Nombre del formulario",
+  "lblInstructions": "Permitir que los solicitantes guarden su progreso y usar diseños para personalizar sus formularios de solicitud de admisión.",
+  "lblLayouts": "Diseños",
+  "lblSave": "Guardar",
+  "lblSaveOptionsTitle": "Guardar opciones",
+  "lblShowApplicationStatus": "Mostrar información sobre el estatus de la solicitud de admisión",
+  "lblShowDecisionAdmit": "Mostrar decisión y admitir período",
+  "LayoutListResorces": {
+    "lblConfirmationMessage": "Mensaje de confirmación",
+    "lblEdit": "Editar",
+    "lblEditLink": "Editar",
+    "lblEnableSave": "Permitir guardar solicitudes de admisión incompletas",
+    "lblEnterConfirmationMsj": "Ingresar mensaje de confirmación",
+    "lblEnterSaveMessage": "Ingresar instrucciones de pie de página",
+    "lblEnterText": "Ingresar texto...",
+    "lblSaveButton": "Guardar",
+    "lblSaveMessage": "Instrucciones de pie de página",
+    "lblSaveSettingsTitle": "Mensajes al guardar"
+  }
+}

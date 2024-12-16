@@ -1,0 +1,15 @@
+{
+  "btnSave": "Save",
+  "lblAreYouHispanic": "Are you of Hispanic/Latino ethnicity or descent?",
+  "LblEmptyText": "If you select NO, you must select all the other races with which you identify yourself",
+  "lblErrorHispanicEmpty": "You must answer the 'Are you of Hispanic/Latino ethnicity or descent' question if you choose from other races",
+  "lblErrorText": "This question is required",
+  "lblEthnicityInformation": "Ethnicity Information",
+  "lblHispanicLatino": "Hispanic/Latino",
+  "lblNa": "N/A",
+  "lblNo": "No",
+  "lblSelect": "Select...",
+  "lblSelectMoreRaces": "Select one or more races with which you identify yourself",
+  "lblSuccess": "Changes saved",
+  "lblYes": "Yes"
+}

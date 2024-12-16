@@ -1,0 +1,63 @@
+/* Copyright 2019 Ellucian Company L.P. and its affiliates.
+ * File: INotificationsSetupResources.ts */
+
+export interface INotificationsSetupResources {
+    btnCancel: string;
+    btnSave: string;
+    formatArea: string;
+    formatDescription: string;
+    formatEditingMessage: string;
+    formatEmptyToken: string;
+    formatEmptyTokenCollection: string;
+    formatMessage: string;
+    formatStatus: string;
+    formatToken: string;
+    formatTokenCollection: string;
+    formatTypes: string;
+    lblAdmissions: string;
+    lblAdvising: string;
+    lblApplication: string;
+    lblAreas: string;
+    lblCco: string;
+    lblCcoRequired: string;
+    lblConEd: string;
+    lblCourseManagement: string;
+    lblDescription: string;
+    lblDisabled: string;
+    lblEmail: string;
+    lblEnable: string;
+    lblEnabled: string;
+    lblFinances: string;
+    lblFrom: string;
+    lblFromRequired: string;
+    lblGeneralInformation: string;
+    lblHeaderTitle: string;
+    lblMessage: string;
+    lblMessageLegend: string;
+    lblMessageRequired: string;
+    lblMessageTokens: string;
+    lblNoApplication: string;
+    lblOnlineDonation: string;
+    lblPageTitle: string;
+    lblPreview: string;
+    lblProfile: string;
+    lblPum: string;
+    lblRequests: string;
+    lblSelfService: string;
+    lblSetup: string;
+    lblSetupMessage: string;
+    lblSharedAccess: string;
+    lblSignIn: string;
+    lblSms: string;
+    lblStatus: string;
+    lblSubject: string;
+    lblSubjectRequired: string;
+    lblSubjectTokens: string;
+    lblTo: string;
+    lblToRequired: string;
+    lblTradRegistration: string;
+    lblTranscriptRequest: string;
+    lblType: string;
+    lblTypes: string;
+    lblUsers: string;
+}

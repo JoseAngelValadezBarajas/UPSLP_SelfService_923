@@ -1,0 +1,54 @@
+{
+  "blockItemRes": {
+    "blockSections": {
+      "blockSectionInstructors": {
+        "lblInstructors": "Instructores",
+        "lblNoInstructor": "El instructor aún no ha sido asignado"
+      },
+      "blockSectionSchedules": {
+        "formatBuilding": ", {0}",
+        "formatFloor": ", Piso {0}",
+        "formatOrganization": "{0}",
+        "formatRoom": ", Salón {0}",
+        "formatStartEndTime": "{0} - {1}",
+        "lblNoSchedule": "No hay horario",
+        "lblSchedules": "Horario",
+        "lblTimeConflicts": "Conflictos de horas"
+      },
+      "btnCalendarView": "Calendario",
+      "btnListView": "Lista",
+      "formatCourseDescription": "{0}/{1}/{2}-{3}",
+      "lblCourse": "Curso",
+      "lblCourseType": "Tipo de curso",
+      "lblName": "Nombre",
+      "lblTimeConflicts": "Conflictos de horas",
+      "lblType": "Tipo",
+      "scheduleCalendar": {
+        "formatTitleSection": "{0}: {1}",
+        "lblTimeConflicts": "Conflictos de horas"
+      }
+    },
+    "lblActive": "Activo",
+    "lblAlerts": "Alertas",
+    "lblCourses": "Cursos",
+    "lblCreated": "Creado",
+    "lblEnable": "Activar",
+    "lblHideDetails": "Ocultar detalles",
+    "lblInactive": "Inactivo",
+    "lblModified": "Modificado",
+    "lblNoSections": "Este bloque no tiene cursos agregados",
+    "lblRemove": "Remover",
+    "lblSectionInUse": "Una de las secciones de este bloque ya fue asignada a otro grupo de esta regla",
+    "lblShowDetails": "Mostrar detalles",
+    "lblStatus": "Estatus"
+  },
+  "formatSelected": "{0} Seleccionada(s)",
+  "lblAddBlock": "Agregar bloque",
+  "lblEmptyBlock": "Para empezar a trabajar, agregar un bloque",
+  "lblName": "Nombre",
+  "lblNewSearch": "Nueva búsqueda",
+  "lblNoResults": "No se encontraron resultados",
+  "lblRecent": "Reciente",
+  "lblRetrieveAll": "Recuperar todos",
+  "lblSortBy": "Ordenar por"
+}

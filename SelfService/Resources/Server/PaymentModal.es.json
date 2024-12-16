@@ -1,0 +1,9 @@
+{
+  "lblAmount": "Monto",
+  "lblAuthorizationCode": "Código de autorización",
+  "lblContentText": "Falló el pago. Intentar de nuevo.",
+  "lblDescription": "Descripción",
+  "lblFailTitle": "Falló el proceso de pago",
+  "lblSuccessTitle": "El pago se ha procesado",
+  "lblTitleDetails": "Detalles"
+}

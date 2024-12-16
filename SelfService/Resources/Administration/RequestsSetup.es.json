@@ -1,0 +1,10 @@
+﻿{
+  "lblEmptyState": "No tiene ninguna opción asignada.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "requestsSetupTabs": {
+    "lblAddressRequests": "Direcciones",
+    "lblDemographicRequests": "Información demográfica",
+    "lblPreferredNameRequests":  "Nombre preferido"
+  }
+}

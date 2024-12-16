@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "ManageAdviseesId",
+    "Text": "Manage Advisees"
+  },
+  {
+    "Id": "AuthorizeAdviseesId",
+    "Text": "Authorize Registration"
+  },
+  {
+    "Id": "SharedAdviseesId",
+    "Text": "Shared Advisees"
+  }
+]

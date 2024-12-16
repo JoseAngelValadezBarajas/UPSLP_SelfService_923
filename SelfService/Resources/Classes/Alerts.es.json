@@ -1,0 +1,35 @@
+{
+  "alertModal": {
+    "btnCancel": "Cancelar",
+    "btnDelete": "Eliminar",
+    "btnSave": "Guardar",
+    "formatDeleteAlertTitle": "¿Eliminar la alerta {0}?",
+    "lblAddAlert": "Agregar alerta",
+    "lblAlertTo": "Alerta para",
+    "lblAlertType": "Tipo de alerta",
+    "lblConfirmationContent": "Al eliminar esta alerta ya no aparecerá en la lista de alertas del alumno.",
+    "lblCreated": "Creado",
+    "lblCreatedBy": "Creado por",
+    "lblDateOcurred": "Fecha en que ocurrió",
+    "lblDescription": "Descripción",
+    "lblDetailtsAlert": "Detalles de alerta",
+    "lblEditAlert": "Editar alerta",
+    "lblEdited": "Editada",
+    "lblEditedBy": "Editada por",
+    "lblErrorDate": "La fecha es inválida",
+    "lblErrorMessage": "Este campo es requerido"
+  },
+  "alertsTable": {
+    "formatSelectStudent": "Seleccionar a {0}",
+    "lblAlert": "Alerta",
+    "lblCategory": "Categoría",
+    "lblDate": "Fecha",
+    "lblName": "Alumno",
+    "lblWithdrawn": "Dado de baja"
+  },
+  "lblAddAlert": "Agregar alerta",
+  "lblAlertByStudent": "Alertas por alumno",
+  "lblDownload": "Descargar",
+  "lblEmailSelect": "Enviar correo",
+  "lblNoResultsFound": "No hay alumnos con alertas"
+}

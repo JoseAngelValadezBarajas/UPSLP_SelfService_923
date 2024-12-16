@@ -1,0 +1,31 @@
+{
+  "formatSelectStudent": "Select {0}",
+  "formatTotalStudents": "Totals - Students: {0}",
+  "lblAddStudent": "Add student",
+  "lblApproved": "Approved",
+  "lblClassLevelDetail": "Class Level",
+  "lblCurriculumDetail": "Curriculum",
+  "lblDenied": "Denied",
+  "lblEmailButton": "E-mail selected",
+  "lblIdDetail": "ID",
+  "lblNameDetail": "Student",
+  "lblNoResults": "There are no permission requests",
+  "lblNoResultsByStatus": "There are no students enrolled in this course who have the selected status.",
+  "lblPrerequisits": "Prerequisites: ",
+  "lblSaveButton": "Save",
+  "lblSelectStatus": "Select Status",
+  "lblStatusDetail": "Status",
+  "lblViewAll": "View all",
+  "lblWaiting": "Waiting",
+  "lblWithdrawn": "Withdrawn",
+  "permissionRequestDetail": {
+    "btnAccept": "Accept",
+    "btnCancel": "Cancel",
+    "btnEdit": "Edit",
+    "lblCommentRequired": "Message is required",
+    "lblComments": "Message",
+    "lblNoComments": "No comments",
+    "lblStatusTitle": "Status",
+    "lblTypeComments": "Type a message"
+  }
+}

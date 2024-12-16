@@ -1,0 +1,13 @@
+{
+  "btnMoreInfo": "Más información",
+  "lblActive": "Activo",
+  "lblAllowEdit": "Permitir agregar o cambiar",
+  "lblCurrentPhoneType": "Tipo de teléfono",
+  "lblGeneral": "General",
+  "lblInactive": "Inactivo",
+  "lblPhoneNumberSettings": "Especificar la información del teléfono que se mostrará en el perfil del usuario.",
+  "lblPhoneTypes": "Tipos de teléfono",
+  "lblPhoneTypesLegend": "Seleccione los tipos de teléfono que desea mostrar o que desea permitir que los usuarios agreguen",
+  "lblSave": "Guardar",
+  "lblStatus": "Estatus"
+}

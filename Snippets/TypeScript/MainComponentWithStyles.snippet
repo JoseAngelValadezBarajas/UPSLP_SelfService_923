@@ -1,0 +1,222 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<Header>
+		<Title>Main (Container) component with styles</Title>
+		<Author>Ellucian</Author>
+		<Shortcut>mainComponentWithStyles</Shortcut>
+		<Description>Code snippet for a main component (container component) with styles</Description>
+		<SnippetTypes>
+			<SnippetType>React Components</SnippetType>
+		</SnippetTypes>
+	</Header>
+	<Snippet>
+		<Declarations>
+			<Literal>
+				<ID>moduleName</ID>
+				<ToolTip>Module name</ToolTip>
+				<Default>moduleName</Default>
+			</Literal>
+			<Literal>
+				<ID>name</ID>
+				<ToolTip>Name</ToolTip>
+				<Default>name</Default>
+			</Literal>
+			<Literal>
+				<ID>year</ID>
+				<ToolTip>Year</ToolTip>
+				<Default>year</Default>
+			</Literal>
+		</Declarations>
+		<Code Language="TypeScript">
+			<![CDATA[/* Copyright $year$ Ellucian Company L.P. and its affiliates.
+ * File: $name$.tsx
+ * Type: Container component */
+
+// #region Imports
+import React from 'react';
+
+// Core components
+import ContainerLoader from '@hedtech/powercampus-design-system/react/core/ContainerLoader';
+import Text from '@hedtech/powercampus-design-system/react/core/Text';
+
+// Types
+import { ResultType } from '@hedtech/powercampus-design-system/types/ResultType';
+import { I$name$Resources } from '../../../Types/Resources/$moduleName$/I$name$Resources';
+import { IAlert } from '@hedtech/powercampus-design-system/types/IAlert';
+import { IJsonResult } from '@hedtech/powercampus-design-system/types/IJsonResult';
+import { ILogData } from '@hedtech/powercampus-design-system/types/ILogData';
+
+// Helpers
+import LogData from '@hedtech/powercampus-design-system/helpers/LogData';
+import Resolver from '@hedtech/powercampus-design-system/helpers/Resolver';
+import { createStyles, withStyles, WithStyles } from '@hedtech/powercampus-design-system/react/core/styles/withStyles';
+import Tokens from '@hedtech/powercampus-design-system/react/core/styles/Tokens';
+
+// Requests
+import Requests from '../../../Requests/$moduleName$/$name$';
+import RequestsLayout from '@hedtech/powercampus-design-system/requests/LayoutRequests';
+
+// State Management
+import LayoutActions from '@hedtech/powercampus-design-system/flux/actions/LayoutActions';
+import LayoutStore from '@hedtech/powercampus-design-system/flux/stores/LayoutStore';
+// #endregion Imports
+
+// #region Types
+export interface I$name$Props {
+}
+
+interface I$name$Res extends I$name$Resources {
+  // TODO: If you need it, in other case you can remove it.
+}
+
+interface I$name$State {
+  isLoading: boolean;
+	resources?: I$name$Res;
+}
+
+const styles = createStyles({
+  styleName:{
+    color: 'red',
+    fontFamily: Tokens.fontFamilyDefault,
+  },
+});
+
+type PropsWithStyles = I$name$Props & WithStyles<typeof styles>;
+// #endregion Types
+
+// #region Component
+class $name$ extends React.Component<PropsWithStyles, I$name$State> {
+	private idModule: string;
+	private idPage: string;
+
+	public readonly state: Readonly<I$name$State>;
+
+	public constructor(props) {
+		super(props);
+
+    // #region Initialize Variables and State
+		this.idModule = '$moduleName$';
+		this.idPage = '$name$';
+		this.state = this.getInitialState();
+    // #endregion Initialize Variables and State
+	}
+
+	private getInitialState(): I$name$State {
+    let isLoading: boolean = true;
+		let resources: I$name$Res | undefined;
+		if (this.state) {
+      isLoading = this.state.isLoading;
+      resources = this.state.resources;
+		}
+		return {
+      isLoading: isLoading,
+			resources: resources
+		};
+	}
+
+  // #region Events
+  // TODO: If you need it, in other case you can remove it.
+  // #endregion Events
+
+  // #region Functions
+  // TODO: If you need it, in other case you can remove it.
+  // #endregion Functions
+
+  // #region Loader Functions
+    private hideAllLoaders = (): void => {
+        this.setState({
+            isLoading: false
+        }, LayoutActions.hidePageLoader);
+    };
+
+    private hideLoader = (): void => {
+        this.setState({
+            isLoading: false
+        });
+    };
+    // #endregion Loader Functions
+
+  // #region Error Functions
+  private logError(logData: ILogData): void {
+      this.hideAllLoaders();
+      LayoutActions.setLogData(logData);
+  }
+
+  private redirectError(code: number): void {
+      this.hideAllLoaders();
+      LayoutActions.setRedirectCode(code);
+  }
+
+  private showError(message?: string): void {
+      this.hideAllLoaders();
+      LayoutActions.setAlert({ message: message, messageType: ResultType.error } as IAlert);
+  }
+  // #endregion Error Functions
+
+  // #region Resolvers
+      private resolveGetResources = (json: string): void => {
+        try {
+            const result: IJsonResult | undefined = Resolver(json,
+              this.resolveGetResources.name, this.hideAllLoaders);
+            if (result?.status) {
+                this.setState({
+                    isLoading: false,
+                    resources: result.data
+                }, LayoutActions.hidePageLoader);
+            }
+        }
+        catch (e) {
+            this.logError(LogData.fromException(this.resolveGetResources.name, e));
+        }
+    };
+  // #endregion Resolvers
+
+  // #region Lifecycle
+  public componentDidMount(): void {
+      try {
+          RequestsLayout.getResources(this.idModule, this.idPage, this.resolveGetResources);
+          // TODO: other requests and at the end of the main request use: this.hideLoader
+      }
+      catch (e) {
+          this.logError(LogData.fromException(this.componentDidMount.name, e));
+      }
+  }
+  // #endregion Lifecycle
+
+	public render(): JSX.Element {
+		const {
+      classes
+		} = this.props;
+
+		const {
+      isLoading,
+			resources
+		} = this.state;
+
+		let contentPage: JSX.Element | undefined;
+		if (resources) {
+      if (isLoading){
+        contentPage = (<ContainerLoader id="ldr$name$" />);
+      }
+      else {
+        contentPage = (
+              <Text>
+                {"$name$"}
+              </Text>
+        );
+      }
+		}
+
+		return (
+		  <>
+				{contentPage}
+			</>
+		);
+	}
+}
+// #endregion Component
+
+// Export: Component
+export default withStyles(styles)($name$);]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>

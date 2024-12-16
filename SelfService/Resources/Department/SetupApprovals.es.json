@@ -1,0 +1,23 @@
+{
+  "lblDepartment": "Departamento",
+  "lblFilter": "Filtro",
+  "lblHeaderTitle": "",
+  "lblInstructor": "Instructor",
+  "lblNoCourses": "No hay cursos disponibles en este momento.",
+  "lblNoDepartments": "No hay departamentos disponibles",
+  "lblNoFilterNoPeriod": "Para empezar a trabajar, seleccione un filtro y un período",
+  "lblNoOptions": "No hay períodos disponibles en este momento.",
+  "lblOptions": "Opciones",
+  "lblPageTitle": "",
+  "lblPeriod": "Período",
+  "lblSelectFilter": "Seleccione un filtro",
+  "lblSelectPeriod": "Seleccione un período",
+  "lblYear": "Año",
+  "sectionApprovalCard": {
+    "formatSessionSectionSubtype": "Subtipo: {0} | Sección: {1}",
+    "formatTitleSection": "{0}: {1}",
+    "formatTypeDuration": "Tipo: {0} | Tipo de crédito: {1}",
+    "lblNoInstructor": "El instructor aún no ha sido asignado",
+    "lblRequiresApproval": "Requiere aprobación"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "btnCancel": "Cancelar",
+  "btnCancelUpdate": "Cancelar actualización",
+  "btnSave": "Guardar",
+  "lblCurrent": "Información actual",
+  "lblDisplayName": "Nombre a mostrar",
+  "lblDisplayNameRequired": "Nombre a mostrar",
+  "lblDropDownEmptyText": "Seleccionar...",
+  "lblEdit": "Editar",
+  "lblGenderIdentity": "Identidad de género",
+  "lblGenderIdentityRequired": " Seleccione una identidad de género",
+  "lblNoPreferredName": "No hay información de nombre preferido disponible.",
+  "lblPreferredName": "Nombre preferido",
+  "lblPronoun": "Pronombre",
+  "lblPronounRequired": "Seleccionar un pronombre",
+  "lblUpdated": "Actualizado",
+  "lblUpdatedPending": "Pendiente"
+}

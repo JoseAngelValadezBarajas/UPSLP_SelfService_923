@@ -1,0 +1,12 @@
+{
+  "coursePopOver": {
+    "lblCompleted": "Completados",
+    "lblCourseId": "Id del curso: ",
+    "lblCredits": "Créditos: ",
+    "lblFinalGrade": "Calificación de período final: ",
+    "lblInProgress": "En progreso",
+    "lblName": "Nombre: ",
+    "lblSession": "Sesión: ",
+    "lblSubType": "Subtipo: "
+  }
+}

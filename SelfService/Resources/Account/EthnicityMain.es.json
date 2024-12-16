@@ -1,0 +1,15 @@
+{
+  "btnSave": "Guardar",
+  "lblAreYouHispanic": "¿Es de origen o descendencia hispana/latina?",
+  "LblEmptyText": "Si selecciona NO, debe seleccionar todas las otras razas con las que se identifica",
+  "lblErrorHispanicEmpty": "Debe responder a la pregunta '¿Es de origen o descendencia hispana/latina?' si elige entre otras razas",
+  "lblErrorText": "Esta pregunta es requerida",
+  "lblEthnicityInformation": "Información de etnia",
+  "lblHispanicLatino": "Hispano/latino",
+  "lblNa": "N/A",
+  "lblNo": "No",
+  "lblSelect": "Seleccionar...",
+  "lblSelectMoreRaces": "Seleccionar una o más razas con las que se identifique",
+  "lblSuccess": "Cambios guardados",
+  "lblYes": "Sí"
+}

@@ -1,0 +1,14 @@
+{
+  "courseDetailModal": {
+    "formatCourseName": "{0}: {1}",
+    "courseDetailSubType": {
+      "lblCorequisite": "Corequisites:",
+      "lblCredits": "Credits:",
+      "lblCreditTypes": "Credit Types:",
+      "lblDescription": "Description:",
+      "lblEmpty": "N/A",
+      "lblFees": "Fees:",
+      "lblPrerequisites": "Prerequisites:"
+    }
+  }
+}

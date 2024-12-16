@@ -1,0 +1,36 @@
+{
+  "btnAdd": "Add",
+  "btnDelete": "Delete",
+  "btnSetAsPrimary": "Make primary",
+  "deletePhoneNumberConfirmationDialog": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete this phone number of type {0}? Deleting it will remove it from your list.",
+    "lblTitle": "Delete Phone Number"
+  },
+  "lblActions": "Actions",
+  "lblCountry": "Country",
+  "lblDescription": "Description",
+  "lblDoNotCallReason": "Do not call reason",
+  "lblNoPhoneNumbers": "There are no phone numbers available",
+  "lblNoResults": "To start working, add a phone number",
+  "lblPhoneNumber": "Number",
+  "lblPhoneNumbersHeader": "Phone Numbers",
+  "lblPhoneType": "Type",
+  "lblPrimary": "Primary",
+  "phoneNumberSave": {
+    "btnCancel": "Cancel",
+    "btnSave": "Save",
+    "lblAddPhoneNumber": "Add Phone Number",
+    "lblCountry": "Country",
+    "lblCountryRequired": "Select a country",
+    "lblDescription": "Description",
+    "lblDoNotCallReason": "Do not call reason",
+    "lblEditPhoneNumber": "Editing Phone Number",
+    "lblNumber": "Number",
+    "lblNumberRequired": "Enter a number",
+    "lblPhoneNumberIsDuplicated": "Type, country and phone number are duplicated. Enter a unique combination of those fields",
+    "lblType": "Type",
+    "lblTypeRequired": "Select a type"
+  }
+}

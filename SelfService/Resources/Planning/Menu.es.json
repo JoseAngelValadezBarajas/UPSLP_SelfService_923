@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "DegreeRequirementsId",
+    "Text": "Requisitos para el grado"
+  },
+  {
+    "Id": "TransferCourseEquivalenciesId",
+    "Text": "Equivalencias de los cursos de transferencia"
+  }
+]

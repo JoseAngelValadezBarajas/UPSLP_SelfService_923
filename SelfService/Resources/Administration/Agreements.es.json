@@ -1,0 +1,36 @@
+{
+  "agreementsEdit": {
+    "btnCancel": "Cancelar",
+    "btnDeactivate": "Inhabilitar",
+    "btnPublish": "Publicar",
+    "btnSave": "Guardar",
+    "formatTitleEditing": "Editar {0}",
+    "lblAcceptance": "Aceptación",
+    "lblAcceptanceRequired": "Ingresar una aceptación",
+    "lblContent": "Contenido",
+    "lblContentHelpText": "Este campo acepta HTML. Usar enlaces con el atributo target=\"_blank\" para abrir la url en otra pestaña.",
+    "lblContentRequired": "Ingresar un contenido",
+    "lblName": "Nombre del acuerdo",
+    "lblNameDuplicated": "El nombre del acuerdo está duplicado. Ingresar un valor único.",
+    "lblNameRequired": "Ingresar un nombre de acuerdo",
+    "lblNotActive": "Inactivo",
+    "lblPreview": "Vista previa",
+    "lblPublished": "Publicado",
+    "lblStatus": "Estatus",
+    "lblTitle": "Título",
+    "lblTitleRequired": "Ingresar un título"
+  },
+  "btnAdd": "Agregar acuerdo",
+  "lblInstructions": "Agregar un acuerdo para que el alumno lo ratifique en el momento de la inscripción.",
+  "lblName": "Nombre del acuerdo",
+  "lblNotActive": "Inactivo",
+  "lblPublished": "Publicado",
+  "lblStatus": "Estatus",
+  "lblTitle": "Título",
+  "publishConfirmation": {
+    "btnAccept": "Publicar",
+    "btnDecline": "Cancelar",
+    "formatTitle": "Publicar acuerdo",
+    "lblContent": "Una vez publicado el acuerdo, no se podrá editar."
+  }
+}

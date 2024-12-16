@@ -1,0 +1,27 @@
+{
+  "btnDeleteSelected": "Remover seleccionados",
+  "btnEmailSelected": "Correo electrónico seleccionado",
+  "deleteAdviseesConfirmation": {
+    "btnAccept": "Remover",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro de que desea dejar de compartir estos alumnos con otros asesores? Esta acción los removerá de la lista.",
+    "lblTitle": "Remover asesorados"
+  },
+  "deleteAdvisorConfirmation": {
+    "btnAccept": "Remover",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro de que desea dejar de compartir estos alumnos con el asesor {0}? Esta acción removerá al asesor de la lista.",
+    "lblTitle": "Remover asesor"
+  },
+  "formatNumberOfRows": "{0}-{1} de {2}",
+  "lblEmptyList": "No hay asesorados compartidos",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "sharedAdviseesTable": {
+    "formatSelectAdvisee": "Seleccionar a {0}",
+    "relatedAdvisorsTable": {
+      "btnDelete": "Remover",
+      "lblSharedWith": "Compartido con:"
+    }
+  }
+}

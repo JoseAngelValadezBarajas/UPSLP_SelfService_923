@@ -1,0 +1,12 @@
+{
+  "btnCancel": "Cancel",
+  "btnContinue": "Continue",
+  "formatConfirmationMessage": "To continue the confirmation process {0} will be signed out.",
+  "formatDefaultMessage": "To continue {0} will be signed out and try again.",
+  "formatRecoveryMessage": "To continue the password recovery process {0} will be signed out.",
+  "lblConfirmationMessageSameUser": "To continue the confirmation process you will be signed out.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Sign Out",
+  "lblRecoveryMessageSameUser": "To continue the password recovery process you will be signed out.",
+  "lblSignOut": "Sign Out"
+}

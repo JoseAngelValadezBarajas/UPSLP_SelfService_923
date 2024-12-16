@@ -1,0 +1,212 @@
+{
+  "component": {
+    "ActionMenu": {
+      "more": "Más"
+    },
+    "Alert": {
+      "close": "Cerrar"
+    },
+    "AvatarGroup": {
+      "openMenu": "Abrir menú"
+    },
+    "Calendar": {
+      "agenda": "Agenda",
+      "allDay": "Todo el día",
+      "date": "Fecha",
+      "day": "Día",
+      "event": "Evento",
+      "goToToday": "Hoy",
+      "month": "Mes",
+      "next": "Siguiente",
+      "noEventsInRange": "No hay eventos en este rango.",
+      "previous": "Anterior",
+      "time": "Hora",
+      "week": "Semana",
+      "workWeek": "Semana de trabajo"
+    },
+    "CalendarToolBar": {
+      "openDatePicker": "Abrir el selector de fecha"
+    },
+    "Carousel": {
+      "stepOfTotal": "Actualmente en la tarjeta {activeStep} de un total de {steps}."
+    },
+    "CarouselStepper": {
+      "backButton": "Anterior tarjeta",
+      "nextButton": "Siguiente tarjeta"
+    },
+    "DatePicker": {
+      "a11y": {
+        "inputDescription": "El formato de entrada de fecha es: {dateFormat}. Presione la tecla de flecha hacia abajo para interactuar con el calendario. Utilice las teclas de dirección para navegar dentro del calendario. Utilice la tecla «Enter» para seleccionar una fecha."
+      },
+      "dateLabel": "Fecha",
+      "inputCalendarIconButton": "Abrir el selector de fecha",
+      "jumpToNextMonth": "Mes siguiente",
+      "jumpToNextWeek": "Semana siguiente",
+      "jumpToPrevMonth": "Mes anterior",
+      "jumpToPrevWeek": "Semana anterior",
+      "monthPicker": "Selector de mes",
+      "error": {
+        "invalidDate": "La fecha seleccionada es inválida"
+      },
+      "yearPicker": "Selector de año"
+    },
+    "DateRangePicker": {
+      "endDate": "Fecha de fin",
+      "error": {
+        "invalidDate": "Una o más fechas seleccionadas son inválidas",
+        "outOfRange": "Una o más fechas seleccionadas están fuera de rango",
+        "overlappingDates": "Las fechas seleccionadas se superponen"
+      },
+      "nextMonth": "Mes siguiente",
+      "previousMonth": "Mes anterior",
+      "startDate": "Fecha de inicio"
+    },
+    "DayPicker": {
+      "nextMonth": "Mes siguiente",
+      "previousMonth": "Mes anterior",
+      "navDescription": "Utilice la tecla de flecha abajo para navegar en el selector de fecha"
+    },
+    "Dialog": {
+      "close": "Cerrar"
+    },
+    "Dropdown": {
+      "selectAll": "Seleccionar todos",
+      "all": "todos los elementos seleccionados de la lista",
+      "none": "no existen elementos seleccionados de la lista",
+      "intermediate": "algunos elementos seleccionados de la lista",
+      "totalSelected": "total de elementos seleccionados: {count} de {total}"
+    },
+    "DropdownTypeahead": {
+      "open": "Abrir la lista desplegable",
+      "close": "Cerrar la lista desplegable"
+    },
+    "HeaderBar": {
+      "close": "Cerrar",
+      "closeSearch": "Cerrar búsqueda",
+      "megaMenu": "Abrir el menú de navegación",
+      "openSearch": "Abrir búsqueda",
+      "pageItems": "Elementos de la página",
+      "search": "Buscar"
+    },
+    "Logo": {
+      "logo": "Logotipo de Ellucian"
+    },
+    "MegaMenu": {
+      "poweredBy": "Desarrollado por",
+      "utilities": "Utilidades"
+    },
+    "MobileStepper": {
+      "a11yLabel": "{label}, paso seleccionado",
+      "allStepsCompleted": "Todos los pasos completados",
+      "step": "Paso {step} de {count}"
+    },
+    "Pagination": {
+      "firstPage": "Primera página",
+      "lastPage": "Última página",
+      "nextPage": "Página siguiente",
+      "ofTotalCount": "de {count}",
+      "page": "Página",
+      "perPage": "Por página:",
+      "previousPage": "Página anterior",
+      "totalResults": "Total de resultados:"
+    },
+    "Search": {
+      "categorySearch": {
+        "All": "Todo"
+      },
+      "clear": "Limpiar",
+      "close": "Cerrar",
+      "loading": "Cargando...",
+      "noresult": "No se encontraron resultados. Vuelva a intentarlo.",
+      "open": "Abrir",
+      "placeholder": "Buscar"
+    },
+    "Slider": {
+      "thumb": "Control deslizante"
+    },
+    "Snackbar": {
+      "undo": "Deshacer"
+    },
+    "StepProgress": {
+      "a11yLabel": "{label}, paso seleccionado, {step} de {totalSteps}",
+      "errorMessage": "Mensaje de error: {errorMessage}",
+      "errorMessageTitle": "Este paso tiene errores",
+      "errors": "Existen errores en uno o más pasos.",
+      "errorOnStepLabel": "Error en el paso {number}",
+      "open": "Abrir"
+    },
+    "Table": {
+      "edit": "Editar",
+      "hide": "Colapsar fila",
+      "hideAll": "Contraer todas las filas de la tabla",
+      "selectAllRows": "Seleccionar todas las filas",
+      "selectRow": "Seleccionar fila",
+      "selectionCount": "Se seleccionaron {count} filas",
+      "selectionCountSingle": "Se seleccionó 1 fila",
+      "showAll": "Mostrar todo",
+      "showMore": "Mostrar más",
+      "unselectAllRows": "Desmarcar todas las filas",
+      "unselectRow": "Desmarcar fila"
+    },
+    "Tabs": {
+      "scrollButtons": "Haga clic para mostrar más pestañas"
+    },
+    "TextField": {
+      "characterCounter": "{count} de {total} de los caracteres permitidos ingresados",
+      "clear": "Limpiar",
+      "hide": "Ocultar",
+      "hidePassword": "Ocultar contraseña",
+      "search": "Buscar",
+      "show": "Mostrar",
+      "showPassword": "Mostrar contraseña"
+    },
+    "TimePicker": {
+      "amPm": "AM o PM",
+      "hour": "Hora",
+      "minute": "Minuto"
+    },
+    "MasterDetail": {
+      "backToLinkLabel": "Regresar a {label}"
+    }
+  },
+  "footer": {
+    "formatText": "PowerCampus™ Self-Service {0} - Copyright 1995-{1} Ellucian Company L.P. y sus afiliados."
+  },
+  "lblClose": "Cerrar",
+  "lblCollapse": "Colapsar",
+  "lblCollapseAll": "Colapsar todo",
+  "lblDropDownEmptyText": "Seleccionar...",
+  "lblError": "Hubo un error en PowerCampus Self-Service. Inténtelo de nuevo.",
+  "lblExpand": "Expandir",
+  "lblExpandAll": "Expandir todo",
+  "lblLoading": "Cargando...",
+  "lblNoConnection": "La conexión falló. Intente de nuevo refrescando la ventana del navegador.",
+  "lblPageTitleGeneral": "Self-Service - ",
+  "lblSelectAll": "Seleccionar todos",
+  "lblShowLess": "Menos",
+  "lblShowMore": "Más",
+  "lblSuccessSave": "Cambios guardados",
+  "navBar": {
+    "utilityNav": {
+      "cartMessages": {
+        "lblContinuingEducation": "Educación continua"
+      },
+      "lblCart": "Carrito",
+      "lblMegaMenuTitle": "Self-Service",
+      "lblNotifications": "Notificaciones",
+      "lblProfile": "Cuenta",
+      "notificationMessages": {
+        "formatPermissionRequest": "Solicitud de permiso de {0}"
+      },
+      "profileMenu": {
+        "lblLogOut": "Cerrar sesión",
+        "lblProfile": "Perfil"
+      }
+    }
+  },
+  "timeoutNotification": {
+    "btnExtendSession": "Extender la sesión",
+    "formatNotificationMessage": "La sesión expira en {0} segundos.",
+    "lblNotificationTitle": "La sesión está por terminar"
+  }
+}

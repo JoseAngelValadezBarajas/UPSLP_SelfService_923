@@ -1,0 +1,13 @@
+@section Styles{
+    <link rel="stylesheet" href="~/css/DegreeRequirements.css" asp-append-version="true" />
+}
+<div id="root"></div>
+<input id="hdnCurriculum" type="hidden" value="@ViewBag.Curriculum" />
+<input id="hdnDegree" type="hidden" value="@ViewBag.Degree" />
+<input id="hdnMatricTerm" type="hidden" value="@ViewBag.MatricTerm" />
+<input id="hdnMatricYear" type="hidden" value="@ViewBag.MatricYear" />
+<input id="hdnProgram" type="hidden" value="@ViewBag.Program" />
+@section Scripts{
+    <script src="~/js/DegreeRequirements.js" asp-append-version="true"></script>
+    <script src="~/js/PlanningVendors.js" asp-append-version="true"></script>
+}

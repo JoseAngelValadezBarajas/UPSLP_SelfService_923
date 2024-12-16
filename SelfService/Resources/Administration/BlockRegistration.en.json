@@ -1,0 +1,16 @@
+{
+  "blockRegistrationOptions": {
+    "lblBlocks": "Blocks",
+    "lblRules": "Rules"
+  },
+  "lblEmptyState": "To start working, select a Period",
+  "lblNoResults": "No periods available at this time.",
+  "lblPageDescription": "In block registration you can create a group of courses for students and specify which students can access them.",
+  "lblPeriod": "Period",
+  "lblSidebar": "Sidebar",
+  "lblWarning": "Block registration is disabled. To enable the functionality for students go to Administration /Student /Traditional Registration.",
+  "sidebar": {
+    "lblCloseSidebar": "Close sidebar",
+    "lblOpenSidebar": "Open sidebar"
+  }
+}

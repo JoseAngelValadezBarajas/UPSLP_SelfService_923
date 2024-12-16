@@ -1,0 +1,13 @@
+{
+  "lblAttendanceStatus": "Attendance status",
+  "lblEmail": "E-mail",
+  "lblExcusedAbsence": "Excused absence",
+  "lblExcusedTardiness": "Excused tardiness",
+  "lblLastDateAttended": "Last date attended",
+  "lblName": "Name",
+  "lblOverallAttendance": "Overall attendance",
+  "lblPeopleId": "ID",
+  "lblUnexcusedAbsence": "Unexcused absence",
+  "lblUnexcusedTardiness": "Unexcused tardiness",
+  "lblWithdrawn": "Withdrawn"
+}

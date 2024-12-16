@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "CourseManagementId",
+    "Text": "Administración de cursos"
+  },
+  {
+    "Id": "SetupApprovalsId",
+    "Text": "Configurar aprobaciones"
+  },
+  {
+    "Id": "ApproveGradesId",
+    "Text": "Aprobar calificaciones"
+  },
+  {
+    "Id": "CourseTemplatesId",
+    "Text": "Plantillas de curso"
+  }
+]

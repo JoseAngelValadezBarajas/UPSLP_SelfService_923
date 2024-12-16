@@ -1,0 +1,13 @@
+{
+  "lblCreditType": "Credit type",
+  "lblFinalApproved": "Approved final grade",
+  "lblFinalScore": "Calculated final score",
+  "lblFinalSubmitted": "Submitted final grade",
+  "lblMidtermApproved": "Approved midterm grade",
+  "lblMidtermScore": "Calculated midterm score",
+  "lblMidtermSubmitted": "Submitted midterm grade",
+  "lblName": "Name",
+  "lblPeopleId": "ID",
+  "lblProjected": "Projected grade",
+  "lblWithdrawn": "Withdrawn"
+}

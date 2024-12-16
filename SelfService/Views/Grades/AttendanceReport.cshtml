@@ -1,0 +1,12 @@
+@section Styles{
+    <link rel="stylesheet" href="~/css/AttendanceReport.css" asp-append-version="true" />
+}
+<div id="root"></div>
+@if (ViewBag.PersonId != null && ViewBag.PersonId > 0)
+{
+    <input id="hdnPersonId" type="hidden" value="@ViewBag.PersonId" />
+}
+@section Scripts{
+    <script src="~/js/AttendanceReport.js" asp-append-version="true"></script>
+    <script src="~/js/GradesVendors.js" asp-append-version="true"></script>
+}

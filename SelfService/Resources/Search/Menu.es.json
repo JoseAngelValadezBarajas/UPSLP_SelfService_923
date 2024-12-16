@@ -1,0 +1,10 @@
+﻿[
+  {
+    "Id": "CourseSearchId",
+    "Text": "Curso"
+  },
+  {
+    "Id": "SectionSearchId",
+    "Text": "Sección"
+  }
+]

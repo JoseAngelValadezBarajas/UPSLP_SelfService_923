@@ -1,0 +1,11 @@
+{
+  "studentCourseStatus": {
+    "lblDenied": "DENIED",
+    "lblDropped": "DROPPED",
+    "lblInCart": "IN CART",
+    "lblInWaitlist": "WAITLIST",
+    "lblPending": "PENDING",
+    "lblRegistered": "REGISTERED",
+    "lblRemoved": "REMOVED"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "UnofficialTranscriptId",
+    "Text": "Historial académico no oficial"
+  },
+  {
+    "Id": "GradeReportId",
+    "Text": "Reporte de calificaciones"
+  },
+  {
+    "Id": "RequestTranscriptId",
+    "Text": "Solicitar historial académico"
+  },
+  {
+    "Id": "AlertReportId",
+    "Text": "Reporte de alertas"
+  },
+  {
+    "Id": "AttendanceReportId",
+    "Text": "Reporte de asistencia"
+  }
+]

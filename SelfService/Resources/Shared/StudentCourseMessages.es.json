@@ -1,0 +1,17 @@
+{
+  "studentCourseMessages": {
+    "formatSeatAvailable": "¡Hay un lugar disponible para este curso!<br />Por favor inscríbase en línea el {0} {1}.<br />Después de esta fecha límite, se ofrecerá el lugar a otro alumno.",
+    "lblAdvisorStatus": "Se necesita autorización del asesor",
+    "lblClassFull": "Clase llena",
+    "lblDropDenied": "Baja denegada",
+    "lblDropRequested": "Dar de baja pendiente de aprobación",
+    "lblOnWaitList": "En lista de espera",
+    "lblPeriodHasEnded": "El periodo de inscripción ha terminado",
+    "lblPermissionApproved": "Permiso aprobado",
+    "lblPermissionDenied": "Permiso denegado",
+    "lblPermissionRequested": "Permiso solicitado",
+    "lblRegisterDenied": "Aprobación denegada",
+    "lblRegisterRequested": "Esperando aprobación",
+    "lblSeatAvailable": "¡Inscribirse ahora!"
+  }
+}

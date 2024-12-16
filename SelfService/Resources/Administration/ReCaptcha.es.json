@@ -1,0 +1,19 @@
+{
+  "btnCancel": "Cancelar",
+  "btnClearDisable": "Limpiar y deshabilitar",
+  "btnSave": "Guardar",
+  "lblCreateAccount": "Crear una cuenta",
+  "lblClearDisable": "Limpiar y deshabilitar",
+  "lblClearDisableConfirmation": "¿Está seguro de que desea borrar las claves reCAPTCHA y deshabilitar la validación en todas las páginas?",
+  "lblEnable": "Habilitar",
+  "lblForgotPassword": "Contraseña olvidada",
+  "lblInstructions": "Ingrese las claves reCAPTCHA. Después, habilite las páginas en las que desea incluir la validación",
+  "lblMakeAGift": "Hacer un donativo",
+  "lblPage": "Página",
+  "lblSecretKey": "Clave secreta",
+  "lblSecretKeyRequired": "Ingrese una clave secreta",
+  "lblSiteKey": "Clave del sitio",
+  "lblSiteKeyRequired": "Ingrese una clave del sitio",
+  "lblSubmitApplication": "Enviar formulario de solicitud de admisión",
+  "lblSubmitInquiry": "Enviar formulario de solicitud de información"
+}

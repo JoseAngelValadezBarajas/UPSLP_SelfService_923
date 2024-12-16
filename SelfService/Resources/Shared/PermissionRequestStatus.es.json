@@ -1,0 +1,7 @@
+{
+  "permissionRequestStatus": {
+    "lblApproved": "APROBADO",
+    "lblDenied": "DENEGADO",
+    "lblPending": "PENDIENTE"
+  }
+}

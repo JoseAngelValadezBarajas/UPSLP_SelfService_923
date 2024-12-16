@@ -1,0 +1,42 @@
+{
+  "btnDelete": "Delete",
+  "btnEdit": "Edit",
+  "deleteEmergencyContactConfirmationDialog": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete your primary contact? Deleting it will remove it permanently.",
+    "formatContentOptional": "Are you sure you want to delete your secondary contact? Deleting it will remove it permanently.",
+    "lblTitle": "Delete Emergency Contact"
+  },
+  "emergencyContactSave": {
+    "btnCancel": "Cancel",
+    "btnSave": "Save",
+    "lblCountry": "Country",
+    "lblCountryRequired": "Select a country",
+    "lblEditEmergencyContact": "Editing Emergency Contact",
+    "lblEmail": "E-mail address",
+    "lblEmailInvalid": "Enter a valid e-mail address value",
+    "lblEmailRequired": "Enter an e-mail address",
+    "lblEmergencyContactIsDuplicated": "Name, country and phone number are duplicated. Enter a unique combination of those fields",
+    "lblName": "Name",
+    "lblNameRequired": "Enter a name",
+    "lblNotes": "Notes",
+    "lblNotesRequired": "Enter notes",
+    "lblPhoneNumber": "Phone number",
+    "lblPhoneNumberRequired": "Enter a phone number",
+    "lblRelationship": "Relationship",
+    "lblRelationshipRequired": "Select a relationship"
+  },
+  "lblCountry": "Country",
+  "lblEmail": "E-mail",
+  "lblEmergencyContactsHeader": "Emergency Contact",
+  "lblLegend": "There can be up to 2 emergency contacts registered.",
+  "lblName": "Name",
+  "lblNoContact": "There is no emergency contact registered",
+  "lblNotes": "Notes",
+  "lblPhoneNumber": "Phone number",
+  "lblPrimaryContact": "Primary Contact",
+  "lblRelationship": "Relationship",
+  "lblRequiredContacts": "Please enter the required contacts",
+  "lblSecondaryContact": "Secondary Contact"
+}

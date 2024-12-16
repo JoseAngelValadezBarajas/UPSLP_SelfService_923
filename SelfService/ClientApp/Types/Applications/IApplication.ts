@@ -1,0 +1,85 @@
+/* Copyright 2019 Ellucian Company L.P. and its affiliates.
+ * File: IApplication.ts */
+
+// Types
+import { IApplicationActivity } from './IApplicationActivity';
+import { IApplicationAddress } from './IApplicationAddress';
+import { IApplicationEducation } from './IApplicationEducation';
+import { IApplicationEmergencyContact } from './IApplicationEmergencyContact';
+import { IApplicationEmployment } from './IApplicationEmployment';
+import { IApplicationIpeds } from './IApplicationIpeds';
+import { IApplicationPhoneList } from './IApplicationPhoneList';
+import { IApplicationProgram } from './IApplicationProgram';
+import { IApplicationRelative } from './IApplicationRelative';
+import { IApplicationUserDefined } from './IApplicationUserDefined';
+import { ITestScore } from './ITestScore';
+
+export interface IApplication {
+    academicInterests?: number[];
+    activities?: IApplicationActivity[];
+    addresses: IApplicationAddress[];
+    applicationId?: number;
+    campuses?: number[];
+    collegeAttendStatus?: number;
+    counselorId?: number;
+    countryOfBirth?: number;
+    dateOfBirth?: string;
+    dormBuilding?: number;
+    dormCampus?: number;
+    dormPlanInterest?: boolean;
+    education: IApplicationEducation[];
+    email?: string;
+    emergencyContacts?: IApplicationEmergencyContact[];
+    employerEndDateId?: string;
+    employerNameId?: string;
+    employerPositionId?: string;
+    employerStartDateId?: string;
+    employments: IApplicationEmployment[];
+    ethnicity?: number;
+    firstName?: string;
+    foodPlanInterest?: boolean;
+    formerLastName?: string;
+    gender?: string;
+    governmentId?: string;
+    ipeds?: IApplicationIpeds[];
+    isInterestedInExtracurricular?: boolean;
+    isInterestedInFinancialAid?: boolean;
+    isRetired?: boolean;
+    isSeekingDegree?: boolean;
+    lastName?: string;
+    lastNamePrefix?: string;
+    legalName?: string;
+    maritalStatus?: number;
+    middleName?: string;
+    monthsInCountry?: number;
+    nickname?: string;
+    otherSource?: string;
+    passportCountryId?: number;
+    passportExpiration?: string;
+    passportNumber?: string;
+    period?: number;
+    phoneCountry?: string;
+    phoneNumberId?: string;
+    phones: IApplicationPhoneList[];
+    phoneType?: string;
+    policy?: boolean;
+    prefix?: number;
+    primaryCitizenship?: number;
+    primaryLanguage?: number;
+    programs?: IApplicationProgram[];
+    relatives?: IApplicationRelative[];
+    religion?: number;
+    residencyPreference?: number;
+    savedApplicationId?: number;
+    secondaryCitizenship?: number;
+    secondaryLanguage?: number;
+    sourceId?: number;
+    suffix?: number;
+    testScores: ITestScore[];
+    userDefined: IApplicationUserDefined[];
+    veteranStatus?: number;
+    visa?: number;
+    visaCountryId?: number;
+    visaExpiration?: string;
+    visaNumber?: string;
+}

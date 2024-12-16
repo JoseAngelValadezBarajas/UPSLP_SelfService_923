@@ -1,0 +1,7 @@
+{
+  "ConnectionStrings": {
+    "PowerCampusAuthDbContext": "server=localhost;database=PowerCampusIdentityDB;user id=auth;password=password;MultipleActiveResultSets=True;Encrypt=False;",
+    "PowerCampusDbContext": "server=localhost;database=PowerCampusDB;user id=selfservice;password=password;MultipleActiveResultSets=True;Encrypt=False;",
+    "PowerFaidsDbContext": "server=localhost;database=PowerFaidsDB;user id=sa;password=password;MultipleActiveResultSets=True;Encrypt=False;"
+  }
+}

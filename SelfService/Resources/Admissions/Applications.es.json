@@ -1,0 +1,31 @@
+{
+  "lblApplications": "Solicitudes de admisión",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Solicitudes de admisión",
+  "lblNoResults": "No hay formularios de solicitud de admisión disponibles",
+  "savedApplicationsResources": {
+    "lblAcceptConfirmation": "Aceptar",
+    "lblCancelConfirmation": "Cancelar",
+    "lblCreated": "Creado:",
+    "lblLastModified": "Última modificación:",
+    "lblRemove": "Eliminar",
+    "lblRemoveConfirmation": "¿Está seguro de que desea eliminar {0}? Al eliminar esta solicitud guardada, ya no aparecerá en su lista.",
+    "lblSavedApplications": "Sus solicitudes de admisión guardadas",
+    "lblTitle": "Eliminar solicitud de admisión guardada"
+  },
+  "submittedApplicationsResources": {
+    "formatAdmitPeriod": "{0}/{1}/{2}",
+    "formatDecisionDate": "{0} {1}",
+    "formatPeriod": "{0}/{1}/{2}",
+    "formatProgramDegreeCurriculum": "{0} / {1} / {2}",
+    "formatStatusDate": "{0} {1}",
+    "lblAdmitPeriod": "Período de admisión: ",
+    "lblCollege": "Institución: ",
+    "lblCollegeAttendance": "Asistencia académica: ",
+    "lblDecision": "Decisión:",
+    "lblPeriod": "Período: ",
+    "lblReceiptDate": "Fecha de recepción: ",
+    "lblStatus": "Estatus:",
+    "lblSubmittedApplications": "Sus solicitudes de admisión enviadas "
+  }
+}

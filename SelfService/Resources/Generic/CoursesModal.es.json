@@ -1,0 +1,11 @@
+{
+  "coursesModal": {
+    "formatCourseName": "{0}: {1}",
+    "formatCoursesFor": "Cursos encontrados para: {0}",
+    "lblCourseCatalog": "Catálogo de cursos",
+    "lblCourseDetail": "Curso",
+    "lblDescriptionDetail": "Descripción",
+    "lblFindCourseSection": "Encontrar sección de curso",
+    "lblSubTypes": "Subtipos"
+  }
+}

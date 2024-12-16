@@ -1,0 +1,13 @@
+{
+  "lblAttendanceStatus": "Estatus de asistencia",
+  "lblEmail": "Correo electrónico",
+  "lblExcusedAbsence": "Ausencia justificada",
+  "lblExcusedTardiness": "Retardo justificado",
+  "lblLastDateAttended": "Última fecha de asistencia",
+  "lblName": "Nombre",
+  "lblOverallAttendance": "Asistencia general",
+  "lblPeopleId": "ID",
+  "lblUnexcusedAbsence": "Ausencia injustificada",
+  "lblUnexcusedTardiness": "Retardos injustificados",
+  "lblWithdrawn": "Dado de baja"
+}

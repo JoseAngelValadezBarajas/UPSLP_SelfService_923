@@ -1,0 +1,48 @@
+{
+  "agreementForm1098TEdit": {
+    "btnCancel": "Cancelar",
+    "btnSave": "Guardar",
+    "lblAcceptance": "Aceptación",
+    "lblAcceptanceRequired": "Ingresar una aceptación",
+    "lblAgreementTitle": "Formulario de consentimiento",
+    "lblContent": "Contenido",
+    "lblContentHelpText": "Este campo acepta HTML. Usar enlaces con el atributo target=\"_blank\" para abrir la url en otra pestaña.",
+    "lblContentRequired": "Ingresar un contenido",
+    "lblEnable": "Habilitar la descarga del formulario de consentimiento y del formulario fiscal",
+    "lblGeneralTitle": "General",
+    "lblPreview": "Vista previa",
+    "lblTitle": "Título",
+    "lblTitleRequired": "Ingresar un título"
+  },
+  "deleteTaxYearSettingConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro que desea eliminar {0}? Al eliminar este formulario fiscal ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar formulario fiscal"
+  },
+  "taxYearSettings": {
+    "btnAdd": "Agregar",
+    "btnDelete": "Eliminar",
+    "btnEdit": "Editar",
+    "btnPreview": "Vista previa",
+    "lblAvailable": "Disponible",
+    "lblNoResults": "No hay configuraciones de año fiscal en este momento.",
+    "lblNotAvailable": "No disponible",
+    "lblTaxYearsSettingsTitle": "Descarga del formulario fiscal"
+  },
+  "taxYearsettingsEdit": {
+    "btnCancel": "Cancelar",
+    "btnPreview": "Vista previa",
+    "btnSave": "Guardar",
+    "lblAddTitle": "Agregar formulario fiscal",
+    "lblAvailable": "Disponible para los alumnos",
+    "lblEditTitle": "Editar formulario fiscal",
+    "lblPdfFileName": "Nombre del archivo de plantilla",
+    "lblPdfFileNameRequired": "Seleccionar un nombre del archivo de plantilla",
+    "lblTaxYear": "Año fiscal",
+    "lblTaxYearRequired": "Seleccionar un año fiscal",
+    "lblXmlFileName": "Nombre del archivo de configuración",
+    "lblXmlFileNameRequired": "Seleccionar un nombre del archivo de configuración",
+    "lblYearDuplicated": "El año fiscal está duplicado. Seleccionar un único año"
+  }
+}

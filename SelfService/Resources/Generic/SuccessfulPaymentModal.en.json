@@ -1,0 +1,9 @@
+{
+  "btnGoBalance": "View balance",
+  "btnOk": "Ok",
+  "lblAmount": "Amount",
+  "lblAuthorizationCode": "Authorization code",
+  "lblDescription": "Description",
+  "lblTitle": "Payment has been processed",
+  "lblTitleDetails": "Details"
+}

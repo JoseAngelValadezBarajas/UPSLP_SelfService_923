@@ -1,0 +1,38 @@
+{
+  "sectionSearchModal": {
+    "formatTitleModal": "Sections found for {0}",
+    "lblNoSectionSearch": "No results found",
+    "lblSuccessfulAdd": "You have added this course to student's cart",
+    "lblSuccessfulAddStudent": "This class has been added to your registration cart",
+    "sectionCard": {
+      "btnAdd": "Add",
+      "btnWait": "Add",
+      "formatAddSectionToCart": "Add {0} to cart",
+      "formatBuilding": ", {0}",
+      "formatDuration": "Duration: {0} - {1}",
+      "formatFloor": ", Floor {0}",
+      "formatOrganization": "{0}",
+      "formatRoom": ", Room {0}",
+      "formatSeatsWaiting": "{0} waiting",
+      "formatSelectSection": "Select {0}",
+      "formatSession": "Session: {0}",
+      "formatSessionSectionSubtype": "Section: {0} | Session: {1} | Subtype: {2}",
+      "formatStartEndTime": "{0} - {1}",
+      "formatSubtypeSection": "Subtype: {0} | Section: {1}",
+      "formatTitleSection": "{0}: {1}",
+      "formatType": "Type: {0}",
+      "formatTypeChangeCreditType": "Type: {0} | Credit type: [[{1}]]",
+      "formatTypeCreditType": "Type: {0} | Credit type: {1}",
+      "formatTypeDuration": "Type: {0} | Duration: {1} - {2}",
+      "formatYearTermSession": "Year: {0} | Term: {1} | Session: {2}",
+      "lblCredits": "Credits",
+      "lblFees": "Applicable fees",
+      "lblMultipleInstructors": "Multiple instructors",
+      "lblMultipleMeetingTimes": "This class has multiple meeting times",
+      "lblNoInstructor": "Instructor has not yet been assigned",
+      "lblNoSchedule": "No schedule",
+      "lblSeats": "Seats Left",
+      "lblToWaitlist": "To waitlist"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "btnCancel": "Cancel",
+  "btnDelete": "Delete",
+  "btnEdit": "Edit",
+  "btnSave": "Save",
+  "btnSearch": "Add",
+  "deleteDepartmentHeadConfirmation": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete {0}? Deleting the department head will remove it from your list.",
+    "lblTitle": "Delete Department Head"
+  },
+  "lblActions": "Actions",
+  "lblDepartment": "Department",
+  "lblDepartmentHead": "Department head",
+  "lblDepartmentHeadTitle": "Assign the department heads of the institution.",
+  "lblDepartmentRequired": "Select a departament",
+  "lblDuplicatedDepartmentHead": "Department is duplicated. Enter a unique department.",
+  "lblNoDepartmentHeads": "To get started, add a department head",
+  "peopleSearchAssignModalExtra": {
+    "lblDuplicatedOption": "Department is duplicated. Enter a unique department.",
+    "lblModalTitle": "Add Department Head",
+    "lblOption": "Department",
+    "lblRequiredOption": "Select a departament",
+    "lblStepInstructions": "As department head of:",
+    "lblStepTitle": "Select department"
+  }
+}

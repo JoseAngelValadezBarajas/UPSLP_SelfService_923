@@ -1,0 +1,124 @@
+{
+  "dossierAcademic": {
+    "formatAcademicPlan": "{0} {1} {2} - {3}",
+    "formatPeriod": "{0}/{1}",
+    "formatPeriodSession": "{0}/{1}/{2}",
+    "lblAcademic": "Académico",
+    "lblAttemptedCredits": "Créditos intentados",
+    "lblCumulativeGPA": "PGA acumulado",
+    "lblCurrentGPA": "PGA actual",
+    "lblEarnedCredits": "Créditos obtenidos",
+    "lblGpa": "PGA",
+    "lblGpaCredits": "Créditos PGA",
+    "lblNotAvailable": "No disponible",
+    "lblPeriod": "Período",
+    "lblQualityPoints": "Puntaje",
+    "lblTotalCredits": "Total de créditos",
+    "lblTransferCredits": "Créditos de convalidación"
+  },
+  "dossierAssociations": {
+    "formatPeriod": "{0}/{1}",
+    "formatPeriodSession": "{0}/{1}/{2}",
+    "formatWhenHeldPeriod": "{0}/{1}",
+    "formatWhenHeldPeriodSession": "{0}/{1}/{2}",
+    "lblAssociation": "Asociación",
+    "lblNotAvailable": "No disponible",
+    "lblOfficeHeld": "Puesto desempeñado",
+    "lblWhenHeld": "¿Desde cuándo?"
+  },
+  "dossierContact": {
+    "formatAddress": "{0} {1}<br />{2} {3}<br />{4}<br />{5} {6} {7}<br />{8}",
+    "formatAddressBackup": "{0} {1}<br />{2} {3}<br />{4}<br />{5} {6} {7}<br />{8}",
+    "formatAddressDocumentation": "{0} - Dirección línea 1, {1} - Dirección línea 2, {2} - Dirección línea 3, {3} - Dirección línea 4, {4} - Número de casa, {5} - Ciudad, {6} - Estado, {7} - Código postal, {8} - País",
+    "formatEmergency": "{0}<br />{1}<br />{2}<br />{3}<br />{4}<br />{5}",
+    "formatEmergencyBackup": "{0}<br />{1}<br />{2}<br />{3}<br />{4}<br />{5}",
+    "formatEmergencyDocumentation": "{0} - Parentesco, {1} - Nombre, {2} - Número de teléfono, {3} - País, {4} - Correo electrónico, {5} - Notas",
+    "formatPhone": "{0}<br />{1}<br />{2}",
+    "formatPhoneBackup": "{0}<br />{1}<br />{2}",
+    "formatPhoneDocumentation": "{0} - Número, {1} - País, {2} - Razón para no llamar",
+    "formatResidency": "{0} {1} {2}<br />Teléfono del campus: {3}<br />Teléfono del salón: {4}",
+    "formatResidencyBackup": "{0} {1} {2}<br />Teléfono del campus: {3}<br />Teléfono del salón: {4}",
+    "formatResidencyDocumentation": "{0} - Edificio del dormitorio, {1} - Dormitorio del campus, {2} - Dormitorio, {3} - Teléfono del campus, {4} - Teléfono del dormitorio",
+    "lblContact": "Contacto",
+    "lblNotAvailable": "No disponible",
+    "lblPrimaryAddress": "Dirección",
+    "lblPrimaryEmergencyContact": "Contacto de emergencia principal",
+    "lblPrimaryPhone": "Teléfono",
+    "lblResidency": "Residencia",
+    "lblSecondaryEmergencyContact": "Contacto de emergencia secundario"
+  },
+  "dossierCustomView": {
+    "lblNotAvailable": "No disponible"
+  },
+  "dossierHeader": {
+    "formatEmailAddress": "Dirección de correo electrónico: {0}",
+    "formatReleaseInformation": "Nivel de privacidad: {0}",
+    "lblFacultySchedule": "Horario del docente",
+    "lblInformation": "Información",
+    "lblNotAvailable": "No disponible",
+    "lblCourseSchedule": "Horario de cursos",
+    "lblTeachingSchedule": "Horario del docente",
+    "lblStudentSchedule": "Horario del alumno"
+  },
+  "dossierOffices": {
+    "lblBuilding": "Edificio",
+    "lblCampus": "Campus",
+    "lblNotAvailable": "No disponible",
+    "lblOffice": "Oficina",
+    "lblPhoneNumber": "Número de teléfono",
+    "lblRoom": "Salón"
+  },
+  "dossierPositions": {
+    "lblCollege": "Escuela",
+    "lblDepartment": "Departamento",
+    "lblNotAvailable": "No disponible",
+    "lblPosition": "Posición",
+    "lblProgram": "Programa"
+  },
+  "dossierSchedule": {
+    "lblContinuingEducation": "Educación continua",
+    "lblDeniedCourses": "Cursos denegados",
+    "lblEmpty": "No hay horario",
+    "lblPeriod": "Período",
+    "sections": {
+      "btnCalendarView": "Calendario",
+      "btnListView": "Lista",
+      "formatDuration": "Duración: {0} - {1}",
+      "formatSession": "Sesión: {0}",
+      "formatSubtypeSection": "Subtipo: {0} | Sección: {1}",
+      "formatTitleSection": "{0}: {1}",
+      "formatTypeCreditTypeCeu": "Tipo: {0} | Tipo de crédito: {1} | UEC: {2}",
+      "formatTypeCreditTypeCredits": "Tipo: {0} | Tipo de crédito: {1} | Créditos: {2}",
+      "lblCourse": "Curso",
+      "lblDenied": "Denegado",
+      "lblDeniedCourses": "Cursos denegados",
+      "lblInCart": "En carrito",
+      "lblPending": "Pendiente",
+      "lblRegistered": "Inscrito",
+      "lblStatus": "Estatus",
+      "lblTimeConflicts": "Conflictos de horas",
+      "scheduleCalendar": {
+        "formatTitleSection": "{0}: {1}",
+        "lblDenied": "Denegado",
+        "lblInCart": "En carrito",
+        "lblPending": "Pendiente",
+        "lblRegistered": "Inscrito",
+        "lblTimeConflicts": "Conflictos de horas"
+      },
+      "sectionInstructors": {
+        "lblInstructors": "Instructores",
+        "lblNoInstructor": "El instructor aún no ha sido asignado"
+      },
+      "sectionSchedules": {
+        "formatBuilding": ", {0}",
+        "formatFloor": ", Piso {0}",
+        "formatOrganization": "{0}",
+        "formatRoom": ", Salón {0}",
+        "formatStartEndTime": "{0} - {1}",
+        "lblNoSchedule": "No hay horario",
+        "lblSchedules": "Horario",
+        "lblTimeConflicts": "Conflictos de horas"
+      }
+    }
+  }
+}

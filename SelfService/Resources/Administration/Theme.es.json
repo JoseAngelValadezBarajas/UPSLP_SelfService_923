@@ -1,0 +1,36 @@
+{
+  "actionColors": [
+    "Azul",
+    "Ciruela",
+    "Lila",
+    "Verde",
+    "Gris pardo"
+  ],
+  "btnRestore": "Restaurar tema predefinido",
+  "btnSave": "Guardar",
+  "lblActionColor": "Color de la acción",
+  "lblActionColorRequired": "Seleccione un color de la acción",
+  "lblBackground": "URL de imagen de fondo",
+  "lblFavicon": "URL del favicon",
+  "lblHexFormat": "Ingresar un valor HEX válido",
+  "lblLogo": "URL del logo",
+  "lblLogoAlternateText": "Texto alternativo del logo",
+  "lblPrimaryColor": "Color principal",
+  "lblPrimaryColorRequired": "Ingrese un color principal",
+  "lblSecondaryColor": "Color secundario",
+  "lblSecondaryColorRequired": "Ingrese un color secundario",
+  "lblStudyingColor": "Color del calendario de estudio",
+  "lblStudyingColorRequired": "Ingrese un color del calendario de estudio",
+  "lblTeachingColor": "Color del calendario de enseñanza",
+  "lblTeachingColorRequired": "Ingrese un color del calendario de enseñanza",
+  "lblUrlFormat": "Ingrese un valor de URL válido.",
+  "themePreview": {
+    "lblDashboard": "Tablero",
+    "lblNoCards": "Predefinido",
+    "lblPreview": "Vista previa",
+    "lblPrimaryButton": "Principal",
+    "lblSecondaryButton": "Secundario",
+    "lblSelfService": "Self-Service",
+    "lblSignIn": "Iniciar sesión"
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "ConEdSetupId",
+    "Text": "Continuing Education"
+  },
+  {
+    "Id": "FormsSetupId",
+    "Text": "Forms"
+  },
+  {
+    "Id": "GeneralSetupId",
+    "Text": "General"
+  },
+  {
+    "Id": "InstructorSetupId",
+    "Text": "Instructor"
+  },
+  {
+    "Id": "NotificationsSetupId",
+    "Text": "Notifications"
+  },
+  {
+    "Id": "ProfileSetupId",
+    "Text": "Profile"
+  },
+  {
+    "Id": "RequestsSetupId",
+    "Text": "Requests"
+  },
+  {
+    "Id": "StudentSetupId",
+    "Text": "Student"
+  },
+  {
+    "Id": "WebsiteSetupId",
+    "Text": "Website Setup"
+  },
+  {
+    "Id": "DonationsSetupId",
+    "Text": "Donations"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "btnAddNew": "Agregar nuevo",
+  "btnContinue": "Continuar",
+  "btnDelete": "Eliminar",
+  "btnMakePayment": "Hacer un pago",
+  "lblAmount": "Monto",
+  "lblAmountRequired": "Ingrese un monto",
+  "lblContributing": "Contribuir a",
+  "lblContributingRequired": "Seleccione una campaña",
+  "lblHeaderTitle": "Hacer un donativo",
+  "lblLegend": "El hacer un donativo permitirá a los actuales y futuros alumnos obtener acceso a mejores instalaciones y servicios, asegurando su éxito.",
+  "lblMakeGift": "Hacer un donativo",
+  "lblMakePayment": "Hacer un pago",
+  "lblNotAvailable": "La página «Hacer un donativo» no está disponible. Por favor, póngase en contacto con el administrador del sistema",
+  "lblPageTitle": "Hacer un donativo",
+  "lblPaymentSuccess": "Proceder al pago",
+  "lblProceedPayment": "El pago se ha procesado",
+  "lblUniqueCampaign": "Seleccione una campaña única"
+}

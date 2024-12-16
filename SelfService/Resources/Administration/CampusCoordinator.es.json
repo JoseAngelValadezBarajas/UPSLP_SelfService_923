@@ -1,0 +1,27 @@
+{
+  "btnCancel": "Cancelar",
+  "btnDelete": "Eliminar",
+  "btnEdit": "Editar",
+  "btnSave": "Guardar",
+  "btnSearch": "Agregar",
+  "deleteCampusCoordinatorConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro que desea eliminar {0}? Al eliminar al coordinador de campus ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar coordinador de campus"
+  },
+  "lblCampusCoordinator": "Coordinador de campus",
+  "lblCampusCoordinatorTitle": "Asignar los coordinadores de campus de la institución.",
+  "lblDuplicatedCampusCoordinator": "La organización está duplicada. Ingresar una organización única.",
+  "lblNoCampusCoordinators": "Para iniciar, agregar un coordinador de campus.",
+  "lblOrganization": "Campus",
+  "lblOrganizationRequired": "Seleccionar una organización",
+  "peopleSearchAssignModalExtra": {
+    "lblDuplicatedOption": "La organización está duplicada. Ingresar una organización única.",
+    "lblModalTitle": "Agregar coordinador de campus",
+    "lblOption": "Organización",
+    "lblRequiredOption": "Seleccionar una organización",
+    "lblStepInstructions": "Como coordinador de campus de:",
+    "lblStepTitle": "Seleccionar organización"
+  }
+}

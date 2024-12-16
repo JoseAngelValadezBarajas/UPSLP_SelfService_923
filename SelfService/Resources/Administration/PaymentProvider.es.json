@@ -1,0 +1,15 @@
+{
+  "btnSave": "Guardar",
+  "lblApplication": "Solicitud de admisión",
+  "lblBalance": "Saldo",
+  "lblBalanceInvalid": "Ingresar una URL del proveedor de pago",
+  "lblConEdRegistration": "Inscripción a educación continua ",
+  "lblConEdRegistrationValid": "Ingresar una URL del proveedor de pago",
+  "lblDonations": "Donativos",
+  "lblInstructions": "Ingresar una URL del proveedor de pago para cada área del sistema.",
+  "lblParametersInstructions": "Parámetros:",
+  "lblRegistration": "Inscripción",
+  "lblRegistrationInvalid": "Ingresar una URL del proveedor de pago",
+  "lblTranscriptRequest": "Solicitud de historial académico",
+  "lblTranscriptRequestValid": "Ingresar una URL del proveedor de pago"
+}

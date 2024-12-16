@@ -1,0 +1,321 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<Header>
+		<Title>View component with tabs</Title>
+		<Author>Ellucian</Author>
+		<Shortcut>viewComponentWithTabs</Shortcut>
+		<Description>Code snippet for a view component (container component) with tabs</Description>
+		<SnippetTypes>
+			<SnippetType>React Components</SnippetType>
+		</SnippetTypes>
+	</Header>
+	<Snippet>
+		<Declarations>
+			<Literal>
+				<ID>actionName</ID>
+				<ToolTip>MVC Action name</ToolTip>
+				<Default>actionName</Default>
+			</Literal>
+			<Literal>
+				<ID>controllerName</ID>
+				<ToolTip>MVC Controller name</ToolTip>
+				<Default>controllerName</Default>
+			</Literal>
+			<Literal>
+				<ID>name</ID>
+				<ToolTip>Name using Pascal Case</ToolTip>
+				<Default>name</Default>
+			</Literal>
+			<Literal>
+				<ID>nameCamelCase</ID>
+				<ToolTip>Name using Camel Case</ToolTip>
+				<Default>nameCamelCase</Default>
+			</Literal>
+			<Literal>
+				<ID>year</ID>
+				<ToolTip>Year</ToolTip>
+				<Default>year</Default>
+			</Literal>
+		</Declarations>
+		<Code Language="TypeScript">
+			<![CDATA[/* Copyright $year$ Ellucian Company L.P. and its affiliates.
+ * File: $name$View.tsx
+ * Type: Container component */
+
+// #region Imports
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+// Core components
+import Layout, { withLayout } from '@hedtech/powercampus-design-system/react/components/Layout';
+import Card, { CardContent } from '@hedtech/powercampus-design-system/react/core/Card';
+import Grid from '@hedtech/powercampus-design-system/react/core/Grid';
+import Tabs from '@hedtech/powercampus-design-system/react/core/Tabs';
+
+// Types
+import { ResultType } from '@hedtech/powercampus-design-system/types/ResultType';
+import { I$name$Permissions } from '../../../Types/Permissions/I$name$Permissions';
+import { I$name$Resources } from '../../../Types/Resources/$controllerName$/I$name$Resources';
+import { IAlert } from '@hedtech/powercampus-design-system/types/IAlert';
+import { IJsonResult } from '@hedtech/powercampus-design-system/types/IJsonResult';
+import { ILogData } from '@hedtech/powercampus-design-system/types/ILogData';
+import { ITabOption } from '@hedtech/powercampus-design-system/types/ITabOption';
+
+// Helpers
+import LogData from '@hedtech/powercampus-design-system/helpers/LogData';
+import Resolver from '@hedtech/powercampus-design-system/helpers/Resolver';
+
+// State Management
+import LayoutActions from '@hedtech/powercampus-design-system/flux/actions/LayoutActions';
+import LayoutStore from '@hedtech/powercampus-design-system/flux/stores/LayoutStore';
+// #endregion Imports
+
+// #region Types
+interface I$name$State {
+    isLoading: boolean;
+    permissions?: I$name$Permissions;
+	  resources?: I$name$Resources;
+    tabSelected: number;
+}
+// #endregion Types
+
+// #region Component
+class $name$View extends React.Component<any, I$name$State> {
+	private idModule: string;
+	private idPage: string;
+  private tabs: ITabOption[];
+
+	public readonly state: Readonly<I$name$State>;
+
+	public constructor(props) {
+		super(props);
+
+    // #region Initialize Variables and State
+		this.idModule = '$controllerName$';
+		this.idPage = '$actionName$';
+    this.tabs = [];
+		this.state = this.getInitialState();
+    // #endregion Initialize Variables and State
+
+    // #region Bind State Management Listeners
+		LayoutStore.addLayoutReadyListener(this.onLayoutReady);
+    // #endregion State Management Listeners
+	}
+
+	private getInitialState(): I$name$State {
+    let isLoading: boolean = true;
+    let permissions: I$name$Permissions | undefined;
+		let resources: I$name$Resources | undefined;
+		if (this.state) {
+      isLoading = this.state.isLoading;
+      permissions = this.state.permissions;
+			resources = this.state.resources;
+		}
+		return {
+      isLoading: isLoading,
+      permissions: permissions,
+			resources: resources,
+      tabSelected: -1
+		};
+	}
+
+  // #region Events
+  private onChangeTab = (_event: object, value: number): void => {
+      try {
+          const {
+              tabSelected
+          } = this.state;
+
+          if (tabSelected !== value) {
+            const initialState: I$name$State = this.getInitialState();
+            initialState.isLoading = false;
+            initialState.tabSelected = value;
+            this.setState(initialState);
+          }
+      }
+      catch (e) {
+          this.logError(LogData.fromException(this.onChangeTab.name, e));
+      }
+  };
+  // TODO: If you need it, in other case you can remove it.
+  // #endregion Events
+
+  // #region Functions
+  // TODO: If you need it, in other case you can remove it.
+  // #endregion Functions
+
+  // #region Loader Functions
+    private hideAllLoaders = (): void => {
+        this.setState({
+            isLoading: false
+        }, LayoutActions.hidePageLoader);
+    };
+    // #endregion Loader Functions
+
+  // #region Error Functions
+  private logError = (logData: ILogData): void => {
+      this.hideAllLoaders();
+      LayoutActions.setLogData(logData);
+  };
+
+  private redirectError = (code: number): void => {
+      this.hideAllLoaders();
+      LayoutActions.setRedirectCode(code);
+  };
+
+  private showError = (message?: string): void => {
+      this.hideAllLoaders();
+      LayoutActions.setAlert({ message: message, messageType: ResultType.error } as IAlert);
+  };
+  // #endregion Error Functions
+
+	// #region Resolvers
+  private resolveLayoutReady = (): void => {
+      try {
+          const {
+              permissions,
+              resources
+          } = this.state;
+
+          if (resources) {
+              document.title = resources.lblPageTitle;
+
+              if (permissions) {
+                  if (permissions.todoPermissionName) {
+                      this.tabs.push({
+                          // Add enum instead of todoId (number)
+                          id: todoId,
+                          text: resources.todoLabel
+                      });
+                  }
+                  // ... all the tabs
+
+                  if (this.tabs && this.tabs.length > 1) {
+                      this.tabs = this.tabs.sort((tabA, tabB) => tabA.id - tabB.id);
+                  }
+
+                  if (this.tabs.length > 0) {
+                      this.setState({
+                          isLoading: false,
+                          tabSelected: this.tabs[0].id
+                      }, LayoutActions.hidePageLoader);
+                      /* TODO: Load initial data or data based on the resources
+                      * If you requiere the loader until all data is loaded,
+                      * you have to remove it at the end of the last resolver of your flow. */
+                  }
+                  else {
+                    this.setState({
+                        isLoading: false
+                    }, LayoutActions.hidePageLoader);
+                  }
+              }
+              else {
+                    this.setState({
+                        isLoading: false
+                    }, LayoutActions.hidePageLoader);
+              }
+          }
+          else {
+              this.logError(LogData.noResources(this.resolveLayoutReady.name));
+          }
+      }
+      catch (e) {
+          this.logError(LogData.fromException(this.resolveLayoutReady.name, e));
+      }
+  };
+  // #endregion Resolvers
+
+	// #region State Management Events
+	private onLayoutReady = (): void => {
+      const ready: boolean = LayoutStore.getLayoutReady();
+      const permissions: I$name$Permissions | undefined = LayoutStore.getPermissions();
+      const resources: I$name$Resources | undefined = LayoutStore.getResources();
+
+      if (ready) {
+          this.setState({
+              permissions: permissions,
+              resources: resources
+          }, this.resolveLayoutReady);
+      }
+      else {
+        this.logError(LogData.layoutNoReady(this.onLayoutReady.name));
+        this.redirectError(500);
+      }
+  };
+  // #endregion State Management Events
+
+  // #region Lifecycle
+  public componentWillUnmount(): void {
+      LayoutStore.removeLayoutReadyListener(this.onLayoutReady);
+  }
+  // #endregion Lifecycle
+
+	public render(): JSX.Element {
+		const {
+      isLoading,
+      permissions,
+			resources,
+      tabSelected
+		} = this.state;
+
+    let contentPage: JSX.Element | undefined;
+		if (permissions && resources && !isLoading) {
+      let componentTabs: JSX.Element | undefined;
+      let contentTab: JSX.Element | undefined;
+      if (tabSelected !== -1) {
+          componentTabs = (
+              <Tabs
+                  id="$name$Tabs"
+                  marginBottom
+                  options={this.tabs}
+                  scrollButtons
+                  valueSelected={tabSelected}
+                  onChange={this.onChangeTab}
+              />
+          );
+          switch (tabSelected) {
+            // Add enum instead of 0 (number)
+            case 0:
+              contentTab = (
+                <div>
+                  Tab 0 content
+                </div>
+              );
+              break;
+              // other tabs
+          }
+      }
+      contentPage = (
+          <Grid container>
+              <Grid item xs>
+                  <Card>
+                    <CardContent>
+                      {componentTabs}
+                      {contentTab}
+                    </CardContent>
+                  </Card>
+              </Grid>
+          </Grid>
+      );
+		}
+
+		return (
+			<Layout
+				idModule={this.idModule}
+				idPage={this.idPage}
+				showCart
+				showNotifications
+			>
+				{contentPage}
+			</Layout>
+		);
+	}
+}
+
+const $name$ViewWithLayout = withLayout($name$View);
+// #endregion Component
+
+// RenderDOM: Component
+ReactDOM.render(<$name$ViewWithLayout />, document.getElementById('root'));]]>
+		</Code>
+	</Snippet>
+</CodeSnippet>

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "ApplicationsId",
+    "Text": "Solicitud de admisión"
+  },
+  {
+    "Id": "InquiriesId",
+    "Text": "Solicitud de información"
+  }
+]

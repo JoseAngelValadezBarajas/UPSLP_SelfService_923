@@ -1,0 +1,11 @@
+{
+  "lblEmptyState": "No tiene ninguna opción asignada.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "generalSetupTabs": {
+    "lblChecklist": "Lista de tareas",
+    "lblDashboardMessages": "Mensajes del tablero",
+    "lblDossier": "Expediente",
+    "lblPeriodFilters": "Filtros de período"
+  }
+}

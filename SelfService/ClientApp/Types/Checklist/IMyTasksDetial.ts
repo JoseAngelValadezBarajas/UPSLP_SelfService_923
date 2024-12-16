@@ -1,0 +1,78 @@
+/* Copyright 2020 - 2021 Ellucian Company L.P. and its affiliates.
+ * File: IMyTasksDetail.ts */
+
+import { IAvatar } from "../Account/IRelative";
+
+export interface IMyTasksDetail {
+    academicSession?: string;
+    academicTerm: string;
+    academicYear: string;
+    actionId: string;
+    actionName: string;
+    actionScheduleId: number;
+    actionScheduledId: number;
+    addressLine1?: string;
+    addressLine2?: string;
+    addressLine3?: string;
+    addressLine4?: string;
+    assignedDate: string;
+    assignedTime: string;
+    avatar?: IAvatar;
+    avatarComplete?: IAvatar;
+    avatarEdit?: IAvatar;
+    avatarEditResp?: IAvatar;
+    avatarResp?: IAvatar;
+    avatarReassign?: IAvatar;
+    canceled?: boolean;
+    cancelReason?: string;
+    canViewDetails?: number;
+    canEditTasks?: number;
+    canViewNotes?: number;
+    category?: number;
+    city?: string;
+    completed?: boolean;
+    completedBy?: string;
+    completedDate?: string;
+    completedTime?: string;
+    completedDateInvalid?: boolean;
+    completedDateModified?: boolean;
+    country?: string;
+    difference: number;
+    dueDate?: string;
+    dueTime?: string;
+    dueDateInvalid?: boolean;
+    dueDateModified?: boolean;
+    email?: string;
+    houseNumber?: string;
+    instruction?: string;
+    instructions?: string;
+    isPerDay: boolean;
+    isRequired?: boolean;
+    officeId: number;
+    officeDesc: string;
+    note?: string;
+    notes?: string;
+    personId?: number;
+    peopleCodeId?: string;
+    peopleOrgCodeId?: string;
+    phoneFormat?: string;
+    phoneNumber?: string;
+    priority?: string;
+    priorityInvalid?: boolean;
+    priorityModified?: boolean;
+    required?: boolean;
+    responsibleId?: string;
+    scheduleDate?: string;
+    scheduleTime?: string;
+    scheduleDateInvalid?: boolean;
+    scheduleDateModified?: boolean;
+    scheduleTimeModified?: boolean;
+    session?: string;
+    state?: string;
+    status?: string;
+    timeModified?: boolean;
+    waived?: boolean;
+    waivedReason?: string;
+    yearTerm?: string;
+    zipCode?: string;
+}

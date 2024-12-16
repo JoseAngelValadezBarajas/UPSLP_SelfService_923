@@ -1,0 +1,33 @@
+{
+  "btnApplyDefaults": "Apply defaults",
+  "btnCancel": "Cancel",
+  "btnCopy": "Copy",
+  "btnCopyGradeMappings": "Copy Grade Mappings",
+  "btnDelete": "Delete",
+  "btnDeleteAllMappings": "Delete All Mappings",
+  "btnSave": "Save",
+  "gradeMappingsTable": {
+    "lblFinalMin": "Final minimum %",
+    "lblFinalMinPoints": "Final minimum points",
+    "lblGrade": "Grade",
+    "lblGradeMappingRepeated": "Grade values must be unique.",
+    "lblIncorrectAmount": " Grade must be lower than previous grade",
+    "lblInvalidAmount": "Amount is numeric and allows two decimals",
+    "lblMidTermMin": "Midterm minimum %",
+    "lblMidTermMinPoints": "Midterm minimum points"
+  },
+  "lblChooseSection": "Choose a course to copy grade mappings from. The mappings for the current course will be added or replaced with the values of the chosen course.",
+  "lblCopyGradeMappings": "Copy Grade Mappings",
+  "lblCourse": "Course",
+  "lblDeleteGradeMappings": "Are you sure you want to delete all grade mappings? This action will remove them from your course.",
+  "lblDescription": "Define your institution's default settings for mapping numeric grades to letter grades. For each credit type, specify the minimum midterm and minimum final grade percentages that are needed to earn each letter grade.",
+  "lblFinal": "Final",
+  "lblMidterm": "Midterm",
+  "lblNoCreditData": "There are no grade values for this credit type",
+  "lblNoResults": "Currently, there are no credit types for this course.",
+  "lblPeriod": "Period",
+  "lblShowPoints": "Show points",
+  "lblTitleConfirmationDialog": "Delete All Grade Mappings",
+  "lblToStartWorking": "To start working, select a course",
+  "lblTotalPoints": "Total points"
+}

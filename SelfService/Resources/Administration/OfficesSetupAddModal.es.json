@@ -1,0 +1,20 @@
+{
+  "btnBack": "Regresar",
+  "btnFinish": "Finalizar",
+  "btnNext": "Siguiente",
+  "formatOfficeCanEditTasks": "La oficina {0} puede editar las tareas",
+  "formatOfficeCanViewNotes": "La oficina {0} puede ver las notas",
+  "lblAssign": "Asignar",
+  "lblEditTasks": "Editar tareas",
+  "lblId": "ID:",
+  "lblModalTitle": "Agregar empleado",
+  "lblName": "Nombre:",
+  "lblOffice": "Oficina",
+  "lblOption": "Oficinas",
+  "lblRequiredOption": "Seleccione una oficina",
+  "lblSearchPerson": "Buscar persona",
+  "lblStepAssignOffice": "Asignar oficina",
+  "lblStepInstructions": "A las siguientes oficinas:",
+  "lblStepSetPermissions": "Establecer permisos",
+  "lblViewNotes": "Visualizar notas"
+}

@@ -1,0 +1,15 @@
+{
+  "btnSave": "Save",
+  "lblApplication": "Application",
+  "lblBalance": "Balance",
+  "lblBalanceInvalid": "Enter a payment vendor URL",
+  "lblConEdRegistration": "Continuing Education Registration",
+  "lblConEdRegistrationValid": "Enter a payment vendor URL",
+  "lblDonations": "Donations",
+  "lblInstructions": "Enter a payment vendor URL for each area of the system.",
+  "lblParametersInstructions": "Parameters:",
+  "lblRegistration": "Registration",
+  "lblRegistrationInvalid": "Enter a payment vendor URL",
+  "lblTranscriptRequest": "Transcript Request",
+  "lblTranscriptRequestValid": "Enter a payment vendor URL"
+}

@@ -1,0 +1,36 @@
+{
+  "actionColors": [
+    "Blue",
+    "Plum",
+    "Iris",
+    "Green",
+    "Taupe"
+  ],
+  "btnRestore": "Restore default theme",
+  "btnSave": "Save",
+  "lblActionColor": "Action color",
+  "lblActionColorRequired": "Select an action color",
+  "lblBackground": "Background Image URL",
+  "lblFavicon": "Favicon URL",
+  "lblHexFormat": "Enter a valid HEX value",
+  "lblLogo": "Logo URL",
+  "lblLogoAlternateText": "Logo alternate text",
+  "lblPrimaryColor": "Primary color",
+  "lblPrimaryColorRequired": "Enter a primary color",
+  "lblSecondaryColor": "Secondary color",
+  "lblSecondaryColorRequired": "Enter a secondary color",
+  "lblStudyingColor": "Studying calendar color",
+  "lblStudyingColorRequired": "Enter a studying calendar color",
+  "lblTeachingColor": "Teaching calendar color",
+  "lblTeachingColorRequired": "Enter a teaching calendar color",
+  "lblUrlFormat": "Enter a valid URL value.",
+  "themePreview": {
+    "lblDashboard": "Dashboard",
+    "lblNoCards": "Default",
+    "lblPreview": "Preview",
+    "lblPrimaryButton": "Primary",
+    "lblSecondaryButton": "Secondary",
+    "lblSelfService": "Self-Service",
+    "lblSignIn": "Sign in"
+  }
+}

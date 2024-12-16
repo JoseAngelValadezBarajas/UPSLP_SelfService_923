@@ -1,0 +1,37 @@
+{
+  "dashboardCalendar": {
+    "btnClassList": "Lista de clase",
+    "btnDownload": "Descargar",
+    "btnViewCalendar": "Ver calendario",
+    "btnViewNotes": "Ver notas",
+    "formatBuilding": ", {0}",
+    "formatFloor": ", Piso {0}",
+    "formatOrganization": "{0}",
+    "formatRoom": ", Salón {0}",
+    "formatSubtype": "Subtipo: {0}",
+    "formatTime": "{0} - {1}",
+    "formatTitleSection": "{0}: {1}",
+    "lblNoEvents": "No hay eventos en el calendario para este día",
+    "lblNotes": "Notas",
+    "lblStudying": "Estudiando",
+    "lblTeaching": "Impartiendo",
+    "lblYourCalendar": "Su calendario"
+  },
+  "dashboardChecklist": {
+    "btnViewChecklist": "Ver lista de tareas",
+    "lblMyTasks": "Mis tareas",
+    "lblOverdue": "Atrasadas",
+    "lblToday": "Hoy",
+    "lblUpcoming": "Próximas",
+    "lblUpToDate": "¡Estás al día!"
+  },
+  "dashboardStatus": {
+    "btnDegreeProgress": "Ver progreso de grado",
+    "lblAcademic": "Académico",
+    "lblCore": "Principal",
+    "lblElective": "Electivo",
+    "lblGraduationDate": "Fecha de graduación meta"
+  },
+  "lblHeaderTitle": "Resumen de hoy",
+  "lblPageTitle": "Inicio"
+}

@@ -1,0 +1,8 @@
+{
+  "lblGoBack": "Go back",
+  "lblGoToHome": "Go to home",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Invalid Token",
+  "lblText": "The token you are trying to use has expired or is invalid.",
+  "lblTitle": "Invalid Token"
+}

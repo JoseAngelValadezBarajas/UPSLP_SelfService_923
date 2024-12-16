@@ -1,0 +1,27 @@
+{
+  "btnCancel": "Cancelar",
+  "btnDelete": "Eliminar",
+  "btnEdit": "Editar",
+  "btnSave": "Guardar",
+  "btnSearch": "Agregar",
+  "deleteAssociationHeadConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro que desea eliminar {0}? Al eliminar al responsable de la asociación ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar responsable de asociación"
+  },
+  "lblAssociation": "Asociación",
+  "lblAssociationHeadTitle": "Asignar los responsables de asociación de la institución.",
+  "lblAssociationRequired": "Seleccionar una asociación",
+  "lblDuplicatedAssociationHead": "La asociación está duplicada. Ingresar una asociación única.",
+  "lblNoAssociationHeads": "Para iniciar, agregar un responsable.",
+  "lblResponsible": "Responsable",
+  "peopleSearchAssignModalExtra": {
+    "lblDuplicatedOption": "La asociación está duplicada. Ingresar una asociación única.",
+    "lblModalTitle": "Agregar responsable de asociación",
+    "lblOption": "Asociación",
+    "lblRequiredOption": "Seleccionar una asociación",
+    "lblStepInstructions": "Como responsable de asociación de:",
+    "lblStepTitle": "Seleccionar asociación"
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "requestsSetupTabs": {
+    "lblAddressRequests": "Address",
+    "lblDemographicRequests": "Demographic",
+    "lblPreferredNameRequests": "Preferred name"
+  }
+}

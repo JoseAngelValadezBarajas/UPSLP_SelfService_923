@@ -1,0 +1,69 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Generic component with styles</Title>
+    <Author>Ellucian</Author>
+    <Shortcut>genericComponentWithStyles</Shortcut>
+    <Description>Code snippet for a generic component with styles</Description>
+    <SnippetTypes>
+      <SnippetType>React Components</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>name</Default>
+      </Literal>
+      <Literal>  
+        <ID>year</ID>   
+        <ToolTip>Year</ToolTip>
+        <Default>year</Default>
+      </Literal>  
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[/* Copyright $year$ Ellucian Company L.P. and its affiliates.
+ * File: $name$.tsx
+ * Type: Presentation component */
+
+// #region Imports
+import React from 'react';
+
+// Helpers
+import Tokens from '@hedtech/powercampus-design-system/react/core/styles/Tokens';
+import { createStyles, withStyles, WithStyles } from '@hedtech/powercampus-design-system/react/core/styles/withStyles';
+// #endregion Imports
+
+// #region Types
+export interface I$name$Props {
+
+}
+
+const styles = createStyles({
+  styleName:{
+    color: 'red',
+    fontFamily: Tokens.fontFamilyDefault,
+  },
+});
+
+type PropsWithStyles = I$name$Props & WithStyles<typeof styles>;
+// #endregion Types
+
+// #region Component
+const $name$: React.FC<PropsWithStyles> = (props: PropsWithStyles): JSX.Element => {
+    const {
+      classes,
+      ...rest
+    } = props;
+
+    return (
+        <span className={classes.styleName}>$name$</span>
+    );
+};
+// #endregion
+
+// Export: Component
+export default withStyles(styles)($name$);]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

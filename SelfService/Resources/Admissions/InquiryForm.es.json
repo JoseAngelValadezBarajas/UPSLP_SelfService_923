@@ -1,0 +1,49 @@
+{
+  "formatDateOutOfRange": "El rango de fechas es {0} - {1}",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Solicitud de información",
+  "addressSearchModal": {
+    "btnClear": "Limpiar",
+    "btnSearch": "Buscar",
+    "lblCity": "Ciudad",
+    "lblClear": "Limpiar",
+    "lblCountry": "País",
+    "lblCounty": "Municipio",
+    "lblNoResults": "No hay resultados disponibles",
+    "lblSearch": "Buscar",
+    "lblState": "Estado",
+    "lblTitle": "Buscar",
+    "lblZipCode": "Código postal"
+  },
+  "applicationHandler": {
+    "btnDelete": "Eliminar",
+    "formatCompleteStep": "Complete los campos requeridos en el paso {0}: {1}",
+    "formatHasFee": "Hay una cuota de {0} asociada con esta solicitud de información.",
+    "formatHasFees": "Hay una cuota de {0} asociada con cada programa que seleccione.",
+    "lblAddNew": "Agregar nuevo",
+    "lblBack": "Regresar",
+    "lblNew": "Nuevo...",
+    "lblNext": "Siguiente",
+    "lblNotAvailable": "El formulario de solicitud de información no está disponible en este momento. Volver más tarde.",
+    "lblPrimary": "(Principal)",
+    "lblReCaptchaRequired": "Marque el cuadro de selección del reCaptcha",
+    "lblSearch": "Buscar",
+    "lblSelect": "Seleccionar...",
+    "lblSubmit": "Enviar"
+  },
+  "etsSearchModal": {
+    "btnClear": "Limpiar",
+    "btnSearch": "Buscar",
+    "lblCity": "Ciudad",
+    "lblClear": "Limpiar",
+    "lblCountry": "País",
+    "lblEmptyOptionCountry": "Seleccionar...",
+    "lblEmptyOptionState": "Seleccionar...",
+    "lblETSCode": "Código ETS",
+    "lblFICECode": "Código FICE",
+    "lblInstitutionName": "Nombre de la institución",
+    "lblSearch": "Buscar",
+    "lblState": "Estado",
+    "lblTitle": "Buscar"
+  }
+}

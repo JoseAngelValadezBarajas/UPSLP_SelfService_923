@@ -1,0 +1,29 @@
+{
+  "lblAccountInformation": "Información de la cuenta",
+  "lblContactInformation": "Información del contacto",
+  "lblFirstName": "Nombre",
+  "lblGenericError": "Hubo un error durante esta operación. Intente otra vez.",
+  "lblLastName": "Apellido",
+  "lblLastNamePrefix": "Prefijo del apellido",
+  "lblMiddleName": "Segundo nombre",
+  "lblPassword": "Contraseña",
+  "lblPrefix": "Prefijo",
+  "lblSuffix": "Sufijo",
+  "lblSystemId": "ID del sistema",
+  "lblTitleName": "Nombre",
+  "lblUserName": "Nombre de usuario",
+  "passwordResetResources": {
+    "lblCancelPassword": "Cancelar",
+    "lblChangePassword": "Cambiar contraseña",
+    "lblChangePwdLegend": "Para cambiar la contraseña, vuelva a ingresar su contraseña actual, revise la información y siga los requerimientos.",
+    "lblCurrentPassword": "Contraseña actual",
+    "lblCurrentPasswordError": "Ingrese la contraseña actual",
+    "lblCurrentPasswordInvalid": "La contraseña actual es inválida. La contraseña no puede ser cambiada.",
+    "lblSavePassword": "Guardar",
+    "lblSuccess": "Contraseña cambiada con éxito",
+    "passwordConfirmation": {
+      "lblConfirmPassword": "Confirmar contraseña nueva",
+      "lblPassword": "Contraseña nueva"
+    }
+  }
+}

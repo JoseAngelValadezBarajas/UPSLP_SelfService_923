@@ -1,0 +1,31 @@
+{
+  "lblApplications": "Applications",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Applications",
+  "lblNoResults": "There are no application forms available",
+  "savedApplicationsResources": {
+    "lblAcceptConfirmation": "Accept",
+    "lblCancelConfirmation": "Cancel",
+    "lblCreated": "Created:",
+    "lblLastModified": "Last Modified:",
+    "lblRemove": "Delete",
+    "lblRemoveConfirmation": "Are you sure you want to delete {0}? Deleting this saved application will remove it from your list.",
+    "lblSavedApplications": "Your Saved Applications",
+    "lblTitle": "Delete Saved Application"
+  },
+  "submittedApplicationsResources": {
+    "formatAdmitPeriod": "{0}/{1}/{2}",
+    "formatDecisionDate": "{0} {1}",
+    "formatPeriod": "{0}/{1}/{2}",
+    "formatProgramDegreeCurriculum": "{0} / {1} / {2}",
+    "formatStatusDate": "{0} {1}",
+    "lblAdmitPeriod": "Admit Period: ",
+    "lblCollege": "College: ",
+    "lblCollegeAttendance": "College Attendance: ",
+    "lblDecision": "Decision:",
+    "lblPeriod": "Period: ",
+    "lblReceiptDate": "Receipt Date: ",
+    "lblStatus": "Status:",
+    "lblSubmittedApplications": "Your Submitted Applications"
+  }
+}

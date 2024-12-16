@@ -1,0 +1,37 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "emitDecoratorMetadata": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": false,
+    "inlineSources": true,
+    "jsx": "react",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "wwwroot/js",
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ES6"
+  },
+  "include": [
+    "./ClientApp/**/*.tsx",
+    "./ClientApp/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "pcds",
+    "wwwroot"
+  ]
+}

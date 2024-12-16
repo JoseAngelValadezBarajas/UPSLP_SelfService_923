@@ -1,0 +1,33 @@
+{
+  "btnApplyDefaults": "Usar valores predefinidos",
+  "btnCancel": "Cancelar",
+  "btnCopy": "Copiar",
+  "btnCopyGradeMappings": "Copiar equivalencias",
+  "btnDelete": "Eliminar",
+  "btnDeleteAllMappings": "Eliminar todas las equivalencias",
+  "btnSave": "Guardar",
+  "gradeMappingsTable": {
+    "lblFinalMin": "% mínimo final",
+    "lblFinalMinPoints": "Puntos mínimos finales",
+    "lblGrade": "Calificación",
+    "lblGradeMappingRepeated": "Los valores de calificación deben ser únicos.",
+    "lblIncorrectAmount": " La calificación debe ser menor a la calificación anterior",
+    "lblInvalidAmount": "El monto es numérico y permite dos decimales",
+    "lblMidTermMin": "% mínimo parcial",
+    "lblMidTermMinPoints": "Puntos mínimos parciales"
+  },
+  "lblChooseSection": "Elija un curso para copiar las equivalencias de calificaciones. Las equivalencias para el curso actual se agregarán o reemplazarán con los valores del curso elegido.",
+  "lblCopyGradeMappings": "Copiar equivalencias",
+  "lblCourse": "Curso",
+  "lblDeleteGradeMappings": "¿Está seguro que desea eliminar todas las equivalencias de calificaciones? Esta acción los eliminará de su curso.",
+  "lblDescription": "Establecer los valores predefinidos de su institución para las equivalencias de calificaciones numéricas y calificaciones con letras. Para cada tipo de crédito, especifique los porcentajes de las calificaciones mínima parcial y mínima final necesarias para cada calificación con letra.",
+  "lblFinal": "Final",
+  "lblMidterm": "Parcial",
+  "lblNoCreditData": "No hay valores de calificación para este tipo de crédito.",
+  "lblNoResults": "Actualmente, no hay tipos de crédito para este curso.",
+  "lblPeriod": "Período",
+  "lblShowPoints": "Mostrar puntos",
+  "lblTitleConfirmationDialog": "Eliminar todas las equivalencias de calificaciones",
+  "lblToStartWorking": "Para empezar a trabajar, seleccione un curso",
+  "lblTotalPoints": "Puntos totales"
+}

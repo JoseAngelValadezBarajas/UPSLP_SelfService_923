@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "AdministrationId",
+    "Text": "Administración"
+  },
+  {
+    "Id": "AdmissionsId",
+    "Text": "Admisiones"
+  },
+  {
+    "Id": "AdvisingId",
+    "Text": "Asesoría"
+  },
+  {
+    "Id": "ClassesId",
+    "Text": "Clases"
+  },
+  {
+    "Id": "ContinuingEducationId",
+    "Text": "Educación continua"
+  },
+  {
+    "Id": "DepartmentId",
+    "Text": "Departamento"
+  },
+  {
+    "Id": "FinancesId",
+    "Text": "Finanzas"
+  },
+  {
+    "Id": "GradesId",
+    "Text": "Calificaciones"
+  },
+  {
+    "Id": "PlanningId",
+    "Text": "Planeación"
+  },
+  {
+    "Id": "RegistrationId",
+    "Text": "Inscripción"
+  },
+  {
+    "Id": "SearchId",
+    "Text": "Buscar"
+  },
+  {
+    "Id": "MakeGiftId",
+    "Text": "Hacer un donativo"
+  },
+  {
+    "Id": "SharedAccessId",
+    "Text": "Acceso compartido"
+  },
+  {
+    "Id": "ChecklistId",
+    "Text": "Lista de tareas"
+  }
+]

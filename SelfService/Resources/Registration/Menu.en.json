@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "CoursesId",
+    "Text": "Courses"
+  },
+  {
+    "Id": "AcademicPlanId",
+    "Text": "Academic Plan"
+  },
+  {
+    "Id": "ScheduleId",
+    "Text": "My Schedule"
+  },
+  {
+    "Id": "WhatIfId",
+    "Text": "What if?"
+  }
+]

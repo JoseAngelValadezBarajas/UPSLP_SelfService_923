@@ -1,0 +1,13 @@
+﻿@section Styles{
+    <link rel="stylesheet" href="~/css/FacultyCourseManagement.css" asp-append-version="true" />
+}
+<input id="hdnOption" type="hidden" value="@ViewBag.Option" />
+<input id="hdnSectionId" type="hidden" value="@ViewBag.SectionId" />
+<input id="hdnYear" type="hidden" value="@ViewBag.Year" />
+<input id="hdnTerm" type="hidden" value="@ViewBag.Term" />
+<input id="hdnSession" type="hidden" value="@ViewBag.Session" />
+<div id="root"></div>
+@section Scripts{
+    <script src="~/js/FacultyCourseManagement.js" asp-append-version="true"></script>
+    <script src="~/js/ClassesVendors.js" asp-append-version="true"></script>
+}

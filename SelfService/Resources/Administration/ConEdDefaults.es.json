@@ -1,0 +1,23 @@
+{
+  "lblApplicationDecision": "Decisión de solicitud de admisión",
+  "lblApplicationDecisionRequired": "Seleccionar una decisión de solicitud de admisión",
+  "lblApplicationStatus": "Estatus de la solicitud de admisión",
+  "lblApplicationStatusRequired": "Seleccionar un estatus de la solicitud de admisión",
+  "lblCancelButton": "Cancelar",
+  "lblCheckBoxText": "Usar los valores predefinidos para la inscripción de educación continua de alumnos con registros académicos inválidos.",
+  "lblClassLevel": "Nivel de clase",
+  "lblCollege": "Escuela",
+  "lblCreditLimits": "Límites de créditos",
+  "lblCurriculum": "Currículum",
+  "lblCurriculumRequired": "Seleccionar un currículum",
+  "lblDegree": "Grado",
+  "lblDegreeRequired": "Seleccionar un grado",
+  "lblDepartment": "Departamento",
+  "lblDropDownEmptyText": "Seleccionar...",
+  "lblLegend": "Seleccionar los valores predefinidos usados para los alumnos de educación continua.",
+  "lblNonTradProgram": "Programa no tradicional",
+  "lblPopulation": "Población",
+  "lblProgram": "Programa",
+  "lblProgramRequired": "Seleccionar un programa.",
+  "lblSaveButton": "Guardar"
+}

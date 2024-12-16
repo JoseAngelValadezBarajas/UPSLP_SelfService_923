@@ -1,0 +1,15 @@
+{
+  "btnClear": "Clear",
+  "btnSearch": "Search",
+  "btnSelect": "Select",
+  "formatResultsShowing": "{0}-{1} of {2}",
+  "lblFirstName": "First name",
+  "lblId": "ID",
+  "lblLastName": "Last name",
+  "lblLastNamePrefix": "Last name prefix",
+  "lblMiddleName": "Middle name",
+  "lblNoResults": "No results found",
+  "lblPerson": "Person",
+  "lblSearchCriteria": "Search Criteria",
+  "lblSpecifyParameters": "To start a search, type something on any search field"
+}

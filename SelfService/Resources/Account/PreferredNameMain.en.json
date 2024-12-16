@@ -1,0 +1,18 @@
+{
+  "btnCancel": "Cancel",
+  "btnCancelUpdate": "Cancel update",
+  "btnSave": "Save",
+  "lblCurrent": "Current",
+  "lblDisplayName": "Display name",
+  "lblDisplayNameRequired": "Display name",
+  "lblDropDownEmptyText": "Select...",
+  "lblEdit": "Edit",
+  "lblGenderIdentity": "Gender identity",
+  "lblGenderIdentityRequired": " Select a gender identity",
+  "lblNoPreferredName": "No preferred name information is available.",
+  "lblPreferredName": "Preferred name",
+  "lblPronoun": "Pronoun",
+  "lblPronounRequired": "Select a pronoun",
+  "lblUpdated": "Updated",
+  "lblUpdatedPending": "Pending"
+}

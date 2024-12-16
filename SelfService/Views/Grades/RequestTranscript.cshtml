@@ -1,0 +1,22 @@
+@using SelfService.Models.Payment;
+@inject Hedtech.PowerCampus.Core.Interfaces.Helpers.ISerializationHelper SerializationHelper
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/RequestTranscript.css" asp-append-version="true" />
+}
+<div id="root"></div>
+@{
+    if (ViewBag.PaymentTransaction != null)
+    {
+        PaymentTransactionViewModel paymentTransaction = SerializationHelper.ToObject<PaymentTransactionViewModel>((string)ViewBag.PaymentTransaction);
+        <input id="hdnTransactionId" type="hidden" value="@paymentTransaction.TransactionId" />
+        <input id="hdnTransactionStatus" type="hidden" value="@paymentTransaction.Status" />
+        <input id="hdnTransactionAmount" type="hidden" value="@paymentTransaction.Amount" />
+        <input id="hdnTransactionDescription" type="hidden" value="@paymentTransaction.Description" />
+        <input id="hdnTransactionAuthorizationNumber" type="hidden" value="@paymentTransaction.AuthorizationNumber" />
+    }
+}
+@section Scripts{
+    <script src="~/js/RequestTranscript.js" asp-append-version="true"></script>
+    <script src="~/js/GradesVendors.js" asp-append-version="true"></script>
+}

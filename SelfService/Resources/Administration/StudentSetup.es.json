@@ -1,0 +1,18 @@
+{
+  "lblEmptyState": "No tiene ninguna opción asignada.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "studentSetupTabs": {
+    "lblAgreements": "Acuerdos",
+    "lblBlockRegistration": "Inscripción por bloque",
+    "lblFinancialSettings": "Ajustes financieros",
+    "lblGradeMappings": "Equivalencias de calificaciones",
+    "lblRegistrationGroups": "Grupos de inscripción",
+    "lblSettings1098T": "1098-T",
+    "lblSharedAccess": "Acceso compartido",
+    "lblStudentRecords": "Registros del alumno",
+    "lblTraditionalDefaults": "Valores predefinidos de inscripción tradicional",
+    "lblTraditionalRegistration": "Inscripción tradicional",
+    "lblTranscriptRequest": "Solicitud de historial académico"
+  }
+}

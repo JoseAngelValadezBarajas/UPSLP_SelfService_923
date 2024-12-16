@@ -1,0 +1,23 @@
+{
+  "formatSelectStudent": "Seleccionar a {0}",
+  "formatTotalStudents": "Totales - Alumnos: {0}",
+  "lblAttendanceDetail": "Asistencia",
+  "lblAttemptsDetail": "Intentos",
+  "lblClassLevelDetail": "Nivel de clase",
+  "lblCreditsDetail": "Créditos",
+  "lblCreditTypeDetail": "Tipo de crédito",
+  "lblCurriculumDetail": "Currículum",
+  "lblDateAddedDetail": "Fecha en la que se agregó",
+  "lblEmailButton": "Enviar correo",
+  "lblIdDetail": "ID",
+  "lblNameDetail": "Alumno",
+  "lblNoResults": "No hay alumnos en la lista de espera",
+  "lblNotEnoughSeats": "El número de lugares disponibles es {0}. No hay lugares suficientes disponibles para su selección. Intentar de nuevo más tarde o contactar a la oficina de inscripciones.",
+  "lblPending": "Pendiente",
+  "lblRankDetail": "Rango",
+  "lblSaveButton": "Guardar",
+  "lblStatusDetail": "Estatus",
+  "lblUpdateSuccessful": "Registros procesados exitosamente.",
+  "lblWaiting": "En espera",
+  "lblWithdrawn": "Dado de baja"
+}

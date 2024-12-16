@@ -1,0 +1,10 @@
+{
+  "lblMoveToLeft": "Mover a la izquierda",
+  "lblMoveToRight": "Mover a la derecha",
+  "dashboardMessageCard": {
+    "formatCardOfTotal": "{0} de {1}"
+  },
+  "dashboardMessagesPanel": {
+    "lblMessages": "Mensajes"
+  }
+}

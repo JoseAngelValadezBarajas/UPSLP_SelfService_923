@@ -1,0 +1,34 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>TypeScript resolver</Title>
+    <Author>Ellucian</Author>
+    <Shortcut>resolve</Shortcut>
+    <Description>Code snippet for TypeScript resolver</Description>
+    <SnippetTypes>
+      <SnippetType>Coding</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>name</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[private resolve$name$ = (json: string): void => {
+      try {
+        const result: IJsonResult | undefined 
+          = Resolver(json, this.resolve$name$.name, this.hideAllLoaders);
+        if (result?.status) {
+            console.log(result.data);
+        }
+    }
+    catch (e) {
+        this.logError(LogData.fromException(this.resolve$name$.name, e));
+    }
+};]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,68 @@
+{
+  "balanceByChargesCredits": {
+    "lblAnticipatedFinancialAidHeader": "Anticipated Financial Aid",
+    "lblChargesHeader": "Charges",
+    "lblCreditsHeader": "Credits",
+    "lblNoAnticipatedFinancialAid": "No financial anticipated aid records exist for the selected period.",
+    "lblNoCharges": "No charges records exist for the selected period.",
+    "lblNoCredits": "No credits records exist for the selected period."
+  },
+  "balanceBySummary": {
+    "lblAmount": "Amount",
+    "lblSummaryType": "Summary Type"
+  },
+  "balanceBySummaryType": {
+    "lblDetailsNotAvailable": "Balance details are not available for the summary type."
+  },
+  "balanceDetailTable": {
+    "lblAmount": "Amount",
+    "lblDate": "Date",
+    "lblDescription": "Description",
+    "lblDueDate": "Due Date",
+    "lblEstimatedLateFee": "Estimated Late Fee",
+    "lblPeriod": "Period",
+    "lblType": "Type",
+    "lblTypeChargeDesc": "Charge",
+    "lblTypeCreditDesc": "Credit",
+    "lblTypeFinAidDesc": "Financial Aid",
+    "lblTypeReceiptDesc": "Cash Receipt"
+  },
+  "balanceFooter": {
+    "formatPeriodSession": "Period/Session {0}",
+    "lblAnticipatedBalance": "Anticipated Balance:",
+    "lblAnticipatedFinancialAid": "* Anticipated Financial Aid:",
+    "lblBalance": "Balance:",
+    "lblBalanceDue": "Balance Due:",
+    "lblChargesHeader": "Charges",
+    "lblNotes": "* NOTE: Anticipated financial aid is not considered definite until all requirements have been met. You are ultimately responsible for the balance shown if you do not fulfill the requirements for financial aid.",
+    "lblOtherPeriodsSessions": "From other periods/sessions",
+    "lblSummaryTotal": "Summary Total:",
+    "lblTotal": "Total:"
+  },
+  "balanceHeader": {
+    "formatHeader": "Balance {0}",
+    "lblInstructions": "Here is your Account History for the selected Period.",
+    "lblInstructionsSummary": "Here is a summary of your account balance for the selected Period.",
+    "lblTotal": "Total"
+  },
+  "balanceOptions": {
+    "btnMakePayment": "Make a payment",
+    "lblMakePayment": "Make a payment",
+    "lblOptions": "Options",
+    "lblPaymentAmount": "Amount",
+    "lblPaymentAmountInvalid": "Amount is numeric, greater than zero and allows two decimals",
+    "lblPaymentAmountRequired": "Enter an amount",
+    "lblPaymentPeriod": "Payment period",
+    "lblPaymentPeriodRequired": "Select a payment period",
+    "lblPeriod": "Period",
+    "lblView": "View"
+  },
+  "lblAll": "All",
+  "lblHeaderTitle": "",
+  "lblNoBalance": "There is no balance information available",
+  "lblNoBalanceForPeriod": "Balance data is not available for the selected Period. Check back later.",
+  "lblOptionByCharges": "Detail by Charges / Credits",
+  "lblOptionBySummary": "Balance Summary",
+  "lblOptionBySummaryType": "Detail by Summary Type",
+  "lblPageTitle": ""
+}

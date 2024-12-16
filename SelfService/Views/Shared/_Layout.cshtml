@@ -1,0 +1,46 @@
+@inject SelfService.Helpers.Interfaces.ISiteConfigurationHelper SiteConfigurationHelper
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="dynamic-theme" name="theme-color" content="" />
+    <link id="dynamic-favicon" rel="icon" href="~/favicon.gif" />
+    <link href="https://cdn.elluciancloud.com/assets/EDS2/5.5.0/fonts/fonts.css" rel="stylesheet">
+
+    <title>Self-Service</title>
+    <link rel="stylesheet" href="~/css/static/Site.css" asp-append-version="true" />
+    @RenderSection("styles", required: false)
+</head>
+<body>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+
+    @RenderBody()
+    @{
+        string baseAddress = Url.Content("~");
+        if (baseAddress.EndsWith("/"))
+        {
+            if (baseAddress.Length > 1)
+            {
+                baseAddress = baseAddress.Substring(0, baseAddress.Length - 2);
+            }
+            else
+            {
+                baseAddress = string.Empty;
+            }
+        }
+    }
+    <input id="hdnBaseAddress" type="hidden" value="@baseAddress" />
+    @if (Context.Items[Constants._currentLinkIdSession] != null)
+    {
+        <input id="hdnCurrentPage" type="hidden" value="@Context.Items[Constants._currentLinkIdSession]" />
+    }
+    <input id="siteConfigurationMissing" type="hidden" value="@(SiteConfigurationHelper.IsConfigurationMissing ? "true" : "false")" />
+
+    <script src="~/js/static/Site.js" asp-append-version="true"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "btnAdd": "Agregar",
+  "btnSave": "Guardar",
+  "lblCashReceiptCode": "Código del recibo de caja",
+  "lblCashReceiptCodeRequired": "Ingresar el código del recibo de caja",
+  "lblCashReceiptOffice": "Oficina",
+  "lblCashReceiptOfficeRequired": "Ingresar una oficina",
+  "lblDisplayDueDate": "Fecha de vencimiento",
+  "lblDisplayOptions": "Mostrar opciones",
+  "lblDisplayOverallBalance": "Saldo total",
+  "lblDisplayWashout": "Transacciones de compensación",
+  "lblEnableOnlinePayment": "Pago en línea",
+  "lblEnableOnlinePaymentInvalid": "Se requiere la URL del proveedor de pago",
+  "lblFinancialAid": "Ayuda financiera",
+  "lblFinancialSettings": "Ajustes financieros",
+  "lblFinancialSettingsLegend": "Especificar qué información financiera se mostrará.",
+  "lblIncludeAnticipatedAid": "Incluir ayuda anticipada",
+  "lblOnlinePayment": "Pago en línea",
+  "lblPaymentPeriod": "Período de pago",
+  "lblPaymentPeriodEmpty": "Ingresar un período de pago",
+  "lblPaymentPeriodsSelected": "Períodos de pago seleccionados",
+  "lblUnmetNeed": "Necesidad no cubierta"
+}

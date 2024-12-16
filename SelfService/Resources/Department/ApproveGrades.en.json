@@ -1,0 +1,10 @@
+{
+  "formatCreditType": "Type: {0} | Credit type: {1}",
+  "formatSectionSubtype": "Subtype: {0} | Section: {1}",
+  "lblCourse": "Course",
+  "lblHeaderTitle": "",
+  "lblNoCourse": "To start working, select a course",
+  "lblNoOptions": "There are no periods available",
+  "lblPageTitle": "",
+  "lblPeriod": "Period"
+}

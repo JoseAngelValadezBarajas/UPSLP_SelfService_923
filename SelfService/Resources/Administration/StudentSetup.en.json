@@ -1,0 +1,18 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "studentSetupTabs": {
+    "lblAgreements": "Agreements",
+    "lblBlockRegistration": "Block Registration",
+    "lblFinancialSettings": "Financial Settings",
+    "lblGradeMappings": "Grade Mappings",
+    "lblRegistrationGroups": "Registration Groups",
+    "lblSettings1098T": "1098-T",
+    "lblSharedAccess": "Shared Access",
+    "lblStudentRecords": "Student Records",
+    "lblTraditionalDefaults": "Traditional Defaults",
+    "lblTraditionalRegistration": "Traditional Registration",
+    "lblTranscriptRequest": "Transcript Request"
+  }
+}

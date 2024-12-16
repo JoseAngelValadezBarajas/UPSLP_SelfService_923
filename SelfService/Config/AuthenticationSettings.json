@@ -1,0 +1,46 @@
+{
+  "AuthenticationSettings": {
+    "ActiveDirectory": {
+      "Stores": [
+        {
+          "Name": "ActiveDirectory",
+          "Server": "localhost",
+          "Container": "container",
+          "User": "user",
+          "Password": "password"
+        }
+      ]
+    },
+    "ADFS": {
+      "Stores": [
+        {
+          "Name": "ADFS",
+          "MetadataAddress": "https://localhost/FederationMetadata/2007-06/FederationMetadata.xml",
+          "WtRealm": "https://localhost/",
+          "UserNameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
+        }
+      ]
+    },
+    "Login": {
+      "EnablePortalSSO": "false",
+      "PortalSSOWhiteList": "",
+      "UserNameMask": "{0}",
+      "UseMaskFirst": "false"
+    },
+    "SAML": {
+      "Stores": [
+        {
+          "Name": "SAML",
+          "IdPMetadata": "App_Data\\ethos_metadata.xml",
+          "Issuer": "SelfService",
+          "SignatureAlgorithm": "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256",
+          "SigningCertificateFile": "App_Data\\certs\\saml-sp.pfx",
+          "SigningCertificatePassword": "test1234",
+          "SignatureValidationCertificateFile": "App_Data\\certs\\wso2carbon.cer",
+          "CertificateValidationMode": "ChainTrust",
+          "RevocationMode": "NoCheck"
+        }
+      ]
+    }
+  }
+}

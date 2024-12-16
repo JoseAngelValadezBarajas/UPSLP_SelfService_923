@@ -1,0 +1,28 @@
+{
+  "btnCancel": "Cancelar",
+  "btnDelete": "Eliminar",
+  "btnEdit": "Editar",
+  "btnSave": "Guardar",
+  "btnSearch": "Agregar",
+  "deleteDepartmentHeadConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro que desea eliminar {0}? Al eliminar al jefe de departamento ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar jefe de departamento"
+  },
+  "lblActions": "Acciones",
+  "lblDepartment": "Departamento",
+  "lblDepartmentHead": "Jefe de departamento",
+  "lblDepartmentHeadTitle": "Asignar los jefes de departamento de la institución.",
+  "lblDepartmentRequired": "Seleccionar un departamento",
+  "lblDuplicatedDepartmentHead": "El departamento está duplicado. Ingresar un departamento único.",
+  "lblNoDepartmentHeads": "Para iniciar, agregar un jefe de departamento",
+  "peopleSearchAssignModalExtra": {
+    "lblDuplicatedOption": "El departamento está duplicado. Ingresar un departamento único.",
+    "lblModalTitle": "Agregar jefe de departamento",
+    "lblOption": "Departamento",
+    "lblRequiredOption": "Seleccionar un departamento",
+    "lblStepInstructions": "Como jefe de departamento de:",
+    "lblStepTitle": "Seleccionar departamento"
+  }
+}

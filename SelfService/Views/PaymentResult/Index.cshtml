@@ -1,0 +1,52 @@
+@model SelfService.Models.Resources.PaymentResources
+
+@using SelfService.Models.Payment;
+@inject Hedtech.PowerCampus.Core.Interfaces.Helpers.ISerializationHelper SerializationHelper
+
+<link rel="stylesheet" href="~/css/PaymentResult.css" asp-append-version="true" />
+
+@{
+    if (ViewBag.PaymentTransaction != null && Model != null)
+    {
+        PaymentTransactionViewModel paymentTransaction = SerializationHelper.ToObject<PaymentTransactionViewModel>((string)ViewBag.PaymentTransaction);
+        if (paymentTransaction.Status == 1)
+        {
+            <h2>@Model.LblSuccessTitle</h2>
+            <div class="SuccessfulPaymentModal">
+                <p>@Model.LblTitleDetails </p>
+                <hr />
+                <div class="container">
+                    <div class="item">
+                        <p class="label">@Model.LblAmount</p>
+                    </div>
+                    <div class="item">
+                        <p>@paymentTransaction.Amount</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">
+                        <p class="label">@Model.LblDescription</p>
+                    </div>
+                    <div class="item">
+                        <p>@paymentTransaction.Description</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="item">
+                        <p class="label">@Model.LblAuthorizationCode</p>
+                    </div>
+                    <div class="item">
+                        <p>@paymentTransaction.AuthorizationNumber</p>
+                    </div>
+                </div>
+            </div>
+        }
+        else if (paymentTransaction.Status == 0)
+        {
+            <h2>@Model.LblFailTitle</h2>
+            <div class="FailPaymentModal">
+                <p>@Model.LblContentText </p>
+            </div>
+        }
+    }
+}

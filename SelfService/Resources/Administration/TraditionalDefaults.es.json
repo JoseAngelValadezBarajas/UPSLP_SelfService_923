@@ -1,0 +1,18 @@
+{
+  "lblCancelButton": "Cancelar",
+  "lblCheckBoxText": "Usar los valores predefinidos para la inscripción tradicional de alumnos con registros académicos inválidos.",
+  "lblClassLevel": "Nivel de clase (opcional)",
+  "lblCollege": "Escuela (opcional)",
+  "lblCreditLimits": "Límites de créditos",
+  "lblCurriculum": "Currículum",
+  "lblCurriculumRequired": "Se requiere el currículum",
+  "lblDegree": "Grado",
+  "lblDegreeRequired": "Se requiere el grado",
+  "lblDepartment": "Departamento (opcional)",
+  "lblDropDownEmptyText": "Seleccionar...",
+  "lblLegend": "Seleccionar los valores predefinidos usados para la inscripción tradicional de alumnos. Estos valores predefinidos se usarán solo para nuevos alumnos, alumnos graduados o cuando no tengan registros académicos activos.",
+  "lblPopulation": "Población (opcional)",
+  "lblProgram": "Programa",
+  "lblProgramRequired": "Se requiere el programa.",
+  "lblSaveButton": "Guardar"
+}

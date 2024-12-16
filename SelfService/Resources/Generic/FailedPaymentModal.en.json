@@ -1,0 +1,9 @@
+{
+  "btnGoBalance": "View balance",
+  "btnOk": "Ok",
+  "btnTryAgain": "Try again",
+  "lblContentText": "Payment failed. View balance and try again or contact the system administrator.",
+  "lblContentTextApplication": "Payment failed. The application will not be processed. Try again or contact the system administrator.",
+  "lblContentTextOnlineDonation": "Payment failed. For more information, contact the system administrator.",
+  "lblTitle": "Payment process failed"
+}

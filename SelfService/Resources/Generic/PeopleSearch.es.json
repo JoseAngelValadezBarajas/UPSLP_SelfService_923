@@ -1,0 +1,15 @@
+{
+  "btnClear": "Limpiar",
+  "btnSearch": "Buscar",
+  "btnSelect": "Seleccionar",
+  "formatResultsShowing": "{0}-{1} de {2}",
+  "lblFirstName": "Nombre",
+  "lblId": "ID",
+  "lblLastName": "Apellido",
+  "lblLastNamePrefix": "Prefijo del apellido",
+  "lblMiddleName": "Segundo nombre",
+  "lblNoResults": "No se encontraron resultados",
+  "lblPerson": "Persona",
+  "lblSearchCriteria": "Criterios de búsqueda",
+  "lblSpecifyParameters": "Para iniciar una búsqueda, escribir algo en cualquier campo de búsqueda"
+}

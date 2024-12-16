@@ -1,0 +1,25 @@
+{
+  "lblEmptyState": "There are no campaigns available",
+  "lblInstructions": "Specify the institution's campaigns to which the general public can contribute.",
+  "lblWarningUrl": "There is no payment provider url for donations. To enable contributions go to Administration / Website Setup / Payment Provider",
+  "campaignsTable": {
+    "btnAdd": "Add",
+    "lblEmptyCampaigns": "To start working, add a campaign",
+    "lblName": "Name",
+    "lblRemove": "Remove"
+  },
+  "addCampaign": {
+    "btnAdd": "Add",
+    "btnCancel": "Cancel",
+    "lblAddCampaign": "Add Campaign",
+    "lblCampaign": "Campaign",
+    "lblSelectCampaign": "Select a campaign",
+    "lblUniqueCampaign": "Enter a unique campaign"
+  },
+  "deleteCampaignConfirmation": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete {0}? Deleting this campaign will remove it from your list.",
+    "lblTitle": "Delete Campaign"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "formatSelectStudent": "Select {0}",
+  "formatTotalStudents": "Totals - Students: {0}",
+  "lblAttendanceDetail": "Attendance",
+  "lblAttemptsDetail": "Attempts",
+  "lblClassLevelDetail": "Class Level",
+  "lblCreditsDetail": "Credits",
+  "lblCreditTypeDetail": "Credit Type",
+  "lblCurriculumDetail": "Curriculum",
+  "lblDateAddedDetail": "Date Added",
+  "lblEmailButton": "E-mail selected",
+  "lblIdDetail": "ID",
+  "lblNameDetail": "Student",
+  "lblNoResults": "There are no students on waitlist",
+  "lblNotEnoughSeats": "The number of seats available is {0}. There are not enough seats available for your selection(s). Please try again later or contact the registrar.",
+  "lblPending": "Pending",
+  "lblRankDetail": "Rank",
+  "lblSaveButton": "Save",
+  "lblStatusDetail": "Status",
+  "lblUpdateSuccessful": "Records were processed successfully.",
+  "lblWaiting": "Waiting",
+  "lblWithdrawn": "Withdrawn"
+}

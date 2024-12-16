@@ -1,0 +1,11 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "generalSetupTabs": {
+    "lblChecklist": "Checklist",
+    "lblDashboardMessages": "Dashboard Messages",
+    "lblDossier": "Dossier",
+    "lblPeriodFilters": "Period Filters"
+  }
+}

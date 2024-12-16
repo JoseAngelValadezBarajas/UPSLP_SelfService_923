@@ -1,0 +1,23 @@
+{
+  "btnAdd": "Add",
+  "btnSave": "Save",
+  "lblCashReceiptCode": "Cash receipt code",
+  "lblCashReceiptCodeRequired": "Enter a cash receipt code",
+  "lblCashReceiptOffice": "Office",
+  "lblCashReceiptOfficeRequired": "Enter an office",
+  "lblDisplayDueDate": "Due date",
+  "lblDisplayOptions": "Display options",
+  "lblDisplayOverallBalance": "Overall balance",
+  "lblDisplayWashout": "Washout transactions",
+  "lblEnableOnlinePayment": "Online payment",
+  "lblEnableOnlinePaymentInvalid": "Payment vendor URL is required",
+  "lblFinancialAid": "Financial aid",
+  "lblFinancialSettings": "Financial settings",
+  "lblFinancialSettingsLegend": "Specify which financial information is to be displayed.",
+  "lblIncludeAnticipatedAid": "Include anticipated aid",
+  "lblOnlinePayment": "Online payment",
+  "lblPaymentPeriod": "Payment period",
+  "lblPaymentPeriodEmpty": "Enter a payment period",
+  "lblPaymentPeriodsSelected": "Payment periods selected",
+  "lblUnmetNeed": "Unmet need"
+}

@@ -1,0 +1,12 @@
+{
+  "btnCancel": "Cancelar",
+  "btnContinue": "Continuar",
+  "formatConfirmationMessage": "Para continuar con el proceso de confirmación, {0} cerrará su sesión.",
+  "formatDefaultMessage": "Para continuar, {0} cerrará la sesión y vuelva a intentarlo.",
+  "formatRecoveryMessage": "Para continuar con el proceso de recuperación de la contraseña, {0} cerrará su sesión.",
+  "lblConfirmationMessageSameUser": "Para continuar con el proceso de confirmación, se cerrará su sesión.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Cerrar sesión",
+  "lblRecoveryMessageSameUser": "Para continuar con el proceso de recuperación de la contraseña, se cerrará la sesión.",
+  "lblSignOut": "Cerrar sesión"
+}

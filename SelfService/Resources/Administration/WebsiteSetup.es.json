@@ -1,0 +1,18 @@
+{
+  "lblEmptyState": "No tiene ninguna opción asignada.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "websiteSetupTabs": {
+    "lblEmailProvider": "Proveedor de correo electrónico",
+    "lblGlobalSettings": "Formatos de sistema",
+    "lblNameFormatCategories": "Categorías del formato de nombre",
+    "lblNameFormats": "Formatos de nombre",
+    "lblPaymentProvider": "Proveedor de pagos",
+    "lblPermissionStore": "Almacén de permisos",
+    "lblReCaptcha": "reCAPTCHA",
+    "lblCourseMaterials": "Materiales de curso",
+    "lblSiteSettings": "Configuración del sitio",
+    "lblSystemInformation": "Información del sistema",
+    "lblTheme": "Editor de tema"
+  }
+}

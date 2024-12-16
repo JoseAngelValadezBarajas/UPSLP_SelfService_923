@@ -1,0 +1,33 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Ney interface</Title>
+    <Author>Ellucian</Author>
+    <Shortcut>newInterface</Shortcut>
+    <Description>Code snippet for a new interface</Description>
+    <SnippetTypes>
+      <SnippetType>React Components</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>year</ID>
+        <ToolTip>Year</ToolTip>
+        <Default>year</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[/* Copyright $year$ Ellucian Company L.P. and its affiliates.
+ * File: I$name$.ts */
+
+export interface I$name$ {
+    propName: string;
+}]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

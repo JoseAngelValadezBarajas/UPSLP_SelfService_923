@@ -1,0 +1,35 @@
+﻿@model SelfService.Models.Advisees.AdviseeDownloadViewModel
+<table class="">
+    <tr>
+        <th>
+            @Html.Label(Model.Resources.LblFullname)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPendingSchedule)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblStoplist)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPeopleId)
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Advisees)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasPendingSchedules)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasStoplist)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeopleId)
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,11 @@
+{
+  "btnSave": "Save",
+  "lblErrorUrl": "Enter a URL",
+  "lblErrorTextToDisplay": "Enter text to display if a URL is entered",
+  "lblInstructions": "Enter the URL to redirect to the course materials for each section. The link display for the sections if the period is enabled in the Course Materials period filter.",
+  "lblMoreInformation": "More information",
+  "lblUrl": "URL",
+  "lblSaved":  "Saved successfully",
+  "lblTextToDisplay": "Text to display",
+  "lblTextToDisplayInfo": "Text to display is required if a URL is entered"
+}

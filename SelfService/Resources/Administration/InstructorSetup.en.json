@@ -1,0 +1,13 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "instructorSetupTabs": {
+    "lblAdvisorWarnings": "Advisor Warnings",
+    "lblAssociationHead": "Associations",
+    "lblCampusCoordinator": "Campus Coordinators",
+    "lblDepartmentHead": "Department Heads",
+    "lblFacultyPages": "Course Management",
+    "lblOffices": "Offices"
+  }
+}

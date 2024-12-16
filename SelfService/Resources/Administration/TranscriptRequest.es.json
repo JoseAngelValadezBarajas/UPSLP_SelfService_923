@@ -1,0 +1,22 @@
+{
+  "btnSave": "Guardar",
+  "lblCashReceiptCode": "Código del recibo de caja",
+  "lblCashReceiptCodeRequired": "Seleccionar el código del recibo de caja",
+  "lblCashReceiptOffice": "Oficina",
+  "lblCashReceiptOfficeRequired": "Seleccionar una oficina",
+  "lblChargeCreditCode": "Código de cargo abono",
+  "lblChargeCreditCodeRequired": "Seleccionar un código de cargo abono",
+  "lblDisclosureStatement": "Declaración de conformidad",
+  "lblEnableOnlinePayment": "Pago en línea",
+  "lblEnableOnlinePaymentInvalid": "La URL del proveedor de pago es requerida",
+  "lblEnableProcessingFee": "Cuota del trámite",
+  "lblFeeAmount": "Monto de cuota",
+  "lblFeeAmountRequired": "Ingresar un monto de cuota",
+  "lblHtmlAccepts": "Este campo acepta HTML. Usar enlaces con el atributo target=\"_blank\" para abrir la url en otra pestaña.",
+  "lblOnlinePayment": "Pago",
+  "lblPaymentAmountInvalid": "El monto es numérico, mayor a cero y permite dos decimales",
+  "lblPaymentAmountRequired": "Se requiere el monto",
+  "lblRequireConsent": "Requerir consentimiento",
+  "lblRequireOnlinePayment": "Requerir pago en línea",
+  "lblTranscriptOptions": "Opciones"
+}

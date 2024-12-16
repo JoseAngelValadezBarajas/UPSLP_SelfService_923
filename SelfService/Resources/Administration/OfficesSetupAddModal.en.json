@@ -1,0 +1,20 @@
+{
+  "btnBack": "Back",
+  "btnFinish": "Finish",
+  "btnNext": "Next",
+  "formatOfficeCanEditTasks": "The {0} office can edit the tasks",
+  "formatOfficeCanViewNotes": "The {0} office can view the notes",
+  "lblAssign": "Assign",
+  "lblEditTasks": "Edit tasks",
+  "lblId": "ID:",
+  "lblModalTitle": "Add Staff Member",
+  "lblName": "Name:",
+  "lblOffice": "Office",
+  "lblOption": "Offices",
+  "lblRequiredOption": "Select an office",
+  "lblSearchPerson": "Search person",
+  "lblStepAssignOffice": "Assign office",
+  "lblStepInstructions": "To the following offices:",
+  "lblStepSetPermissions": "Set permissions",
+  "lblViewNotes": "View notes"
+}

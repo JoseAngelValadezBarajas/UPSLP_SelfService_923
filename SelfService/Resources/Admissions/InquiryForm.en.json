@@ -1,0 +1,47 @@
+{
+  "formatDateOutOfRange": "Date range is {0} - {1}",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Inquire",
+  "addressSearchModal": {
+    "btnClear": "Clear",
+    "btnSearch": "Search",
+    "lblCity": "City",
+    "lblClear": "Clear",
+    "lblCountry": "Country",
+    "lblCounty": "County",
+    "lblNoResults": "No Results Available",
+    "lblSearch": "Search",
+    "lblState": "State",
+    "lblTitle": "Search",
+    "lblZipCode": "Postal Code"
+  },
+  "applicationHandler": {
+    "btnDelete": "Delete",
+    "formatCompleteStep": "Complete the required fields in step {0}: {1}",
+    "lblAddNew": "Add New",
+    "lblBack": "Back",
+    "lblNew": "New...",
+    "lblNext": "Next",
+    "lblNotAvailable": "The Inquiry form is not available at this time. Please check back later.",
+    "lblPrimary": "(Primary)",
+    "lblReCaptchaRequired": "Check the reCaptcha checkbox",
+    "lblSearch": "Search",
+    "lblSelect": "Select...",
+    "lblSubmit": "Submit"
+  },
+  "etsSearchModal": {
+    "btnClear": "Clear",
+    "btnSearch": "Search",
+    "lblCity": "City",
+    "lblClear": "Clear",
+    "lblCountry": "Country",
+    "lblEmptyOptionCountry": "Select...",
+    "lblEmptyOptionState": "Select...",
+    "lblETSCode": "ETS Code",
+    "lblFICECode": "FICE Code",
+    "lblInstitutionName": "Institution Name",
+    "lblSearch": "Search",
+    "lblState": "State",
+    "lblTitle": "Search"
+  }
+}

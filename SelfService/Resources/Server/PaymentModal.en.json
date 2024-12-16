@@ -1,0 +1,9 @@
+{
+  "lblAmount": "Amount",
+  "lblAuthorizationCode": "Authorization code",
+  "lblContentText": "Payment failed. Try again.",
+  "lblDescription": "Description",
+  "lblFailTitle": "Payment process failed", 
+  "lblSuccessTitle": "Payment has been processed",
+  "lblTitleDetails": "Details"
+}

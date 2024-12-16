@@ -1,0 +1,15 @@
+{
+  "btnMoreInformation": "More information",
+  "btnSave": "Save",
+  "lblAttendance": "Attendance",
+  "lblAttendanceError": "Select one attendance option",
+  "lblCourseManagement": "Course Management",
+  "lblDescription": "Specify the settings for the faculty pages",
+  "lblEnableActivityGradeComments": "Activity grade comments",
+  "lblEnableProjectedGrade": "Projected grade",
+  "lblInstructorChangeOfWaitlist": "Instructor can change traditional waitlist status",
+  "lblInformationAttendance": "These settings will affect both course management and attendance report.",
+  "lblMidtermGrades": "Midterm grades",
+  "lblShowDailyAttendance": "Show daily attendance",
+  "lblShowOverallAttendance": "Show overall attendance"
+}

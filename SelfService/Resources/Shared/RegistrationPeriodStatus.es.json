@@ -1,0 +1,19 @@
+{
+  "periodLongStatus": {
+    "formatPeriodEnded": "El período de inscripción ha terminado{0}.",
+    "formatPeriodNotOpen": "El período de inscripción no ha iniciado{0}.",
+    "formatPeriodNotOpenAuthNeeded": "El período de inscripción no ha iniciado{0} y se requiere la autorización de su asesor para inscribirse.",
+    "lblAdvisorAuthNeeded": "Se requiere la autorización de su asesor para inscribirse.",
+    "lblNoAdvisorAssigned": "No se ha asignado asesor.",
+    "lblNoRegGroupFound": "No puede inscribirse a este período en este momento. Intentar otro período o volver más tarde.",
+    "lblOnlySearch": "No puede inscribirse a este período en este momento. Intentar otro período o volver más tarde."
+  },
+  "periodShortStatus": {
+    "formatPeriodEnded": "Ha terminado{0}",
+    "formatPeriodNotOpen": "No ha iniciado{0}",
+    "formatPeriodNotOpenAuthNeeded": "Requiere autorización",
+    "lblAdvisorAuthNeeded": "Requiere autorización",
+    "lblNoAdvisorAssigned": "Sin asesor asignado",
+    "lblNoRegGroupFound": "No es posible inscribirse"
+  }
+}

@@ -1,0 +1,62 @@
+﻿@model SelfService.Models.Section.SectionStatisticsDownloadViewModel
+
+<table class="">
+    <tr>
+        <th>
+            @Html.Label(Model.Resources.LblPeriod)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPercentIncluded)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblAverageScore)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblHighScore)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblLowScore)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblStandardDeviation)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblVariance)
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Statistic)
+    {
+        <tr>
+            <td>
+                @if (item.IsMidterm)
+                {
+                    @Html.DisplayFor(modelItem => Model.Resources.LblMidTerm)
+                }
+                else
+                {
+                    @Html.DisplayFor(modelItem => Model.Resources.LblFinal)
+                }
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.PercentIncluded)
+                @Html.Label(Model.Resources.LblPercentage)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.AverageScore)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.HighScore)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.LowScore)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.StandardDeviation)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.Variance)
+            </td>
+        </tr>
+    }
+</table>

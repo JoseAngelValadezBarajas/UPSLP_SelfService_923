@@ -1,0 +1,15 @@
+{
+  "formatFieldVisible": "The field {0} is visible",
+  "lblAllowChangeGender": "Allow change",
+  "lblAllVisible": "All visible",
+  "lblApprovalRequired": "Require approval",
+  "lblField": "Field",
+  "lblFormSettings": "Form settings",
+  "lblGenderIdentity": "Gender identity",
+  "lblGenderIdentityInformation": "Request handling",
+  "lblLegend": "Specify preferred name information to be displayed in the user's profile.",
+  "lblPreferredName": "Preferred name",
+  "lblPronoun": "Pronoun",
+  "lblSave": "Save",
+  "lblVisible": "Visible"
+}

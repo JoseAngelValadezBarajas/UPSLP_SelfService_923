@@ -1,0 +1,7 @@
+log normal %4
+criteria CRC
+load %1 %2
+expand all
+select right.diff.files right.orphan.files
+copyto right path:relative %3
+folder-report layout:summary options:display-mismatches,column-none output-to:%5 

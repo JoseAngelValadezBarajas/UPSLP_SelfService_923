@@ -1,0 +1,53 @@
+﻿@model SelfService.Models.Section.SectionAttendanceDailyDownloadViewModel
+@{int i = 0;}
+
+<table class="">
+    <tr>
+        <th align="left">
+            @Html.Label(Model.Resources.LblName)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPeopleId)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblWithdrawn)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblEmail)
+        </th>
+        @foreach (var d in Model.Students[i].MeetingAttendances)
+        {
+            <th>
+                @(d.CalendarDate)
+            </th>
+        }
+    </tr>
+
+    @foreach (var item in Model.Students)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeopleId)
+            </td>
+            <td>
+                @if (item.MeetingAttendances[0].Withdrawn)
+                {
+                    @Html.Label(Model.Resources.LblWithdrawn)
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            @foreach (var s in Model.Students[i].MeetingAttendances)
+            {
+                <td>
+                    @Html.DisplayFor(modelItem => s.AttendanceStatusDesc)
+                </td>
+            }
+        </tr>
+        i++;
+    }
+</table>

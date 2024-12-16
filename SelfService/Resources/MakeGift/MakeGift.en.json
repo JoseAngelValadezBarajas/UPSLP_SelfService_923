@@ -1,0 +1,19 @@
+{
+  "btnAddNew": "Add new",
+  "btnContinue": "Continue",
+  "btnDelete": "Delete",
+  "btnMakePayment": "Make payment",
+  "lblAmount": "Amount",
+  "lblAmountRequired": "Enter an amount",
+  "lblContributing": "Contributing to",
+  "lblContributingRequired": "Select a campaign",
+  "lblHeaderTitle": "Make a Gift",
+  "lblLegend": "Donating will allow current and up coming students to gain access to the best facilities and amenities, ensuring their success.",
+  "lblMakeGift": "Make a Gift",
+  "lblMakePayment": "Make payment",
+  "lblNotAvailable": "Make a gift page is not available. Please contact your system administrator",
+  "lblPageTitle": "Make a Gift",
+  "lblPaymentSuccess": "Proceed to Payment",
+  "lblProceedPayment": "Payment Has Been Processed",
+  "lblUniqueCampaign": "Select a unique campaign"
+}

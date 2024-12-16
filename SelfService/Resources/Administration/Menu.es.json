@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "ConEdSetupId",
+    "Text": "Educación continua"
+  },
+  {
+    "Id": "FormsSetupId",
+    "Text": "Formularios"
+  },
+  {
+    "Id": "GeneralSetupId",
+    "Text": "General"
+  },
+  {
+    "Id": "InstructorSetupId",
+    "Text": "Instructor"
+  },
+  {
+    "Id": "NotificationsSetupId",
+    "Text": "Notificaciones"
+  },
+  {
+    "Id": "ProfileSetupId",
+    "Text": "Perfil"
+  },
+  {
+    "Id": "RequestsSetupId",
+    "Text": "Solicitudes"
+  },
+  {
+    "Id": "StudentSetupId",
+    "Text": "Alumno"
+  },
+  {
+    "Id": "WebsiteSetupId",
+    "Text": "Configurar sitio web"
+  },
+  {
+    "Id": "DonationsSetupId",
+    "Text": "Donativos"
+  }
+]

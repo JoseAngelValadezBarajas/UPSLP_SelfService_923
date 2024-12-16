@@ -1,0 +1,9 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Forms",
+  "formsSetupTabs": {
+    "lblApplicationFormSetup": "Application",
+    "lblInquiryFormSetup": "Inquiry"
+  }
+}

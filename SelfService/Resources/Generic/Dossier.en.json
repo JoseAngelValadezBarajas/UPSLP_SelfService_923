@@ -1,0 +1,124 @@
+{
+  "dossierAcademic": {
+    "formatAcademicPlan": "{0} {1} {2} - {3}",
+    "formatPeriod": "{0}/{1}",
+    "formatPeriodSession": "{0}/{1}/{2}",
+    "lblAcademic": "Academic",
+    "lblAttemptedCredits": "Attempted credits",
+    "lblCumulativeGPA": "Cumulative GPA",
+    "lblCurrentGPA": "Current GPA",
+    "lblEarnedCredits": "Earned credits",
+    "lblGpa": "GPA",
+    "lblGpaCredits": "GPA credits",
+    "lblNotAvailable": "Not available",
+    "lblPeriod": "Period",
+    "lblQualityPoints": "Quality points",
+    "lblTotalCredits": "Total credits",
+    "lblTransferCredits": "Transfer credits"
+  },
+  "dossierAssociations": {
+    "formatPeriod": "{0}/{1}",
+    "formatPeriodSession": "{0}/{1}/{2}",
+    "formatWhenHeldPeriod": "{0}/{1}",
+    "formatWhenHeldPeriodSession": "{0}/{1}/{2}",
+    "lblAssociation": "Association",
+    "lblNotAvailable": "Not available",
+    "lblOfficeHeld": "Office held",
+    "lblWhenHeld": "When held"
+  },
+  "dossierContact": {
+    "formatAddress": "{0} {1}<br />{2} {3}<br />{4}<br />{5} {6} {7}<br />{8}",
+    "formatAddressBackup": "{0} {1}<br />{2} {3}<br />{4}<br />{5} {6} {7}<br />{8}",
+    "formatAddressDocumentation": "{0} - Address line 1, {1} - Address line 2, {2} - Address line 3, {3} - Address line 4, {4} - House number, {5} - City, {6} - State, {7} - Postal code, {8} - Country",
+    "formatEmergency": "{0}<br />{1}<br />{2}<br />{3}<br />{4}<br />{5}",
+    "formatEmergencyBackup": "{0}<br />{1}<br />{2}<br />{3}<br />{4}<br />{5}",
+    "formatEmergencyDocumentation": "{0} - Relationship, {1} - Name, {2} - Phone number, {3} - Country, {4} - E-mail, {5} - Notes",
+    "formatPhone": "{0}<br />{1}<br />{2}",
+    "formatPhoneBackup": "{0}<br />{1}<br />{2}",
+    "formatPhoneDocumentation": "{0} - Number, {1} - Country, {2} - Do not call reason",
+    "formatResidency": "{0} {1} {2}<br />Campus phone: {3}<br />Room phone: {4}",
+    "formatResidencyBackup": "{0} {1} {2}<br />Campus phone: {3}<br />Room phone: {4}",
+    "formatResidencyDocumentation": "{0} - Dorm Building, {1} - Dorm Campus, {2} - Dorm Room, {3} - Campus phone, {4} - Room phone",
+    "lblContact": "Contact",
+    "lblNotAvailable": "Not available",
+    "lblPrimaryAddress": "Address",
+    "lblPrimaryEmergencyContact": "Primary Emergency Contact",
+    "lblPrimaryPhone": "Phone",
+    "lblResidency": "Residency",
+    "lblSecondaryEmergencyContact": "Secondary Emergency Contact"
+  },
+  "dossierCustomView": {
+    "lblNotAvailable": "Not available"
+  },
+  "dossierHeader": {
+    "formatEmailAddress": "E-mail address: {0}",
+    "formatReleaseInformation": "Release information: {0}",
+    "lblFacultySchedule": "Faculty Schedule",
+    "lblInformation": "Information",
+    "lblNotAvailable": "Not available",
+    "lblCourseSchedule": "Course Schedule",
+    "lblTeachingSchedule": "Teaching Schedule",
+    "lblStudentSchedule": "Student Schedule"
+  },
+  "dossierOffices": {
+    "lblBuilding": "Building",
+    "lblCampus": "Campus",
+    "lblNotAvailable": "Not available",
+    "lblOffice": "Office",
+    "lblPhoneNumber": "Phone number",
+    "lblRoom": "Room"
+  },
+  "dossierPositions": {
+    "lblCollege": "College",
+    "lblDepartment": "Department",
+    "lblNotAvailable": "Not available",
+    "lblPosition": "Position",
+    "lblProgram": "Program"
+  },
+  "dossierSchedule": {
+    "lblContinuingEducation": "Continuing Education",
+    "lblDeniedCourses": "Denied courses",
+    "lblEmpty": "There is no schedule",
+    "lblPeriod": "Period",
+    "sections": {
+      "btnCalendarView": "Calendar",
+      "btnListView": "List",
+      "formatDuration": "Duration: {0} - {1}",
+      "formatSession": "Session: {0}",
+      "formatSubtypeSection": "Subtype: {0} | Section: {1}",
+      "formatTitleSection": "{0}: {1}",
+      "formatTypeCreditTypeCeu": "Type: {0} | Credit type: {1} | CEU: {2}",
+      "formatTypeCreditTypeCredits": "Type: {0} | Credit type: {1} | Credits: {2}",
+      "lblCourse": "Course",
+      "lblDenied": "Denied",
+      "lblDeniedCourses": "Denied courses",
+      "lblInCart": "In Cart",
+      "lblPending": "Pending",
+      "lblRegistered": "Registered",
+      "lblStatus": "Status",
+      "lblTimeConflicts": "Time conflicts",
+      "scheduleCalendar": {
+        "formatTitleSection": "{0}: {1}",
+        "lblDenied": "Denied",
+        "lblInCart": "In Cart",
+        "lblPending": "Pending",
+        "lblRegistered": "Registered",
+        "lblTimeConflicts": "Time conflicts"
+      },
+      "sectionInstructors": {
+        "lblInstructors": "Instructors",
+        "lblNoInstructor": "Instructor has not yet been assigned"
+      },
+      "sectionSchedules": {
+        "formatBuilding": ", {0}",
+        "formatFloor": ", Floor {0}",
+        "formatOrganization": "{0}",
+        "formatRoom": ", Room {0}",
+        "formatStartEndTime": "{0} - {1}",
+        "lblNoSchedule": "No schedule",
+        "lblSchedules": "Schedule",
+        "lblTimeConflicts": "Time conflicts"
+      }
+    }
+  }
+}

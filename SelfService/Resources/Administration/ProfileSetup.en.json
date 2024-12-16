@@ -1,0 +1,12 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "profileSetupTabs": {
+    "lblAddressSettings": "Address",
+    "lblDemographicSettings": "Demographic",
+    "lblEmergencyContactSettings": "Emergency Contact",
+    "lblPhoneNumberSettings": "Phone Number",
+    "lblPreferredNameSettings": "Preferred Name"
+  }
+}

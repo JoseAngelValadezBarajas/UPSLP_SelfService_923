@@ -1,0 +1,31 @@
+{
+  "formatSelectStudent": "Seleccionar a {0}",
+  "formatTotalStudents": "Totales - Alumnos: {0}",
+  "lblAddStudent": "Agregar alumno",
+  "lblApproved": "Aprobado",
+  "lblClassLevelDetail": "Nivel de clase",
+  "lblCurriculumDetail": "Currículum",
+  "lblDenied": "Denegado",
+  "lblEmailButton": "Enviar correo",
+  "lblIdDetail": "ID",
+  "lblNameDetail": "Alumno",
+  "lblNoResults": "No hay solicitudes de permiso",
+  "lblNoResultsByStatus": "No hay alumnos inscritos en este curso que tengan el estatus seleccionado.",
+  "lblPrerequisits": "Prerrequisitos: ",
+  "lblSaveButton": "Guardar",
+  "lblSelectStatus": "Seleccionar estatus",
+  "lblStatusDetail": "Estatus",
+  "lblViewAll": "Ver todo",
+  "lblWaiting": "En espera",
+  "lblWithdrawn": "Dado de baja",
+  "permissionRequestDetail": {
+    "btnAccept": "Aceptar",
+    "btnCancel": "Cancelar",
+    "btnEdit": "Editar",
+    "lblCommentRequired": "Se requiere el mensaje",
+    "lblComments": "Mensaje",
+    "lblNoComments": "Sin comentarios",
+    "lblStatusTitle": "Estatus",
+    "lblTypeComments": "Escribir un mensaje"
+  }
+}

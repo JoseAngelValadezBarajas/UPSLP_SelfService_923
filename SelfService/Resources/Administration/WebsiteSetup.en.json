@@ -1,0 +1,18 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "websiteSetupTabs": {
+    "lblEmailProvider": "E-mail Provider",
+    "lblGlobalSettings": "System Formats",
+    "lblNameFormatCategories": "Name Format Categories",
+    "lblNameFormats": "Name Formats",
+    "lblPaymentProvider": "Payment Provider",
+    "lblPermissionStore": "Permission Store",
+    "lblReCaptcha": "reCAPTCHA",
+    "lblCourseMaterials": "Course Materials",
+    "lblSiteSettings": "Site Settings",
+    "lblSystemInformation": "System Information",
+    "lblTheme": "Theme Editor"
+  }
+}

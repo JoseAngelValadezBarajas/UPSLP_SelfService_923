@@ -1,0 +1,26 @@
+{
+  "lblActions": "Actions",
+  "lblAddStaffMember": "Add a staff member",
+  "lblEdit": "Edit",
+  "lblInstructions": "Assign staff to the institution's offices.",
+  "lblName": "Name",
+  "lblNoOfficesAvailable": "There are no offices available",
+  "lblOffice": "Office",
+  "lblSelect": "Select...",
+  "lblSelectOrAdd": "To start working select an office or add a staff member",
+  "officesSetupEditModal": {
+    "btnCancel": "Cancel",
+    "btnDelete": "Delete",
+    "btnDeleteAll": "Delete all",
+    "formatConfirmDelete": "Are you sure you want to remove {0}? {1} will no longer be assigned to this office.",
+    "formatConfirmDeleteAll": "Are you sure you want to remove all offices? {0} will no longer be assigned to any office.",
+    "formatDeleteOffice": "Delete {0}",
+    "formatEditingName": "Editing {0}",
+    "lblActions": "Actions",
+    "lblDelete": "Delete",
+    "lblDeleteAllTitle": "Delete All Offices",
+    "lblEditTasks": "Edit tasks",
+    "lblOffice": "Office",
+    "lblViewNotes": "View notes"
+  }
+}

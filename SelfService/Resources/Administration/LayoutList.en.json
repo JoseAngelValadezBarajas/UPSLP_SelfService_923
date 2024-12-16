@@ -1,0 +1,24 @@
+{
+  "lblAddForm": "Add Form",
+  "lblApplicationStatus": "Application Status",
+  "lblDescription": "Description",
+  "lblFormName": "Form Name",
+  "lblInstructions": "Allow applicants to save their progress and use layouts to customize your application forms.",
+  "lblLayouts": "Layouts",
+  "lblSave": "Save",
+  "lblSaveOptionsTitle": "Save Options",
+  "lblShowApplicationStatus": "Show application status information",
+  "lblShowDecisionAdmit": "Show decision and admit period",
+  "LayoutListResorces": {
+    "lblConfirmationMessage": "Confirmation message",
+    "lblEdit": "Edit",
+    "lblEditLink": "Edit",
+    "lblEnableSave": "Enable saving incomplete application",
+    "lblEnterConfirmationMsj": "Enter confirmation message",
+    "lblEnterSaveMessage": "Enter footer instructions",
+    "lblEnterText": "Enter Text...",
+    "lblSaveButton": "Save",
+    "lblSaveMessage": "Footer instructions",
+    "lblSaveSettingsTitle": "Messages for Saving"
+  }
+}

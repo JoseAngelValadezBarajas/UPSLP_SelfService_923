@@ -1,0 +1,23 @@
+{
+  "lblApplicationDecision": "Application decision",
+  "lblApplicationDecisionRequired": "Select an application decision.",
+  "lblApplicationStatus": "Application status",
+  "lblApplicationStatusRequired": "Select an application status.",
+  "lblCancelButton": "Cancel",
+  "lblCheckBoxText": "Use defaults for continuing education registration students with invalid academic records.",
+  "lblClassLevel": "Class level",
+  "lblCollege": "College",
+  "lblCreditLimits": "Credit limits",
+  "lblCurriculum": "Curriculum",
+  "lblCurriculumRequired": "Select a curriculum.",
+  "lblDegree": "Degree",
+  "lblDegreeRequired": "Select a degree.",
+  "lblDepartment": "Department",
+  "lblDropDownEmptyText": "Select...",
+  "lblLegend": "Select the defaults used for coned students.",
+  "lblNonTradProgram": "Nontraditional program",
+  "lblPopulation": "Population",
+  "lblProgram": "Program",
+  "lblProgramRequired": "Select a program.",
+  "lblSaveButton": "Save"
+}

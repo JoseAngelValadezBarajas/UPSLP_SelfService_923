@@ -1,0 +1,10 @@
+{
+  "registrationSummaryModal": {
+    "formatBlockName": "{0} - {1}",
+    "formatSubtypeSection": "Subtype: {0} | Section: {1}",
+    "formatTitleSection": "{0}: {1}",
+    "formatYearTerm": "{0}/{1}",
+    "formatYearTermSession": "Year: {0} | Term: {1} | Session: {2}",
+    "lblTitle": "Registration Summary"
+  }
+}

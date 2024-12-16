@@ -1,0 +1,19 @@
+{
+  "btnCancel": "Cancel",
+  "btnSend": "Send",
+  "formatSentEmailTo": "Send e-mail to: {0}",
+  "formatShowAll": "Show all ({0})...",
+  "lblEmailSent": "E-mail sent",
+  "lblFrom": "From",
+  "lblFromRequired": "Enter a sender",
+  "lblInvalidEmail": "Enter a valid e-mail address",
+  "lblInvalidEmails": "Enter valid e-mail addresses",
+  "lblMessage": "Message",
+  "lblMessageRequired": "Enter a message",
+  "lblSendEmail": "Send E-mail",
+  "lblSeparatorAdvice": "Use \",\" to separate e-mails",
+  "lblSubject": "Subject",
+  "lblSubjectRequired": "Enter a subject",
+  "lblTo": "To",
+  "lblToRequired": "Enter a recipient"
+}

@@ -1,0 +1,41 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "corejs": "3.6.5",
+        "targets": {
+          "browsers": [
+            "> 5%",
+            "last 4 versions",
+            "not ie < 11"
+          ]
+        },
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/preset-typescript",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties"],
+    "@babel/transform-runtime",
+    [
+      "inline-react-svg",
+      {
+        "svgo": {
+          "plugins": [
+            {
+              "name": "preset-default",
+              "params": {
+                "overrides": {
+                  "removeViewBox": false
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  ]
+}

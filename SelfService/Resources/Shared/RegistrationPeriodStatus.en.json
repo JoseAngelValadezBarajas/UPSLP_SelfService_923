@@ -1,0 +1,19 @@
+{
+  "periodLongStatus": {
+    "formatPeriodEnded": "Registration period has ended{0}.",
+    "formatPeriodNotOpen": "Registration period has not started{0}.",
+    "formatPeriodNotOpenAuthNeeded": "Registration period has not started{0} and your advisor authorization is needed to register.",
+    "lblAdvisorAuthNeeded": "Your advisor authorization is needed to register.",
+    "lblNoAdvisorAssigned": "No advisor has been assigned.",
+    "lblNoRegGroupFound": "You are unable to register in this period at this time. Try another period or come back later.",
+    "lblOnlySearch": "You are unable to register in this period at this time. Try another period or come back later."
+  },
+  "periodShortStatus": {
+    "formatPeriodEnded": "Has ended{0}",
+    "formatPeriodNotOpen": "Has not started{0}",
+    "formatPeriodNotOpenAuthNeeded": "Authorization needed",
+    "lblAdvisorAuthNeeded": "Authorization needed",
+    "lblNoAdvisorAssigned": "No advisor assigned",
+    "lblNoRegGroupFound": "Not able to register"
+  }
+}

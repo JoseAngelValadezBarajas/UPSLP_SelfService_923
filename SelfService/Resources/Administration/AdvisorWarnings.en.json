@@ -1,0 +1,20 @@
+{
+  "btnSave": "Save",
+  "lblActive": "Active",
+  "lblAlerts": "Alert type",
+  "lblAlertSettings": "Alert Warning Settings",
+  "lblAttendanceSettings": "Attendance Warning Settings",
+  "lblCreditType": "Credit Type",
+  "lblEnableAlertWarning": "Alerts warnings",
+  "lblEnableAttendanceWarning": "Attendance warnings",
+  "lblEnableGradeWarning": "Grades warnings",
+  "lblExcusedAbsences": "Excused absences",
+  "lblExcusedTardiness": "Excused tardiness",
+  "lblGrades": "Grades",
+  "lblGradeSettings": "Grade Warning Settings",
+  "lblInactive": "Inactive",
+  "lblInstructions": "Specify the settings for the advisor warnings",
+  "lblStatus": "Status",
+  "lblUnexcusedAbsences": "Unexcused absences",
+  "lblUnexcusedTardiness": "Unexcused tardiness"
+}

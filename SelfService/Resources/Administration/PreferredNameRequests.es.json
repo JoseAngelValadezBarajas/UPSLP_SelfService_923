@@ -1,0 +1,20 @@
+{
+  "btnApprove": "Aprobar",
+  "btnCancel": "Cancelar",
+  "btnDeny": "Denegar",
+  "formatModalTitle": "Solicitud para {0}",
+  "lblAction": "Acción",
+  "lblApproved": "Aprobado",
+  "lblCurrent": "Información actual",
+  "lblDateOfRequest": "Fecha de solicitud",
+  "lblDenied": "Denegado",
+  "lblDisplayName": "Nombre a mostrar",
+  "lblGenderIdentity": "Identidad de género",
+  "lblLegend": "Aceptar o rechazar las solicitudes de cambio del nombre preferido del usuario.",
+  "lblNoRequests": "No hay solicitudes de nombre preferido",
+  "lblPronoun": "Pronombre",
+  "lblStudentName": "Alumno",
+  "lblUpdated": "Actualizado",
+  "lblUpdatedPending": "Información actualizada (pendiente)",
+  "lblView": "Ver"
+}

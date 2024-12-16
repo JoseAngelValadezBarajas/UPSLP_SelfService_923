@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--For each type of code mapping, relavent source of table name and column name-->
+<Entities>
+  <PdfTextProperties>
+    <row Name="FilerName" Xposition="55" Yposition="730" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="9"  DefaultValue="FilerName" ColumnType ="Column" />
+    <row Name="FilerAddressLine1" Xposition="55" Yposition="722" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="FilerStreetLine1" ColumnType ="Column" />
+    <row Name="FilerAddressLine2" Xposition="55" Yposition="714" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="FilerStreetLine2" ColumnType ="Column" />
+    <row Name="FilerCityStateZip" Xposition="55" Yposition="706" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="FilerCity,State,ZipCode" ColumnType ="Column" />
+    <row Name="FilerCountryPhone" Xposition="55" Yposition="698" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="FilerCountry,PhoneNumber" ColumnType ="Column" />
+    <row Name="Box3" Xposition="486" Yposition="661" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="" ColumnType ="Column" />
+    <row Name="FederalIdentificationNo" Xposition="55" Yposition="665" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="FederalIdentificationNo" ColumnType ="Column" />
+    <row Name="StudentSSN" Xposition="180" Yposition="665" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="StudentSSN" ColumnType ="Column" />
+    <row Name="StudentNameLine1" Xposition="55" Yposition="640" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="StudentNameLine1" ColumnType ="Column" />
+    <row Name="StudentNameLine2" Xposition="55" Yposition="630" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="StudentNameLine2" ColumnType ="Column" />
+    <row Name="StudentAddress" Xposition="55" Yposition="604" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="StudentAddress" ColumnType ="Column" />
+    <row Name="StudentFullAddress" Xposition="55" Yposition="580" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="StudentFullAddress" ColumnType ="Column" />
+    <row Name="Box8" Xposition="285" Yposition="556" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="X" ColumnType ="Column" />
+	<row Name="Box1" Xposition="310" Yposition="722" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="0.00" ColumnType ="Column" />
+    <row Name="Box2" Xposition="310" Yposition="686" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="0.00" ColumnType ="Column" />
+    <row Name="Box4" Xposition="310" Yposition="626" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="0.00" ColumnType ="Column" />
+    <row Name="Box6" Xposition="310" Yposition="578" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="0.00" ColumnType ="Column" />
+    <row Name="Box9" Xposition="385" Yposition="556" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="X" ColumnType ="Column" />
+    <row Name="Box7" Xposition="486" Yposition="577" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="X" ColumnType ="Column" />
+    <row Name="Box5" Xposition="415" Yposition="626" RotationAngle="0" TargetPageNumber="1" FontStyle="" TextSize="8"  DefaultValue="0.00" ColumnType ="Column" />
+  </PdfTextProperties>
+</Entities>

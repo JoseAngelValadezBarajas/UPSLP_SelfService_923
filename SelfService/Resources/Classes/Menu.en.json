@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "FacultyScheduleId",
+    "Text": "My Schedule"
+  },
+  {
+    "Id": "FacultyCourseManagementId",
+    "Text": "Course Management"
+  }
+]

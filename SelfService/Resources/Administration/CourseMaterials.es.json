@@ -1,0 +1,11 @@
+{
+  "btnSave": "Guardar",
+  "lblErrorUrl": "Ingrese una URL",
+  "lblErrorTextToDisplay": "Ingrese el texto que se mostrará si se ingresa una URL",
+  "lblInstructions": "Ingrese la URL para redirigir a los materiales del curso para cada sección. El enlace se muestra para las secciones si el periodo está habilitado en el filtro de periodo de los materiales de curso.",
+  "lblMoreInformation": "Más información",
+  "lblUrl": "URL",
+  "lblSaved": "Guardado exitosamente",
+  "lblTextToDisplay": "Texto a mostrar",
+  "lblTextToDisplayInfo": "Se requiere un texto para mostrar si se ingresa una URL"
+}

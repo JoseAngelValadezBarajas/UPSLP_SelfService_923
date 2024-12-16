@@ -1,0 +1,11 @@
+{
+  "lblDisplayName": "Nombre a mostrar",
+  "lblFirstName": "Primer nombre",
+  "lblLastName": "Apellido",
+  "lblLastNamePrefix": "Prefijo del apellido",
+  "lblMiddleName": "Segundo nombre",
+  "lblNone": "ninguno",
+  "lblPrefix": "Prefijo",
+  "lblPronoun": "Pronombre",
+  "lblSuffix": "Sufijo"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "ApplicationsId",
+    "Text": "Apply"
+  },
+  {
+    "Id": "InquiriesId",
+    "Text": "Inquire"
+  }
+]

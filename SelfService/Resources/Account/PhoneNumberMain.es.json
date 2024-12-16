@@ -1,0 +1,36 @@
+{
+  "btnAdd": "Agregar",
+  "btnDelete": "Eliminar",
+  "btnSetAsPrimary": "Hacer principal",
+  "deletePhoneNumberConfirmationDialog": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro de que desea eliminar este número de teléfono de tipo {0}? Al eliminarlo, ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar número de teléfono"
+  },
+  "lblActions": "Acciones",
+  "lblCountry": "País",
+  "lblDescription": "Descripción",
+  "lblDoNotCallReason": "Razón para no llamar",
+  "lblNoPhoneNumbers": "No hay números de teléfono disponibles",
+  "lblNoResults": "Para empezar a trabajar, agregue un número de teléfono",
+  "lblPhoneNumber": "Número",
+  "lblPhoneNumbersHeader": "Números de teléfono",
+  "lblPhoneType": "Tipo",
+  "lblPrimary": "Principal",
+  "phoneNumberSave": {
+    "btnCancel": "Cancelar",
+    "btnSave": "Guardar",
+    "lblAddPhoneNumber": "Agregar número de teléfono",
+    "lblCountry": "País",
+    "lblCountryRequired": "Seleccionar un país",
+    "lblDescription": "Descripción",
+    "lblDoNotCallReason": "Razón para no llamar",
+    "lblEditPhoneNumber": "Editar número de teléfono",
+    "lblNumber": "Número",
+    "lblNumberRequired": "Ingresar un número",
+    "lblPhoneNumberIsDuplicated": "El tipo, el país y el número de teléfono están duplicados. Ingrese una combinación única de esos campos",
+    "lblType": "Tipo",
+    "lblTypeRequired": "Seleccionar un tipo"
+  }
+}

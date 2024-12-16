@@ -1,0 +1,22 @@
+{
+  "btnMoreInfo": "More information",
+  "btnSave": "Save",
+  "formatFieldVisible": "The field {0} is visible",
+  "formatFieldRequired": "The field {0} is required",
+  "lblAllowEdit": "Allow change or delete",
+  "lblAllRequired": "All required",
+  "lblAllVisible": "All visible",
+  "lblCountry": "Country",
+  "lblEmail": "E-mail",
+  "lblField": "Field",
+  "lblFormSettings": "Form Settings",
+  "lblGeneral": "General",
+  "lblLegend": "Specify the emergency contacts settings in the user's profile.",
+  "lblNotes": "Notes",
+  "lblPrimaryRequired": "Primary contact is required",
+  "lblPrimaryRequiredLegend": "If selected, name, relationship and phone number will be required.",
+  "lblRequired": "Required",
+  "lblSecondaryRequired": "Secondary contact is required",
+  "lblSecondaryRequiredLegend": "If selected, name, relationship and phone number will be required.",
+  "lblVisible": "Visible"
+}

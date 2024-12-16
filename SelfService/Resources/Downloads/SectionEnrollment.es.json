@@ -1,0 +1,16 @@
+{
+  "lblAttendance": "Asistencia",
+  "lblClassLevel": "Nivel de clase",
+  "lblClassLoad": "Carga académica",
+  "lblCredits": "Créditos",
+  "lblCreditType": "Tipo de crédito",
+  "lblCurriculum": "Currículum",
+  "lblEmail": "Dirección de correo electrónico",
+  "lblFullname": "Nombre",
+  "lblPeopleId": "ID",
+  "lblStatusAdd": "Agregar",
+  "lblStatusDrop": "Dar de baja",
+  "lblStatusHeader": "Estatus",
+  "lblStatusHold": "Retenido",
+  "lblWithdrawn": "Dado de baja"
+}

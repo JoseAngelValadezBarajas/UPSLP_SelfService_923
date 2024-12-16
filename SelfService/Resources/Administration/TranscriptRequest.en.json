@@ -1,0 +1,22 @@
+{
+  "btnSave": "Save",
+  "lblCashReceiptCode": "Cash receipt code",
+  "lblCashReceiptCodeRequired": "Select a cash receipt code",
+  "lblCashReceiptOffice": "Office",
+  "lblCashReceiptOfficeRequired": "Select an office",
+  "lblChargeCreditCode": "Charge credit code",
+  "lblChargeCreditCodeRequired": "Select a charge credit code",
+  "lblDisclosureStatement": "Disclosure statement",
+  "lblEnableOnlinePayment": "Online payment",
+  "lblEnableOnlinePaymentInvalid": "Payment vendor URL is required",
+  "lblEnableProcessingFee": "Processing fee",
+  "lblFeeAmount": "Fee amount",
+  "lblFeeAmountRequired": "Enter a fee amount",
+  "lblHtmlAccepts": "This field accepts HTML. Use links with target=\"_blank\" attribute to open the url in other tab.",
+  "lblOnlinePayment": "Payment",
+  "lblPaymentAmountInvalid": "Amount is numeric, greater than zero and allows two decimals",
+  "lblPaymentAmountRequired": "Amount is required",
+  "lblRequireConsent": "Require consent",
+  "lblRequireOnlinePayment": "Require online payment",
+  "lblTranscriptOptions": "Options"
+}

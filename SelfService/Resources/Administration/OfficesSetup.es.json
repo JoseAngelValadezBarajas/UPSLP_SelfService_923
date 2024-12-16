@@ -1,0 +1,26 @@
+{
+  "lblActions": "Acciones",
+  "lblAddStaffMember": "Agregar un empleado",
+  "lblEdit": "Editar",
+  "lblInstructions": "Asignar empleados para las oficinas de la institución.",
+  "lblName": "Nombre",
+  "lblNoOfficesAvailable": "No hay oficinas disponibles",
+  "lblOffice": "Oficina",
+  "lblSelect": "Seleccionar...",
+  "lblSelectOrAdd": "Para empezar a trabajar, seleccione una oficina o agregue un empleado",
+  "officesSetupEditModal": {
+    "btnCancel": "Cancelar",
+    "btnDelete": "Eliminar",
+    "btnDeleteAll": "Eliminar todos",
+    "formatConfirmDelete": "¿Está seguro de que desea eliminar a {0}? {1} ya no estará asignado(a) a esta oficina.",
+    "formatConfirmDeleteAll": "¿Está seguro de que desea eliminar todas las oficinas?  {0} ya no estará asignado(a) a ninguna oficina.",
+    "formatDeleteOffice": "Eliminar {0}",
+    "formatEditingName": "Editar {0}",
+    "lblActions": "Acciones",
+    "lblDelete": "Eliminar",
+    "lblDeleteAllTitle": "Eliminar todas las oficinas",
+    "lblEditTasks": "Editar tareas",
+    "lblOffice": "Oficina",
+    "lblViewNotes": "Ver notas"
+  }
+}

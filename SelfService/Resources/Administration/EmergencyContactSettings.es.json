@@ -1,0 +1,22 @@
+{
+  "btnMoreInfo": "Más información",
+  "btnSave": "Guardar",
+  "formatFieldVisible": "El campo {0} es visible",
+  "formatFieldRequired": "El campo {0} es requerido",
+  "lblAllowEdit": "Permitir cambiar o eliminar",
+  "lblAllRequired": "Todo requerido",
+  "lblAllVisible": "Todo visible",
+  "lblCountry": "País",
+  "lblEmail": "Correo electrónico",
+  "lblField": "Campo",
+  "lblFormSettings": "Configuración del formulario",
+  "lblGeneral": "General",
+  "lblLegend": "Especifique la configuración de contactos de emergencia en el perfil del usuario.",
+  "lblNotes": "Notas",
+  "lblPrimaryRequired": "Se requiere un contacto principal",
+  "lblPrimaryRequiredLegend": "Si se selecciona, se requerirá nombre, relación y número de teléfono.",
+  "lblRequired": "Requerido",
+  "lblSecondaryRequired": "Se requiere un contacto secundario",
+  "lblSecondaryRequiredLegend": "Si se selecciona, se requerirá nombre, relación y número de teléfono.",
+  "lblVisible": "Visible"
+}

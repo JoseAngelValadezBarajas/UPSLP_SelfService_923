@@ -1,0 +1,15 @@
+{
+  "btnMoreInformation": "Más información",
+  "btnSave": "Guardar",
+  "lblAttendance": "Asistencia",
+  "lblAttendanceError": "Seleccione una opción para la asistencia",
+  "lblCourseManagement": "Administración del curso",
+  "lblDescription": "Especificar la configuración para las páginas de docente",
+  "lblEnableActivityGradeComments": "Comentarios de la calificación de actividad",
+  "lblEnableProjectedGrade": "Calificación proyectada",
+  "lblInstructorChangeOfWaitlist": "El instructor puede cambiar el estatus de la lista de espera de la inscripción tradicional",
+  "lblInformationAttendance": "Esta configuración afectará tanto a la administración del curso como a los reportes de asistencia",
+  "lblMidtermGrades": "Calificaciones de período parcial",
+  "lblShowDailyAttendance": "Mostrar asistencia diaria",
+  "lblShowOverallAttendance": "Mostrar asistencia general"
+}

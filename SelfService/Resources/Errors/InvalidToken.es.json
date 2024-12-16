@@ -1,0 +1,8 @@
+{
+  "lblGoBack": "Regresar",
+  "lblGoToHome": "Ir al inicio",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Token inválido",
+  "lblText": "El token que está intentando utilizar ha caducado o es inválido.",
+  "lblTitle": "Token inválido"
+}

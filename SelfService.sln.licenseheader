@@ -1,0 +1,23 @@
+﻿extensions: designer.cs generated.cs
+extensions:  .xml .config .xsd .cshtml
+<!--
+    <copyright file="%FileName%" company="Ellucian">
+        Copyright %CurrentYear% Ellucian Company L.P. and its affiliates.
+    </copyright>
+-->
+
+extensions: .cs .cpp .h
+// --------------------------------------------------------------------
+// <copyright file="%FileName%" company="Ellucian">
+//     Copyright %CurrentYear% Ellucian Company L.P. and its affiliates.
+// </copyright>
+// --------------------------------------------------------------------
+
+extensions:  .tsx
+/* Copyright %CurrentYear% Ellucian Company L.P. and its affiliates.
+ * File: %FileName%
+ * Type: Container|Presentation component */
+
+extensions:  .ts
+/* Copyright %CurrentYear% Ellucian Company L.P. and its affiliates.
+ * File: %FileName% */

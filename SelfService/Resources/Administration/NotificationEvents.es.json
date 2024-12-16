@@ -1,0 +1,252 @@
+[
+  {
+    "EventCode": "ADM_APP_ACCT_CRTD",
+    "EventName": "Cuenta creada para el solicitante",
+    "EventDescription": "Para notificar al solicitante que se ha creado una nueva cuenta de usuario."
+  },
+  {
+    "EventCode": "ADM_APP_INC",
+    "EventName": "Formulario de solicitud de admisión incompleto",
+    "EventDescription": "Para notificar al solicitante que se ha guardado una solicitud de admisión incompleta y cómo recuperar los últimos cambios."
+  },
+  {
+    "EventCode": "ADM_APP_PAY_FAIL",
+    "EventName": "Error en el pago de la solicitud",
+    "EventDescription": "Para notificar al alumno que el pago para un formulario de solicitud de admisión ha fallado. La solicitud no será procesada."
+  },
+  {
+    "EventCode": "ADM_APP_PAY_SUCSS",
+    "EventName": "Solicitud de pago exitosa",
+    "EventDescription": "Para notificar al usuario cuando el pago por enviar un formulario de solicitud de admisión se realizó con éxito."
+  },
+  {
+    "EventCode": "ADM_APP_SUBMT",
+    "EventName": "Formulario de solicitud enviado",
+    "EventDescription": "Para confirmar al solicitante cuando una solicitud de admisión ha sido enviada"
+  },
+  {
+    "EventCode": "ADM_INQ_SUBMT",
+    "EventName": "Formulario de solicitud de información enviado",
+    "EventDescription": "Para confirmar al solicitante que una solicitud de información ha sido enviada"
+  },
+  {
+    "EventCode": "ADV_AUTHREG",
+    "EventName": "Autorización del asesor para inscribirse",
+    "EventDescription": "Para notificar al alumno que el asesor ha autorizado inscribirse en un año período sesión."
+  },
+  {
+    "EventCode": "CONED_PAY_SUCSS",
+    "EventName": "Pago para Educación continua exitoso",
+    "EventDescription": "Para notificar al alumno que el pago para la inscripción a Educación continua se realizó con éxito."
+  },
+  {
+    "EventCode": "CONED_PAY_FAIL",
+    "EventName": "Fallo en el pago para Educación continua",
+    "EventDescription": "Para notificar al alumno que el pago de la inscripción a Educación continua ha fallado."
+  },
+  {
+    "EventCode": "CONED_ACCT_CRTD",
+    "EventName": "Cuenta de Educación continua creada",
+    "EventDescription": "Para notificar al solicitante que se ha creado una nueva cuenta de usuario."
+  },
+  {
+    "EventCode": "CONED_REG_SUCSS",
+    "EventName": "Inscripción a Educación continua exitosa",
+    "EventDescription": "Para confirmar al alumno cuando la inscripción a Educación continua se realizó con éxito."
+  },
+  {
+    "EventCode": "CONED_PROF_CRTD",
+    "EventName": "Perfil de Educación Continua creado",
+    "EventDescription": "Para notificar al usuario cuando su perfil se ha creado y que puede inscribirse a cursos de Educación continua."
+  },
+  {
+    "EventCode": "FIN_BAL_PAY_FAIL",
+    "EventName": "Falló el pago de saldo",
+    "EventDescription": "Para notificar al alumno que el pago de su saldo ha fallado."
+  },
+  {
+    "EventCode": "FIN_BAL_PAY_SUCSS",
+    "EventName": "Pago de saldo exitoso",
+    "EventDescription": "Para notificar al alumno que el pago de su saldo se realizó con éxito."
+  },
+  {
+    "EventCode": "FIN_FRM_ACPTD",
+    "EventName": "Formulario de consentimiento 1098-T aceptado",
+    "EventDescription": "Para confirmar al alumno cuando ha aceptado el formulario de consentimiento 1098-T"
+  },
+  {
+    "EventCode": "PROF_DEM_REQ_APPRVD",
+    "EventName": "Solicitud de cambio de información demográfica aprobada",
+    "EventDescription": "Para notificar al usuario que la solicitud de cambio de información demográfica ha sido aprobada"
+  },
+  {
+    "EventCode": "PROF_DEM_REQ_DENIED",
+    "EventName": "Solicitud de cambio de información demográfica rechazada",
+    "EventDescription": "Para notificar al usuario que la solicitud de cambio de información demográfica ha sido rechazada"
+  },
+  {
+    "EventCode": "PROF_DEM_REQ_SUBMT",
+    "EventName": "Solicitud de cambio de información demográfica enviada",
+    "EventDescription": "Para notificar al usuario que se ha enviado el cambio de información demográfica y está pendiente de aprobación."
+  },
+  {
+    "EventCode": "PROF_ACC_PWD_UPD",
+    "EventName": "Contraseña actualizada manualmente ",
+    "EventDescription": "Para confirmar al usuario que se ha realizado el cambio de contraseña."
+  },
+  {
+    "EventCode": "PROF_PRFNME_REQ_SUBMT",
+    "EventName": "Solicitud de cambio de nombre preferido enviada",
+    "EventDescription": "Para notificar al usuario que se ha enviado el cambio de nombre preferido y está pendiente de aprobación"
+  },
+  {
+    "EventCode": "PROF_PRFNME_REQ_APPRVD",
+    "EventName": "Solicitud de cambio de nombre preferido aprobada",
+    "EventDescription": "Para notificar al usuario que la solicitud de cambio de nombre preferido ha sido aprobada"
+  },
+  {
+    "EventCode": "PROF_PRFNME_REQ_DENIED",
+    "EventName": "Solicitud de cambio de nombre preferido rechazada",
+    "EventDescription": "Para notificar al usuario que la solicitud de cambio de nombre preferido ha sido rechazada"
+  },
+  {
+    "EventCode": "PROF_ADDR_REQ_SUBMT",
+    "EventName": "Solicitud de cambio de dirección enviada",
+    "EventDescription": "Para notificar al usuario que se ha enviado el cambio de dirección y está pendiente de aprobación."
+  },
+  {
+    "EventCode": "PROF_ADDR_REQ_APPRVD",
+    "EventName": "Solicitud de cambio de dirección aprobada",
+    "EventDescription": "Para notificar al usuario que la solicitud de cambio de dirección ha sido aprobada"
+  },
+  {
+    "EventCode": "PROF_ADDR_REQ_DENIED",
+    "EventName": "Solicitud de cambio de dirección rechazada",
+    "EventDescription": "Para notificar al usuario que la solicitud de cambio de dirección ha sido rechazada"
+  },
+  {
+    "EventCode": "TRADREG_ADVSR_REQ_SUBMT_STDNT",
+    "EventName": "Solicitud de horario enviado para el alumno",
+    "EventDescription": "Para notificar al alumno que se ha enviado un nuevo horario al asesor para su aprobación."
+  },
+  {
+    "EventCode": "TRADREG_PAYSUCSS",
+    "EventName": "Pago de inscripción exitoso",
+    "EventDescription": "Para notificar al alumno que el pago de inscripción se realizó con éxito."
+  },
+  {
+    "EventCode": "TRADREG_PAYFAIL",
+    "EventName": "Error en el pago de inscripción",
+    "EventDescription": "Para notificar al alumno que el pago de la inscripción ha fallado."
+  },
+  {
+    "EventCode": "TRADREG_AGRMNT_ACPT",
+    "EventName": "Acuerdo de inscripción aceptado",
+    "EventDescription": "Para confirmar que el alumno ha aceptado el acuerdo de inscripción."
+  },
+  {
+    "EventCode": "TRADREG_SUCSS",
+    "EventName": "Inscripción exitosa",
+    "EventDescription": "Para confirmar al alumno cuando la inscripción se realizó con éxito."
+  },
+  {
+    "EventCode": "TRANREQ_REQ_SUBMT",
+    "EventName": "Solicitud de historial académico enviada",
+    "EventDescription": "Para notificar al usuario que se ha enviado la solicitud de historial académico"
+  },
+  {
+    "EventCode": "TRANREQ_REQ_PAY_SUCSS",
+    "EventName": "Pago de solicitud de historial académico exitoso",
+    "EventDescription": "Para notificar al usuario que el pago de solicitud de historial académico se realizó con éxito"
+  },
+  {
+    "EventCode": "TRANREQ_REQ_PAY_FAIL",
+    "EventName": "Error en el pago de la solicitud de historial académico",
+    "EventDescription": "Para notificar al usuario que el pago de solicitud de historial académico ha fallado"
+  },
+  {
+    "EventCode": "USR_ACCT_CRTD_NOPWD",
+    "EventName": "Cuenta de Self-Service creada",
+    "EventDescription": "Para notificar al usuario que se ha creado su cuenta de Self-Service."
+  },
+  {
+    "EventCode": "CRSMNG_FACULTYASSISTANT_ADDED",
+    "EventName": "Asistente del docente agregado",
+    "EventDescription": "Para notificar a la persona que ha sido agregada como asistente en un curso."
+  },
+  {
+    "EventCode": "CRSMNG_FACULTYASSISTANT_REMOVED",
+    "EventName": "Asistente del docente eliminado",
+    "EventDescription": "Para notificar a la persona que ha sido eliminada como asistente en un curso."
+  },
+  {
+    "EventCode": "DONATION_PAY_SUCSS",
+    "EventName": "Pago de donativo exitoso",
+    "EventDescription": "Para notificar a la persona que el pago del donativo se realizó con éxito."
+  },
+  {
+    "EventCode": "ADV_ADVISEE_SHARED",
+    "EventName": "Asesorado compartido",
+    "EventDescription": "Para notificar al asesor que se ha compartido un alumno con él."
+  },
+  {
+    "EventCode": "ADV_SHARED_ADVISOR_REMOVED",
+    "EventName": "Asesor compartido eliminado",
+    "EventDescription": "Para notificar al asesor secundario, que el asesor principal ha dejado de compartir la información de un alumno con él/ella."
+  },
+  {
+    "EventCode": "ADV_SHARED_ADVISEE_REMOVED",
+    "EventName": "Asesorado compartido eliminado",
+    "EventDescription": "Para notificar al asesor principal, que el asesor secundario ha removido a un alumno compartido de su lista."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_INVITE",
+    "EventName": "Invitación para acceso compartido",
+    "EventDescription": "Para invitar a una persona y pueda ver la información del alumno."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_ACPTD",
+    "EventName": "Invitación para acceso compartido aceptada",
+    "EventDescription": "Para notificar al alumno que el familiar ha aceptado la invitación."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_REMOVED",
+    "EventName": "Acceso compartido eliminado",
+    "EventDescription": "Para notificar al familiar que el alumno ha dejado de compartir información con él."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_ACCT_CRTD",
+    "EventName": "Cuenta de acceso compartido creada",
+    "EventDescription": "Para notificar al usuario que se ha creado una nueva cuenta."
+  },
+  {
+    "EventCode": "USR_ACCT_FRGT_PWD",
+    "EventName": "Recuperar la contraseña mediante el token",
+    "EventDescription": "Para enviar un token y poder recuperar la contraseña."
+  },
+  {
+    "EventCode": "SS_ACCT_RST_PWD",
+    "EventName": "Restablecer la contraseña para usuarios de Self-Service",
+    "EventDescription": "Para notificar al usuario que el administrador ha restablecido su contraseña."
+  },
+  {
+    "EventCode": "PUM_ACCT_RST_PWD",
+    "EventName": "Restablecer la contraseña para usuarios de User Management",
+    "EventDescription": "Para notificar al usuario que el administrador ha restablecido su contraseña."
+  },
+  {
+    "EventCode": "PUM_USR_ACCT_CRTD",
+    "EventName": "Cuenta de User Management creada",
+    "EventDescription": "Para notificar al usuario que se ha creado su cuenta de User Management."
+  },
+  {
+    "EventCode": "USR_ACCT_FRGT_PWD_URL",
+    "EventName": "Recuperar la contraseña mediante la URL",
+    "EventDescription": "Para enviar una URL y poder recuperar la contraseña."
+  },
+  {
+    "EventCode": "USR_ACCT_FRGT_PWD_NSTP",
+    "EventName": "Recuperar la contraseña no disponible",
+    "EventDescription": "Para notificar que la recuperación de contraseña no está disponible."
+  }
+]

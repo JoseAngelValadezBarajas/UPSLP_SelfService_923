@@ -1,0 +1,16 @@
+{
+  "blockRegistrationOptions": {
+    "lblBlocks": "Bloques",
+    "lblRules": "Reglas"
+  },
+  "lblEmptyState": "Para empezar a trabajar, seleccionar un periodo",
+  "lblNoResults": "No hay períodos disponibles en este momento.",
+  "lblPageDescription": "En Inscripción por bloque puede crear un grupo de cursos para los alumnos y especificar quienes pueden acceder a ellos.",
+  "lblPeriod": "Período",
+  "lblSidebar": "Barra lateral",
+  "lblWarning": "Inscripción por bloque esta desactivado. Para activar la funcionalidad para los alumnos, ir a Administración /Alumnos /Inscripción tradicional.",
+  "sidebar": {
+    "lblCloseSidebar": "Cerrar barra lateral",
+    "lblOpenSidebar": "Abrir barra lateral"
+  }
+}

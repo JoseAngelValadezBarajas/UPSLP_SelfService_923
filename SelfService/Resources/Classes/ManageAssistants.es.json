@@ -1,0 +1,39 @@
+{
+  "btnSearch": "Agregar",
+  "lblFacultyAlreadyAdded": "La persona ya es un asistente",
+  "lblNoClaims": "Antes de agregar asistentes, favor de comunicarse con el administrador. Para otorgar acceso a los asistentes, asegúrese de que las peticiones para el rol de Docente estén activas en PowerCampus User Management",
+  "lblNoDefaultRole": "Antes de agregar asistentes, póngase en contacto con el administrador para configurar el rol predefinido del Asistente del docente en PowerCampus User Management",
+  "lblNoResults": "Para empezar a trabajar, agregue un asistente",
+  "lblPersonIsFaculty": "La persona es el instructor",
+  "deleteMessageConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro de que desea eliminar {0} cómo asistente? Al eliminarlo ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar asistente"
+  },
+  "manageAssistantsTable": {
+    "btnSave": "Guardar",
+    "btnSendEmail": "Enviar correo",
+    "formatAdded": "Agregado: {0}",
+    "formatLastModified": "Última modificación: {0}",
+    "formatSelectAssistant": "Seleccionar a {0}",
+    "lblActivities": "Actividades",
+    "lblActivityGrades": "Calificaciones de actividades",
+    "lblAlerts": "Alertas",
+    "lblAssistant": "Asistente",
+    "lblClassList": "Lista de clase",
+    "lblDailyAttendance": "Asistencia diaria",
+    "lblDashboardNotes": "Notas del tablero",
+    "lblDelete": "Eliminar",
+    "lblGradeMappings": "Equivalencias de calificaciones",
+    "lblOverallAttendance": "Asistencia general",
+    "lblOverallGrades": "Calificaciones totales",
+    "lblSubmitOverallGrades": "Enviar calificaciones totales",
+    "lblWaitlist": "Lista de espera",
+    "lblWithdrawn": "Dado de baja"
+  },
+  "peopleSearchModal": {
+    "btnAccept": "Agregar",
+    "lblModalTitle": "Agregar asistente"
+  }
+}

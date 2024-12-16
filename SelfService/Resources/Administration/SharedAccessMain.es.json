@@ -1,0 +1,16 @@
+{
+  "btnMoreInfo": "Más información",
+  "btnSave": "Guardar",
+  "lblApplyPrimaryEmail": "Establecer el correo electrónico de la invitación como el principal",
+  "lblDays": "Días hasta que expire la invitación",
+  "lblDisclosure": "Declaración",
+  "lblDisclosureStatement": "Declaración de conformidad",
+  "lblDisclosureStatementRules": "Este campo acepta HTML. Utilice enlaces con el atributo target = \"blank\" para abrir la URL en otra pestaña.",
+  "lblEmailType": "Tipo de correo electrónico predefinido",
+  "lblEmailTypeRequired": "Seleccione un tipo de correo electrónico predefinido",
+  "lblInformationNote": "Si un usuario ya tiene un correo electrónico principal, esta configuración lo reemplazará con el enviado en la invitación.",
+  "lblInvitation": "Invitación",
+  "lblIsDaysEmpty": "Ingrese los días hasta que expire la invitación",
+  "lblIsStatementEmpty": "Ingrese una declaración de conformidad",
+  "lblPreview": "Vista previa"
+}

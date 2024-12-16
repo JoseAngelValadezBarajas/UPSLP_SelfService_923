@@ -1,0 +1,55 @@
+h2 {
+    margin-left: 24px;
+    font-size: 1.625rem;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #B2B3B7;
+    border: none;
+    height: 1px;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.375;
+}
+
+.container {
+    display: flex;
+    width: calc(100% + 24px);
+    margin: -12px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.FailPaymentModal {
+    margin: 24px;
+}
+
+.item {
+    padding: 12px;
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    flex-basis: 0;
+}
+
+.label {
+    text-align: right;
+}
+
+.SuccessfulPaymentModal {
+    margin: 24px;
+    padding: 1.5rem;
+    background-color: #F8F8F8;
+}

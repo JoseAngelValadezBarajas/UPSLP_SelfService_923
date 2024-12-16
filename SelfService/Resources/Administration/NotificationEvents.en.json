@@ -1,0 +1,252 @@
+[
+  {
+    "EventCode": "ADM_APP_ACCT_CRTD",
+    "EventName": "Account created for applicant",
+    "EventDescription": "To notify the applicant when  new user account has been created."
+  },
+  {
+    "EventCode": "ADM_APP_INC",
+    "EventName": "Incomplete application form",
+    "EventDescription": "To notify the applicant when an incomplete application has been saved and how to retrieve the latest changes."
+  },
+  {
+    "EventCode": "ADM_APP_PAY_FAIL",
+    "EventName": "Application payment failure",
+    "EventDescription": "To notify the student when the payment for an application form has failed. The application will not be processed."
+  },
+  {
+    "EventCode": "ADM_APP_PAY_SUCSS",
+    "EventName": "Application payment successful",
+    "EventDescription": "To notify the user when the payment for submitting an application form is successful."
+  },
+  {
+    "EventCode": "ADM_APP_SUBMT",
+    "EventName": "Application form submitted",
+    "EventDescription": "To confirm the applicant when an application has been submitted"
+  },
+  {
+    "EventCode": "ADM_INQ_SUBMT",
+    "EventName": "Inquiry form submitted",
+    "EventDescription": "To confirm the user when an inquiry form has been submitted"
+  },
+  {
+    "EventCode": "ADV_AUTHREG",
+    "EventName": "Advisor authorize registration",
+    "EventDescription": "To notify the student when the advisor has granted authorization for registration in a year term session."
+  },
+  {
+    "EventCode": "CONED_PAY_SUCSS",
+    "EventName": "Continuing education  payment successful",
+    "EventDescription": "To notify the student when the payment for continuing education registration is successful."
+  },
+  {
+    "EventCode": "CONED_PAY_FAIL",
+    "EventName": "Continuing education  payment failure",
+    "EventDescription": "To notify the student when the payment for  continuing education registration has failed."
+  },
+  {
+    "EventCode": "CONED_ACCT_CRTD",
+    "EventName": "Continuing education  account created",
+    "EventDescription": "To notify the user a new user account has been created."
+  },
+  {
+    "EventCode": "CONED_REG_SUCSS",
+    "EventName": "Continuing education  registration successful",
+    "EventDescription": "To confirm the student when continuing education registration has been successful."
+  },
+  {
+    "EventCode": "CONED_PROF_CRTD",
+    "EventName": "Continuing education profile created",
+    "EventDescription": "To notify the user when his profile has been created and user is able to register for continuing education courses."
+  },
+  {
+    "EventCode": "FIN_BAL_PAY_FAIL",
+    "EventName": "Balance payment failure",
+    "EventDescription": "To notify the student when the payment of his balance has failed."
+  },
+  {
+    "EventCode": "FIN_BAL_PAY_SUCSS",
+    "EventName": "Balance payment sucessful",
+    "EventDescription": "To notify the student when the payment of his balance is successful."
+  },
+  {
+    "EventCode": "FIN_FRM_ACPTD",
+    "EventName": "1098-T consent accepted",
+    "EventDescription": "To confirm the student when has accepted the 1098-T form consent"
+  },
+  {
+    "EventCode": "PROF_DEM_REQ_APPRVD",
+    "EventName": "Demographic information change request approved",
+    "EventDescription": "To notify the user the demographic information change request has been approved"
+  },
+  {
+    "EventCode": "PROF_DEM_REQ_DENIED",
+    "EventName": "Demographic information change request denied",
+    "EventDescription": "To notify the user the demographic information change request has been denied"
+  },
+  {
+    "EventCode": "PROF_DEM_REQ_SUBMT",
+    "EventName": "Demographic information change request submitted",
+    "EventDescription": "To notify the user the demographic information change has been submitted and is pending approval."
+  },
+  {
+    "EventCode": "PROF_ACC_PWD_UPD",
+    "EventName": "Password manually updated ",
+    "EventDescription": "To confirm the user the password change has been done."
+  },
+  {
+    "EventCode": "PROF_PRFNME_REQ_SUBMT",
+    "EventName": "Preferred name change request submitted",
+    "EventDescription": "To notify the user the preferred name change has been submitted and is pending approval."
+  },
+  {
+    "EventCode": "PROF_PRFNME_REQ_APPRVD",
+    "EventName": "Preferred name change request approved",
+    "EventDescription": "To notify the user the preferred name change request has been approved"
+  },
+  {
+    "EventCode": "PROF_PRFNME_REQ_DENIED",
+    "EventName": "Preferred name change request denied",
+    "EventDescription": "To notify the user the preferred name change request has been denied"
+  },
+  {
+    "EventCode": "PROF_ADDR_REQ_SUBMT",
+    "EventName": "Address change request submitted",
+    "EventDescription": "To notify the user the address change has been submitted and is pending approval."
+  },
+  {
+    "EventCode": "PROF_ADDR_REQ_APPRVD",
+    "EventName": "Address change request approved",
+    "EventDescription": "To notify the user the address change request has been approved"
+  },
+  {
+    "EventCode": "PROF_ADDR_REQ_DENIED",
+    "EventName": "Address change request denied",
+    "EventDescription": "To notify the user the address change request has been denied"
+  },
+  {
+    "EventCode": "TRADREG_ADVSR_REQ_SUBMT_STDNT",
+    "EventName": "Schedule request submited for student",
+    "EventDescription": "To notify the student when a new schedule has been submitted for advisor approval."
+  },
+  {
+    "EventCode": "TRADREG_PAYSUCSS",
+    "EventName": "Registration payment successful",
+    "EventDescription": "To notify the student when the payment for registration is successful."
+  },
+  {
+    "EventCode": "TRADREG_PAYFAIL",
+    "EventName": "Registration payment failure",
+    "EventDescription": "To notify the student when the payment for registration has failed."
+  },
+  {
+    "EventCode": "TRADREG_AGRMNT_ACPT",
+    "EventName": "Registration agreement accepted",
+    "EventDescription": "To confirm the student has accepted the registration agreement"
+  },
+  {
+    "EventCode": "TRADREG_SUCSS",
+    "EventName": "Registration successful",
+    "EventDescription": "To confirm the student when registration has been successful."
+  },
+  {
+    "EventCode": "TRANREQ_REQ_SUBMT",
+    "EventName": "Transcript request submitted",
+    "EventDescription": "To notify the user the transcript request has been submitted"
+  },
+  {
+    "EventCode": "TRANREQ_REQ_PAY_SUCSS",
+    "EventName": "Transcript request payment successful",
+    "EventDescription": "To notify the user the transcript request payment is successful"
+  },
+  {
+    "EventCode": "TRANREQ_REQ_PAY_FAIL",
+    "EventName": "Transcript request payment failure",
+    "EventDescription": "To notify the user the transcript request payment has failed"
+  },
+  {
+    "EventCode": "USR_ACCT_CRTD_NOPWD",
+    "EventName": "SelfService account created",
+    "EventDescription": "To notify the user that their Self-Service account has been created."
+  },
+  {
+    "EventCode": "CRSMNG_FACULTYASSISTANT_ADDED",
+    "EventName": "Faculty assistant added",
+    "EventDescription": "To notify the person when they have been added as an assistant in a course."
+  },
+  {
+    "EventCode": "CRSMNG_FACULTYASSISTANT_REMOVED",
+    "EventName": "Faculty assistant removed",
+    "EventDescription": "To notify the person when they have been removed as an assistant in a course."
+  },
+  {
+    "EventCode": "DONATION_PAY_SUCSS",
+    "EventName": "Donation payment successful",
+    "EventDescription": "To notify the person when the payment for donation is successful."
+  },
+  {
+    "EventCode": "ADV_ADVISEE_SHARED",
+    "EventName": "Advisee shared",
+    "EventDescription": "To notify the advisor when a student has been shared with them."
+  },
+  {
+    "EventCode": "ADV_SHARED_ADVISOR_REMOVED",
+    "EventName": "Shared advisor removed",
+    "EventDescription": "Notifies the secondary advisor that the primary advisor has stopped sharing a student's information with him/her."
+  },
+  {
+    "EventCode": "ADV_SHARED_ADVISEE_REMOVED",
+    "EventName": "Shared advisee removed",
+    "EventDescription": "Notifies the primary advisor that the secondary advisor has removed a shared student from his/her list."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_INVITE",
+    "EventName": "Shared access invitation",
+    "EventDescription": "To invite a person to view student information."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_ACPTD",
+    "EventName": "Shared access invitation accepted",
+    "EventDescription": "To notify the student when the relative has accepted the invitation."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_REMOVED",
+    "EventName": "Shared access removed",
+    "EventDescription": "To notify the relative when the student has stopped sharing information with them."
+  },
+  {
+    "EventCode": "SHARED_ACCESS_ACCT_CRTD",
+    "EventName": "Shared access account created",
+    "EventDescription": "To notify the user a new account has been created."
+  },
+  {
+    "EventCode": "USR_ACCT_FRGT_PWD",
+    "EventName": "Recover password by token",
+    "EventDescription": "Send a token to recover password."
+  },
+  {
+    "EventCode": "SS_ACCT_RST_PWD",
+    "EventName": "Reset password for SelfService users",
+    "EventDescription": "To notify the user that the administrator has reset his/her password."
+  },
+  {
+    "EventCode": "PUM_ACCT_RST_PWD",
+    "EventName": "Reset password for User Management users",
+    "EventDescription": "To notify the user that the administrator has reset his/her password."
+  },
+  {
+    "EventCode": "PUM_USR_ACCT_CRTD",
+    "EventName": "User management account created",
+    "EventDescription": "To notify the user that their User management account has been created."
+  },
+  {
+    "EventCode": "USR_ACCT_FRGT_PWD_URL",
+    "EventName": "Recover password by url",
+    "EventDescription": "Send the url to recover password."
+  },
+  {
+    "EventCode": "USR_ACCT_FRGT_PWD_NSTP",
+    "EventName": "Recover password not available",
+    "EventDescription": "Notify that password recovery is not available."
+  }
+]

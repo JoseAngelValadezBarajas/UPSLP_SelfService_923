@@ -1,0 +1,212 @@
+{
+  "component": {
+    "ActionMenu": {
+      "more": "More"
+    },
+    "Alert": {
+      "close": "Close"
+    },
+    "AvatarGroup": {
+      "openMenu": "Open menu"
+    },
+    "Calendar": {
+      "agenda": "Agenda",
+      "allDay": "All day",
+      "date": "Date",
+      "day": "Day",
+      "event": "Event",
+      "goToToday": "Today",
+      "month": "Month",
+      "next": "Next",
+      "noEventsInRange": "There are no events in this range.",
+      "previous": "Previous",
+      "time": "Time",
+      "week": "Week",
+      "workWeek": "Work week"
+    },
+    "CalendarToolBar": {
+      "openDatePicker": "Open date picker"
+    },
+    "Carousel": {
+      "stepOfTotal": "Currently on {activeStep} of total {steps} slides"
+    },
+    "CarouselStepper": {
+      "backButton": "Previous Slide",
+      "nextButton": "Next Slide"
+    },
+    "DatePicker": {
+      "a11y": {
+        "inputDescription": "Date entry format is: {dateFormat}. Press the down arrow key to interact with the calendar. Use arrow keys to navigate within the calendar. Use the enter key to select a date."
+      },
+      "dateLabel": "Date",
+      "inputCalendarIconButton": "Open date picker",
+      "jumpToNextMonth": "Next month",
+      "jumpToNextWeek": "Next week",
+      "jumpToPrevMonth": "Previous month",
+      "jumpToPrevWeek": "Previous week",
+      "monthPicker": "Month picker",
+      "error": {
+        "invalidDate": "The date selected is invalid"
+      },
+      "yearPicker": "Year picker"
+    },
+    "DateRangePicker": {
+      "endDate": "End date",
+      "error": {
+        "invalidDate": "One or more selected dates are invalid",
+        "outOfRange": "One of more selected dates are out of range",
+        "overlappingDates": "The selected dates are overlapping"
+      },
+      "nextMonth": "Next month",
+      "previousMonth": "Previous month",
+      "startDate": "Start date"
+    },
+    "DayPicker": {
+      "nextMonth": "Next month",
+      "previousMonth": "Previous month",
+      "navDescription": "Use down arrow key to navigate date picker"
+    },
+    "Dialog": {
+      "close": "Close"
+    },
+    "Dropdown": {
+      "selectAll": "Select all",
+      "all": "all items selected from the list",
+      "none": "no items selected from the list",
+      "intermediate": "few items selected from the list",
+      "totalSelected": "total items selected: {count} of {total}"
+    },
+    "DropdownTypeahead": {
+      "open": "Open dropdown",
+      "close": "Close dropdown"
+    },
+    "HeaderBar": {
+      "close": "Close",
+      "closeSearch": "Close search",
+      "megaMenu": "Open navigation menu",
+      "openSearch": "Open search",
+      "pageItems": "Page Items",
+      "search": "Search"
+    },
+    "Logo": {
+      "logo": "Ellucian logo"
+    },
+    "MegaMenu": {
+      "poweredBy": "Powered by",
+      "utilities": "Utilities"
+    },
+    "MobileStepper": {
+      "a11yLabel": "{label}, selected step",
+      "allStepsCompleted": "All steps completed",
+      "step": "Step {step} of {count}"
+    },
+    "Pagination": {
+      "firstPage": "First page",
+      "lastPage": "Last page",
+      "nextPage": "Next page",
+      "ofTotalCount": "of {count}",
+      "page": "Page",
+      "perPage": "Per page:",
+      "previousPage": "Previous page",
+      "totalResults": "Total results:"
+    },
+    "Search": {
+      "categorySearch": {
+        "All": "All"
+      },
+      "clear": "Clear",
+      "close": "Close",
+      "loading": "Loading...",
+      "noresult": "No results found. Try again",
+      "open": "Open",
+      "placeholder": "Search"
+    },
+    "Slider": {
+      "thumb": "Slider thumb"
+    },
+    "Snackbar": {
+      "undo": "Undo"
+    },
+    "StepProgress": {
+      "a11yLabel": "{label}, selected step, {step} of {totalSteps}",
+      "errorMessage": "Error message: {errorMessage}",
+      "errorMessageTitle": "This step has errors",
+      "errors": "There are errors in one or more of the steps.",
+      "errorOnStepLabel": "Error on step {number}",
+      "open": "Open"
+    },
+    "Table": {
+      "edit": "Edit",
+      "hide": "Collapse row",
+      "hideAll": "Collapse all table rows",
+      "selectAllRows": "Select all rows",
+      "selectRow": "Select row",
+      "selectionCount": "{count} rows are selected",
+      "selectionCountSingle": "1 row is selected",
+      "showAll": "Show all",
+      "showMore": "Show more",
+      "unselectAllRows": "Unselect all rows",
+      "unselectRow": "Unselect row"
+    },
+    "Tabs": {
+      "scrollButtons": "Click to display more tabs"
+    },
+    "TextField": {
+      "characterCounter": "{count} out of {total} allowed characters entered",
+      "clear": "Clear",
+      "hide": "Hide",
+      "hidePassword": "Hide Password",
+      "search": "Search",
+      "show": "Show",
+      "showPassword": "Show Password"
+    },
+    "TimePicker": {
+      "amPm": "AM or PM",
+      "hour": "Hour",
+      "minute": "Minute"
+    },
+    "MasterDetail": {
+      "backToLinkLabel": "Back to {label}"
+    }
+  },
+  "footer": {
+    "formatText": "PowerCampus™ Self-Service {0} - Copyright 1995-{1} Ellucian Company L.P. and its affiliates."
+  },
+  "lblClose": "Close",
+  "lblCollapse": "Collapse",
+  "lblCollapseAll": "Collapse all",
+  "lblDropDownEmptyText": "Select...",
+  "lblError": "There was an error in PowerCampus Self-Service. Try again.",
+  "lblExpand": "Expand",
+  "lblExpandAll": "Expand all",
+  "lblLoading": "Loading...",
+  "lblNoConnection": "Connection failed. Try again by refreshing the browser window.",
+  "lblPageTitleGeneral": "Self-Service - ",
+  "lblSelectAll": "Select all",
+  "lblShowLess": "Less",
+  "lblShowMore": "More",
+  "lblSuccessSave": "Changes saved",
+  "navBar": {
+    "utilityNav": {
+      "cartMessages": {
+        "lblContinuingEducation": "Continuing education"
+      },
+      "lblCart": "Cart",
+      "lblMegaMenuTitle": "Self-Service",
+      "lblNotifications": "Notifications",
+      "lblProfile": "Account",
+      "notificationMessages": {
+        "formatPermissionRequest": "Permission Request from {0}"
+      },
+      "profileMenu": {
+        "lblLogOut": "Sign out",
+        "lblProfile": "Profile"
+      }
+    }
+  },
+  "timeoutNotification": {
+    "btnExtendSession": "Extend session",
+    "formatNotificationMessage": "The session is expiring in {0} seconds.",
+    "lblNotificationTitle": "Session Timeout"
+  }
+}

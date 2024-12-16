@@ -1,0 +1,9 @@
+{
+  "btnGoBalance": "Ver saldo",
+  "btnOk": "Aceptar",
+  "lblAmount": "Monto",
+  "lblAuthorizationCode": "Código de autorización",
+  "lblDescription": "Descripción",
+  "lblTitle": "El pago se ha procesado",
+  "lblTitleDetails": "Detalles"
+}

@@ -1,0 +1,39 @@
+{
+  "btnSearch": "Add",
+  "lblFacultyAlreadyAdded": "Person is already an assistant",
+  "lblNoClaims": "Before adding assistants, please contact the administrator. Make sure the claims for the faculty role that grant access to assistants are active in PowerCampus User Management",
+  "lblNoDefaultRole": "Before adding assistants, please contact the administrator to set up the default role for Faculty Assistant in PowerCampus User Management",
+  "lblNoResults": "To start working, add an assistant",
+  "lblPersonIsFaculty": "Person is the instructor",
+  "deleteMessageConfirmation": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete {0} as assistant? Deleting it will remove it from your list.",
+    "lblTitle": "Delete Assistant"
+  },
+  "manageAssistantsTable": {
+    "btnSave": "Save",
+    "btnSendEmail": "E-mail selected",
+    "formatAdded": "Added: {0}",
+    "formatLastModified": "Last modified: {0}",
+    "formatSelectAssistant": "Select {0}",
+    "lblActivities": "Activities",
+    "lblActivityGrades": "Activity grades",
+    "lblAlerts": "Alerts",
+    "lblAssistant": "Assistant",
+    "lblClassList": "Class list",
+    "lblDailyAttendance": "Daily attendance",
+    "lblDashboardNotes": "Dashboard notes",
+    "lblDelete": "Delete",
+    "lblGradeMappings": "Grade mappings",
+    "lblOverallAttendance": "Overall attendance",
+    "lblOverallGrades": "Overall grades",
+    "lblSubmitOverallGrades": "Submit overall grades",
+    "lblWaitlist": "Wait list",
+    "lblWithdrawn": "Withdrawn"
+  },
+  "peopleSearchModal": {
+    "btnAccept": "Add",
+    "lblModalTitle": "Add Assistant"
+  }
+}

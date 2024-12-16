@@ -1,0 +1,24 @@
+{
+  "agreementForm1098TModal": {
+    "btnCancel": "Cancel",
+    "btnSave": "Save"
+  },
+  "btnCancel": "Cancel",
+  "btnReviewAndAccept": "Review and accept the terms and conditions*",
+  "btnReviewTerms": "Review terms and conditions*",
+  "lblAccepted": "Accepted",
+  "lblAcceptedMessage": "You now have access to the electronic form.",
+  "lblConsentTitle": "Consent",
+  "lblHeaderTitle": "",
+  "lblMainMessage": "You are allowed to opt to receive 1098-T forms electronically. If you want to do so, please read and accept the terms and conditions set for signing the consent for 1098-T.",
+  "lblNoAgreement": "There is no consent at this moment.",
+  "lblNotAccepted": "Not accepted",
+  "lblNotAcceptedMessage": "You will receive the form in the mail.",
+  "lblPageTitle": "",
+  "lblTaxYearsTitle": "Tax Years",
+  "taxYears1098T": {
+    "btnDownload": "Download",
+    "lblDownloadProcess": "Download in process...",
+    "lblNoResults": "There are no forms available"
+  }
+}

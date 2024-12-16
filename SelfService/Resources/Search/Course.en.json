@@ -1,0 +1,36 @@
+{
+  "formatResultsShowing": "{0}-{1} of {2}",
+  "lblHeaderTitle": "Course",
+  "lblNewSearch": "New Search",
+  "lblNoResults": "No results found",
+  "lblPageTitle": "Search Course",
+  "courseSearchOptionsResources": {
+    "btnSearch": "Search",
+    "lblClassLevel": "Class level",
+    "lblClearAll": "Clear Filters",
+    "lblCollege": "College",
+    "lblCourseCode": "Course Code",
+    "lblCreditType": "Credit type",
+    "lblCurriculum": "Curriculum",
+    "lblDepartment": "Department",
+    "lblFilters": "Filters",
+    "lblNonTraditional": "Non traditional",
+    "lblPopulation": "Population",
+    "lblProgram": "Program",
+    "lblSelect": "Select...",
+    "lblShareSearch": "Share Search",
+    "lblSubtype": "Subtype"
+  },
+  "courseCardResources": {
+    "formatTitleSection": "{0}: {1}",
+    "formatTitleSectionShort": "{0}: {1}...",
+    "lblDescription": "Description",
+    "lblFindSections": "Find Sections",
+    "lblSubtypes": "Subtypes"
+  },
+  "shareSearchCourseLinkModalResources": {
+    "btnOk": "Ok",
+    "lblTitle": "Share Link",
+    "lblUrlToShare": "Link to share"
+  }
+}

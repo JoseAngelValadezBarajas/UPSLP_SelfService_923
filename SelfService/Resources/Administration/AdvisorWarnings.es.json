@@ -1,0 +1,20 @@
+{
+  "btnSave": "Guardar",
+  "lblActive": "Activo",
+  "lblAlerts": "Tipo de alerta",
+  "lblAlertSettings": "Configuración de advertencias de alertas",
+  "lblAttendanceSettings": "Configuración de advertencias de asistencia",
+  "lblCreditType": "Tipo de crédito",
+  "lblEnableAlertWarning": "Advertencias de alertas",
+  "lblEnableAttendanceWarning": "Advertencias de asistencia",
+  "lblEnableGradeWarning": "Advertencias de calificaciones",
+  "lblExcusedAbsences": "Ausencias justificadas",
+  "lblExcusedTardiness": "Retardo justificado",
+  "lblGrades": "Calificaciones",
+  "lblGradeSettings": "Configuración de advertencias de calificaciones",
+  "lblInactive": "Inactivo",
+  "lblInstructions": "Especificar la configuración para las advertencias del asesor",
+  "lblStatus": "Estatus",
+  "lblUnexcusedAbsences": "Ausencias injustificadas",
+  "lblUnexcusedTardiness": "Retardos injustificados"
+}

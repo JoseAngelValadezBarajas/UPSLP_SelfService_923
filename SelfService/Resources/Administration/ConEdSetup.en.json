@@ -1,0 +1,9 @@
+{
+  "lblEmptyState": "You don't have any option assigned.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "",
+  "conEdSetupTabs": {
+    "lblConEdDefaults": "Defaults",
+    "lblConEdRegistration": "Registration"
+  }
+}

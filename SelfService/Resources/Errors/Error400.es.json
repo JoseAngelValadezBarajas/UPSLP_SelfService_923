@@ -1,0 +1,8 @@
+{
+  "lblGoBack": "Regresar",
+  "lblGoToHome": "Ir al inicio",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Error 400",
+  "lblText": "La solicitud que envió era de alguna manera incorrecta o corrupta.",
+  "lblTitle": "400 - Error de solicitud incorrecta"
+}

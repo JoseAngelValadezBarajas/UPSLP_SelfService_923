@@ -1,0 +1,27 @@
+{
+  "btnCancel": "Cancel",
+  "btnDelete": "Delete",
+  "btnEdit": "Edit",
+  "btnSave": "Save",
+  "btnSearch": "Add",
+  "deleteAssociationHeadConfirmation": {
+    "btnAccept": "Delete",
+    "btnDecline": "Cancel",
+    "formatContent": "Are you sure you want to delete {0}? Deleting the association responsible will remove it from your list.",
+    "lblTitle": "Delete Association Responsible"
+  },
+  "lblAssociation": "Association",
+  "lblAssociationHeadTitle": "Assign the association responsibles of the institution.",
+  "lblAssociationRequired": "Select an association",
+  "lblDuplicatedAssociationHead": "Association is duplicated. Enter a unique association.",
+  "lblNoAssociationHeads": "To get started, add a responsible.",
+  "lblResponsible": "Responsible",
+  "peopleSearchAssignModalExtra": {
+    "lblDuplicatedOption": "Association is duplicated. Enter a unique association.",
+    "lblModalTitle": "Add Association Responsible",
+    "lblOption": "Association",
+    "lblRequiredOption": "Select an association",
+    "lblStepInstructions": "As association responsible of:",
+    "lblStepTitle": "Select association"
+  }
+}

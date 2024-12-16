@@ -1,0 +1,12 @@
+{
+  "formatMinCredit": " crédito mínimo = {0} ",
+  "formatMinGrade": " calificación mínima = {0} ",
+  "formatMinScore": " puntaje mínimo = {0} ",
+  "formatSeparator1": "{0} / {1}",
+  "lblAnd": "Y",
+  "lblConcurrent": " se puede tomar simultáneamente ",
+  "lblInstructorPermissionRequired": "Permiso del instructor requerido de {0}",
+  "lblOr": "O",
+  "lblSeparator3": ", ",
+  "lblSeparator4": " "
+}

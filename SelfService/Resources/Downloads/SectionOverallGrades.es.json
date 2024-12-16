@@ -1,0 +1,13 @@
+{
+  "lblCreditType": "Tipo de crédito",
+  "lblFinalApproved": "Calificación final aprobada",
+  "lblFinalScore": "Puntaje final calculado",
+  "lblFinalSubmitted": "Calificación final enviada",
+  "lblMidtermApproved": "Calificación parcial aprobada",
+  "lblMidtermScore": "Puntaje parcial calculado",
+  "lblMidtermSubmitted": "Calificación parcial enviada",
+  "lblName": "Nombre",
+  "lblPeopleId": "ID",
+  "lblProjected": "Calificación proyectada",
+  "lblWithdrawn": "Dado de baja"
+}

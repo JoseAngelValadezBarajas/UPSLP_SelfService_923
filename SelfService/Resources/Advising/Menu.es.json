@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "ManageAdviseesId",
+    "Text": "Administrar asesorías"
+  },
+  {
+    "Id": "AuthorizeAdviseesId",
+    "Text": "Autorizar inscripción"
+  },
+  {
+    "Id": "SharedAdviseesId",
+    "Text": "Asesorados compartidos"
+  }
+]

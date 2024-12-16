@@ -1,0 +1,18 @@
+{
+  "formatCreditType": "Type: {0} | Credit type: {1}",
+  "formatPeriod": "{0}/{1}",
+  "formatSectionSubType": "Subtype: {0} | Section: {1}",
+  "lblAlert": "Alert",
+  "lblCategory": "Category:",
+  "lblCourse": "Course",
+  "lblDate": "Date",
+  "lblDateEdited": "Date edited: ",
+  "lblDateOcurred": "Date ocurred: ",
+  "lblDescription": "Description: ",
+  "lblEditedBy": "Edited by:",
+  "lblHeaderTitle": "",
+  "lblNoAlerts": "There are no alerts",
+  "lblPageTitle": "",
+  "lblPeriod": "Period",
+  "lblType": "Type:"
+}

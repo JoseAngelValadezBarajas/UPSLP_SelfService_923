@@ -1,0 +1,16 @@
+{
+  "btnMoreInfo": "More information",
+  "btnSave": "Save",
+  "lblApplyPrimaryEmail": "Set invitation e-mail as primary e-mail",
+  "lblDays": "Days until invitation expires",
+  "lblDisclosure": "Disclosure",
+  "lblDisclosureStatement": "Disclosure statement",
+  "lblDisclosureStatementRules": "This field accepts HTML. Use links with the target=\"blank\" attribute to open the url in other tab.",
+  "lblEmailType": "Default e-mail type",
+  "lblEmailTypeRequired": "Select a default email type",
+  "lblInformationNote": "If a user already has a primary e-mail, this setting will replace it with the one sent in the invitation.",
+  "lblInvitation": "Invitation",
+  "lblIsDaysEmpty": "Enter the days until invitation expires",
+  "lblIsStatementEmpty": "Enter a disclosure statement",
+  "lblPreview": "Preview"
+}

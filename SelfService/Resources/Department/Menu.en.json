@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "CourseManagementId",
+    "Text": "Course Management"
+  },
+  {
+    "Id": "SetupApprovalsId",
+    "Text": "Setup Approvals"
+  },
+  {
+    "Id": "ApproveGradesId",
+    "Text": "Approve Grades"
+  },
+  {
+    "Id": "CourseTemplatesId",
+    "Text": "Course Templates"
+  }
+]

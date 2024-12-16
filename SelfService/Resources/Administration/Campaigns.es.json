@@ -1,0 +1,25 @@
+{
+  "lblEmptyState": "No hay campañas disponibles.",
+  "lblInstructions": "Especifique las campañas de la institución a las que el público en general puede contribuir.",
+  "lblWarningUrl": "No existe la URL del proveedor de pagos para los donativos. Para habilitar las contribuciones, vaya a Administración / Configurar sitio web / Proveedor de pagos",
+  "campaignsTable": {
+    "btnAdd": "Agregar",
+    "lblEmptyCampaigns": "Para empezar a trabajar, agregue una campaña",
+    "lblName": "Nombre",
+    "lblRemove": "Remover"
+  },
+  "addCampaign": {
+    "btnAdd": "Agregar",
+    "btnCancel": "Cancelar",
+    "lblAddCampaign": "Agregar campaña",
+    "lblCampaign": "Campaña",
+    "lblSelectCampaign": "Seleccionar una campaña",
+    "lblUniqueCampaign": "Ingrese una campaña única"
+  },
+  "deleteCampaignConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro que desea eliminar {0}? Al eliminar esta campaña ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar campaña"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "formatFieldVisible": "El campo {0} es visible",
+  "lblAllowChangeGender": "Permitir cambiar",
+  "lblAllVisible": "Todo visible",
+  "lblApprovalRequired": "Requiere aprobación",
+  "lblField": "Campo",
+  "lblFormSettings": "Configuración del formulario",
+  "lblGenderIdentity": "Identidad de género",
+  "lblGenderIdentityInformation": "Manejo de solicitudes",
+  "lblLegend": "Especificar la información de nombre preferido que se mostrará en el perfil del usuario.",
+  "lblPreferredName": "Nombre preferido",
+  "lblPronoun": "Pronombre",
+  "lblSave": "Guardar",
+  "lblVisible": "Visible"
+}

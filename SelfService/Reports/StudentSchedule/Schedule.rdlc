@@ -1,0 +1,2771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="StudentSchedule">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>962af1b2-833c-4cca-8ea0-fb894d9e916d</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="Registered">
+      <Query>
+        <DataSourceName>StudentSchedule</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="AdvisorApprovalInfo">
+          <DataField>AdvisorApprovalInfo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventSubType">
+          <DataField>EventSubType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventType">
+          <DataField>EventType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventId">
+          <DataField>EventId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventName">
+          <DataField>EventName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Section">
+          <DataField>Section</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SessionDesc">
+          <DataField>SessionDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditType">
+          <DataField>CreditType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditTypeDescription">
+          <DataField>CreditTypeDescription</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Schedules">
+          <DataField>Schedules</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AreFeesApplicable">
+          <DataField>AreFeesApplicable</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Instructors">
+          <DataField>Instructors</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Credits">
+          <DataField>Credits</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorsCount">
+          <DataField>InstructorsCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorName">
+          <DataField>InstructorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsRegistered">
+          <DataField>IsRegistered</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsPending">
+          <DataField>IsPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsDenied">
+          <DataField>IsDenied</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInCart">
+          <DataField>IsInCart</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsHolding">
+          <DataField>IsHolding</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInWaitlist">
+          <DataField>IsInWaitlist</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsApproved">
+          <DataField>IsApproved</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsWaitListPending">
+          <DataField>IsWaitListPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresDate">
+          <DataField>PendingExpiresDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresTime">
+          <DataField>PendingExpiresTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SchedulesCount">
+          <DataField>SchedulesCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleOrgName">
+          <DataField>ScheduleOrgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleBldgName">
+          <DataField>ScheduleBldgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleFloorId">
+          <DataField>ScheduleFloorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleRoomId">
+          <DataField>ScheduleRoomId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleStartTime">
+          <DataField>ScheduleStartTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleEndTime">
+          <DataField>ScheduleEndTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleDayDesc">
+          <DataField>ScheduleDayDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AuthorizationNeeded">
+          <DataField>AuthorizationNeeded</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StudentSchedule</rd:DataSetName>
+        <rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+        <rd:TableName>Sections</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="InCart">
+      <Query>
+        <DataSourceName>StudentSchedule</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="AdvisorApprovalInfo">
+          <DataField>AdvisorApprovalInfo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventSubType">
+          <DataField>EventSubType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventType">
+          <DataField>EventType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventId">
+          <DataField>EventId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventName">
+          <DataField>EventName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Section">
+          <DataField>Section</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SessionDesc">
+          <DataField>SessionDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditType">
+          <DataField>CreditType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditTypeDescription">
+          <DataField>CreditTypeDescription</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Schedules">
+          <DataField>Schedules</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AreFeesApplicable">
+          <DataField>AreFeesApplicable</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Instructors">
+          <DataField>Instructors</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Credits">
+          <DataField>Credits</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorsCount">
+          <DataField>InstructorsCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorName">
+          <DataField>InstructorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsRegistered">
+          <DataField>IsRegistered</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsPending">
+          <DataField>IsPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsDenied">
+          <DataField>IsDenied</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInCart">
+          <DataField>IsInCart</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsHolding">
+          <DataField>IsHolding</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInWaitlist">
+          <DataField>IsInWaitlist</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsApproved">
+          <DataField>IsApproved</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsWaitListPending">
+          <DataField>IsWaitListPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresDate">
+          <DataField>PendingExpiresDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresTime">
+          <DataField>PendingExpiresTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SchedulesCount">
+          <DataField>SchedulesCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleOrgName">
+          <DataField>ScheduleOrgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleBldgName">
+          <DataField>ScheduleBldgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleFloorId">
+          <DataField>ScheduleFloorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleRoomId">
+          <DataField>ScheduleRoomId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleStartTime">
+          <DataField>ScheduleStartTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleEndTime">
+          <DataField>ScheduleEndTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleDayDesc">
+          <DataField>ScheduleDayDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AuthorizationNeeded">
+          <DataField>AuthorizationNeeded</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StudentSchedule</rd:DataSetName>
+        <rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+        <rd:TableName>Sections</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="WaitList">
+      <Query>
+        <DataSourceName>StudentSchedule</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="AdvisorApprovalInfo">
+          <DataField>AdvisorApprovalInfo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventSubType">
+          <DataField>EventSubType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventType">
+          <DataField>EventType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventId">
+          <DataField>EventId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventName">
+          <DataField>EventName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Section">
+          <DataField>Section</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SessionDesc">
+          <DataField>SessionDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditType">
+          <DataField>CreditType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditTypeDescription">
+          <DataField>CreditTypeDescription</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Schedules">
+          <DataField>Schedules</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AreFeesApplicable">
+          <DataField>AreFeesApplicable</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Instructors">
+          <DataField>Instructors</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Credits">
+          <DataField>Credits</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorsCount">
+          <DataField>InstructorsCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorName">
+          <DataField>InstructorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsRegistered">
+          <DataField>IsRegistered</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsPending">
+          <DataField>IsPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsDenied">
+          <DataField>IsDenied</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInCart">
+          <DataField>IsInCart</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsHolding">
+          <DataField>IsHolding</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInWaitlist">
+          <DataField>IsInWaitlist</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsApproved">
+          <DataField>IsApproved</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsWaitListPending">
+          <DataField>IsWaitListPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresDate">
+          <DataField>PendingExpiresDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresTime">
+          <DataField>PendingExpiresTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SchedulesCount">
+          <DataField>SchedulesCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleOrgName">
+          <DataField>ScheduleOrgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleBldgName">
+          <DataField>ScheduleBldgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleFloorId">
+          <DataField>ScheduleFloorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleRoomId">
+          <DataField>ScheduleRoomId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleStartTime">
+          <DataField>ScheduleStartTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleEndTime">
+          <DataField>ScheduleEndTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleDayDesc">
+          <DataField>ScheduleDayDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AuthorizationNeeded">
+          <DataField>AuthorizationNeeded</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StudentSchedule</rd:DataSetName>
+        <rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+        <rd:TableName>Sections</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="Pending">
+      <Query>
+        <DataSourceName>StudentSchedule</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="AdvisorApprovalInfo">
+          <DataField>AdvisorApprovalInfo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventSubType">
+          <DataField>EventSubType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventType">
+          <DataField>EventType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventId">
+          <DataField>EventId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventName">
+          <DataField>EventName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Section">
+          <DataField>Section</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SessionDesc">
+          <DataField>SessionDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditType">
+          <DataField>CreditType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditTypeDescription">
+          <DataField>CreditTypeDescription</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Schedules">
+          <DataField>Schedules</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AreFeesApplicable">
+          <DataField>AreFeesApplicable</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Instructors">
+          <DataField>Instructors</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Credits">
+          <DataField>Credits</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorsCount">
+          <DataField>InstructorsCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorName">
+          <DataField>InstructorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsRegistered">
+          <DataField>IsRegistered</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsPending">
+          <DataField>IsPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsDenied">
+          <DataField>IsDenied</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInCart">
+          <DataField>IsInCart</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsHolding">
+          <DataField>IsHolding</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInWaitlist">
+          <DataField>IsInWaitlist</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsApproved">
+          <DataField>IsApproved</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsWaitListPending">
+          <DataField>IsWaitListPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresDate">
+          <DataField>PendingExpiresDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresTime">
+          <DataField>PendingExpiresTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SchedulesCount">
+          <DataField>SchedulesCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleOrgName">
+          <DataField>ScheduleOrgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleBldgName">
+          <DataField>ScheduleBldgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleFloorId">
+          <DataField>ScheduleFloorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleRoomId">
+          <DataField>ScheduleRoomId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleStartTime">
+          <DataField>ScheduleStartTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleEndTime">
+          <DataField>ScheduleEndTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleDayDesc">
+          <DataField>ScheduleDayDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AuthorizationNeeded">
+          <DataField>AuthorizationNeeded</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StudentSchedule</rd:DataSetName>
+        <rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+        <rd:TableName>Sections</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+    <DataSet Name="Denied">
+      <Query>
+        <DataSourceName>StudentSchedule</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="AdvisorApprovalInfo">
+          <DataField>AdvisorApprovalInfo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventSubType">
+          <DataField>EventSubType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventType">
+          <DataField>EventType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventId">
+          <DataField>EventId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EventName">
+          <DataField>EventName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Section">
+          <DataField>Section</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SessionDesc">
+          <DataField>SessionDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="StartDate">
+          <DataField>StartDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EndDate">
+          <DataField>EndDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditType">
+          <DataField>CreditType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CreditTypeDescription">
+          <DataField>CreditTypeDescription</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Schedules">
+          <DataField>Schedules</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AreFeesApplicable">
+          <DataField>AreFeesApplicable</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Instructors">
+          <DataField>Instructors</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Credits">
+          <DataField>Credits</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorsCount">
+          <DataField>InstructorsCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="InstructorName">
+          <DataField>InstructorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsRegistered">
+          <DataField>IsRegistered</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsPending">
+          <DataField>IsPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsDenied">
+          <DataField>IsDenied</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInCart">
+          <DataField>IsInCart</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsHolding">
+          <DataField>IsHolding</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsInWaitlist">
+          <DataField>IsInWaitlist</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsApproved">
+          <DataField>IsApproved</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IsWaitListPending">
+          <DataField>IsWaitListPending</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresDate">
+          <DataField>PendingExpiresDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PendingExpiresTime">
+          <DataField>PendingExpiresTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SchedulesCount">
+          <DataField>SchedulesCount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleOrgName">
+          <DataField>ScheduleOrgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleBldgName">
+          <DataField>ScheduleBldgName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleFloorId">
+          <DataField>ScheduleFloorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleRoomId">
+          <DataField>ScheduleRoomId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleStartTime">
+          <DataField>ScheduleStartTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleEndTime">
+          <DataField>ScheduleEndTime</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ScheduleDayDesc">
+          <DataField>ScheduleDayDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AuthorizationNeeded">
+          <DataField>AuthorizationNeeded</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>StudentSchedule</rd:DataSetName>
+        <rd:SchemaPath>C:\GIT\selfservice\SelfService\Reports\StudentSchedule\StudentSchedule.xsd</rd:SchemaPath>
+        <rd:TableName>Sections</rd:TableName>
+        <rd:TableAdapterFillMethod />
+        <rd:TableAdapterGetDataMethod />
+        <rd:TableAdapterName />
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <ReportItems>
+          <Tablix Name="RegisteredTable">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>7.00894cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.83475cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.35228cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.7205cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.57354cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AdvisorApprovalInfo6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EventId.Value + ": " + Fields!EventName.Value + System.Environment.NewLine + Parameters!lblSection.Value + Fields!Section.Value + " | " + Parameters!lblSession.Value + ": " + Fields!SessionDesc.Value + " | " + Parameters!lblSubtype.Value + Fields!EventSubType.Value + System.Environment.NewLine + Parameters!lblType.Value + Fields!EventType.Value + " | " + Parameters!lblDuration.Value + Fields!StartDate.Value + " - " + Fields!EndDate.Value + System.Environment.NewLine + Parameters!lblCreditType.Value + Fields!CreditTypeDescription.Value + System.Environment.NewLine + IIF(Fields!AreFeesApplicable.Value, Parameters!lblFees.Value + System.Environment.NewLine, System.String.Empty) + IIF(Fields!SchedulesCount.Value = 0, Parameters!lblNoSchedule.Value, IIF(Fields!SchedulesCount.Value &gt; 1, Parameters!lblMultipleMeetingTimes.Value, Fields!ScheduleStartTime.Value + " - " + Fields!ScheduleEndTime.Value + System.Environment.NewLine + Fields!ScheduleDayDesc.Value + System.Environment.NewLine + Fields!ScheduleOrgName.Value + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleBldgName.Value), ", " + Fields!ScheduleBldgName.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleFloorId.Value), Parameters!lblFloor.Value + Fields!ScheduleFloorId.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleRoomId.Value), Parameters!lblRoom.Value + Fields!ScheduleRoomId.Value, System.String.Empty)))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AdvisorApprovalInfo</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EventSubType">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!InstructorsCount.Value = 0,
+Parameters!lblNoInstructor.Value,
+IIF(Fields!InstructorsCount.Value &gt; 1,
+Parameters!lblMultipleInstructors.Value, Fields!InstructorName.Value))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EventSubType</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Credits">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Credits.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Credits</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox57">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!IsRegistered.Value
+    , Parameters!lblRegistered.Value + System.Environment.NewLine
+        + IIF(Fields!IsPending.Value
+            , Parameters!lblDropPendingApproval.Value
+            , System.String.Empty
+        )
+        + IIF(Fields!IsDenied.Value
+            , Parameters!lblDropDenied.Value
+            , System.String.Empty
+        )
+    , IIF(Fields!IsDenied.Value
+        , Parameters!lblDenied.Value + System.Environment.NewLine
+            + IIF(Fields!IsInCart.Value
+                , Parameters!lblPermissionDenied.Value
+                , Parameters!lblApprovalDenied.Value
+            )
+        , IIF(Fields!AuthorizationNeeded.Value And Not(Fields!IsWaitListPending.Value)
+            , Parameters!lblPending.Value + System.Environment.NewLine
+                + Parameters!lblAdvisorAuthorizationNeeded.Value
+            , IIF(Fields!IsHolding.Value
+                Or (Not(Fields!IsInWaitlist.Value) And Fields!IsPending.Value)
+                Or (Fields!IsInWaitlist.Value And Not(Fields!IsPending.Value))
+                , Parameters!lblPending.Value + System.Environment.NewLine
+                    + IIF(Fields!IsInWaitlist.Value
+                        , Parameters!lblOnWaitlist.Value
+                        , IIF(Fields!IsInCart.Value
+                            , Parameters!lblPermissionRequested.Value
+                            , Parameters!lblAwaitingApproval.Value
+                        )
+                    )
+                , IIF(Fields!IsInCart.Value Or (Fields!IsInWaitlist.Value And Fields!IsPending.Value)
+                    , IIF(Fields!IsInWaitlist.Value
+                        , IIF(Fields!IsWaitListPending.Value
+                            , Parameters!lblInCart.Value
+                            , Parameters!lblPending.Value
+                        )
+                            + System.Environment.NewLine + Parameters!lblRegisterNow.Value
+                            + IIF(Not(string.IsNullOrEmpty(Fields!PendingExpiresDate.Value)) And Not(string.IsNullOrEmpty(Fields!PendingExpiresTime.Value))
+                                , System.Environment.NewLine
+                                    + Parameters!lblSeatAvailable.Value
+                                    + Fields!PendingExpiresDate.Value + " "
+                                    + Fields!PendingExpiresTime.Value + ". " + System.Environment.NewLine
+                                    + Parameters!lblSeatDeadline.Value
+                                , string.Empty
+                            )
+                            + IIF(Fields!AuthorizationNeeded.Value And Fields!IsWaitListPending.Value
+                                , System.Environment.NewLine + Parameters!lblAdvisorAuthorizationNeeded.Value
+                                , string.Empty
+                            )
+                        , IIF(Fields!IsApproved.Value
+                            , Parameters!lblInCart.Value
+                                + System.Environment.NewLine
+                                + Parameters!lblPermissionApproved.Value
+                            , Parameters!lblInCart.Value
+                        )
+                    )
+                    , string.Empty
+                )
+            )
+        )
+    )
+)</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox46</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details2" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>Registered</DataSetName>
+            <Top>3.37083cm</Top>
+            <Left>0.51717cm</Left>
+            <Height>0.57354cm</Height>
+            <Width>18.91647cm</Width>
+            <Visibility>
+              <Hidden>=IIF(CountRows() &gt; 0, false, true)</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="InCartTable">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>7.00894cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.83475cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.35228cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.7205cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.57354cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AdvisorApprovalInfo3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EventId.Value + ": " + Fields!EventName.Value
++ System.Environment.NewLine
++ Parameters!lblSection.Value + Fields!Section.Value + " | "
++ Parameters!lblSession.Value + ": " + Fields!SessionDesc.Value + " | "
++ Parameters!lblSubtype.Value + Fields!EventSubType.Value
++ System.Environment.NewLine
++ Parameters!lblType.Value + Fields!EventType.Value + " | "
++ Parameters!lblDuration.Value + Fields!StartDate.Value + " - " + Fields!EndDate.Value
++ System.Environment.NewLine
++ Parameters!lblCreditType.Value + Fields!CreditTypeDescription.Value
++ System.Environment.NewLine
++ IIF(Fields!AreFeesApplicable.Value,
+Parameters!lblFees.Value
++ System.Environment.NewLine, System.String.Empty)
++ IIF(Fields!SchedulesCount.Value = 0, Parameters!lblNoSchedule.Value,
+IIF(Fields!SchedulesCount.Value &gt; 1, Parameters!lblMultipleMeetingTimes.Value,
+Fields!ScheduleStartTime.Value + " - " + Fields!ScheduleEndTime.Value
++ System.Environment.NewLine
++ Fields!ScheduleDayDesc.Value
++ System.Environment.NewLine
++ Fields!ScheduleOrgName.Value
++ IIF(Not(string.IsNullOrEmpty(Fields!ScheduleBldgName.Value)), ", "+ Fields!ScheduleBldgName.Value, string.Empty)
++ IIF(Not(string.IsNullOrEmpty(Fields!ScheduleFloorId.Value)), Parameters!lblFloor.Value+ Fields!ScheduleFloorId.Value, string.Empty)
++ IIF(Not(string.IsNullOrEmpty(Fields!ScheduleRoomId.Value)), Parameters!lblRoom.Value + Fields!ScheduleRoomId.Value, string.Empty)
+))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AdvisorApprovalInfo</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EventSubType3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!InstructorsCount.Value = 0, Parameters!lblNoInstructor.Value, IIF(Fields!InstructorsCount.Value &gt; 1, Parameters!lblMultipleInstructors.Value, Fields!InstructorName.Value))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EventSubType</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Credits3">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Credits.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Credits</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox62">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!IsRegistered.Value
+    , Parameters!lblRegistered.Value + System.Environment.NewLine
+        + IIF(Fields!IsPending.Value
+            , Parameters!lblDropPendingApproval.Value
+            , System.String.Empty
+        )
+        + IIF(Fields!IsDenied.Value
+            , Parameters!lblDropDenied.Value
+            , System.String.Empty
+        )
+    , IIF(Fields!IsDenied.Value
+        , Parameters!lblDenied.Value + System.Environment.NewLine
+            + IIF(Fields!IsInCart.Value
+                , Parameters!lblPermissionDenied.Value
+                , Parameters!lblApprovalDenied.Value
+            )
+        , IIF(Fields!AuthorizationNeeded.Value And Not(Fields!IsWaitListPending.Value)
+            , Parameters!lblPending.Value + System.Environment.NewLine
+                + Parameters!lblAdvisorAuthorizationNeeded.Value
+            , IIF(Fields!IsHolding.Value
+                Or (Not(Fields!IsInWaitlist.Value) And Fields!IsPending.Value)
+                Or (Fields!IsInWaitlist.Value And Not(Fields!IsPending.Value))
+                , Parameters!lblPending.Value + System.Environment.NewLine
+                    + IIF(Fields!IsInWaitlist.Value
+                        , Parameters!lblOnWaitlist.Value
+                        , IIF(Fields!IsInCart.Value
+                            , Parameters!lblPermissionRequested.Value
+                            , Parameters!lblAwaitingApproval.Value
+                        )
+                    )
+                , IIF(Fields!IsInCart.Value Or (Fields!IsInWaitlist.Value And Fields!IsPending.Value)
+                    , IIF(Fields!IsInWaitlist.Value
+                        , IIF(Fields!IsWaitListPending.Value
+                            , Parameters!lblInCart.Value
+                            , Parameters!lblPending.Value
+                        )
+                            + System.Environment.NewLine + Parameters!lblRegisterNow.Value
+                            + IIF(Not(string.IsNullOrEmpty(Fields!PendingExpiresDate.Value)) And Not(string.IsNullOrEmpty(Fields!PendingExpiresTime.Value))
+                                , System.Environment.NewLine
+                                    + Parameters!lblSeatAvailable.Value
+                                    + Fields!PendingExpiresDate.Value + " "
+                                    + Fields!PendingExpiresTime.Value + ". " + System.Environment.NewLine
+                                    + Parameters!lblSeatDeadline.Value
+                                , string.Empty
+                            )
+                            + IIF(Fields!AuthorizationNeeded.Value And Fields!IsWaitListPending.Value
+                                , System.Environment.NewLine + Parameters!lblAdvisorAuthorizationNeeded.Value
+                                , string.Empty
+                            )
+                        , IIF(Fields!IsApproved.Value
+                            , Parameters!lblInCart.Value
+                                + System.Environment.NewLine
+                                + Parameters!lblPermissionApproved.Value
+                            , Parameters!lblInCart.Value
+                        )
+                    )
+                    , string.Empty
+                )
+            )
+        )
+    )
+)</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox46</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details4" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>InCart</DataSetName>
+            <Top>2.18847cm</Top>
+            <Left>0.51717cm</Left>
+            <Height>0.57354cm</Height>
+            <Width>18.91647cm</Width>
+            <ZIndex>1</ZIndex>
+            <Visibility>
+              <Hidden>=IIF(CountRows() &gt; 0 And ((Parameters!Filter.Value = 1) Or (Parameters!Filter.Value = 4) Or (Parameters!Filter.Value = 5) Or (Parameters!Filter.Value = 7)), false, true)</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="PendingTable">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>7.00894cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.83475cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.35228cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.7205cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.57354cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AdvisorApprovalInfo4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EventId.Value + ": " + Fields!EventName.Value + System.Environment.NewLine + Parameters!lblSection.Value + Fields!Section.Value + " | " + Parameters!lblSession.Value + ": " + Fields!SessionDesc.Value + " | " + Parameters!lblSubtype.Value + Fields!EventSubType.Value + System.Environment.NewLine + Parameters!lblType.Value + Fields!EventType.Value + " | " + Parameters!lblDuration.Value + Fields!StartDate.Value + " - " + Fields!EndDate.Value + System.Environment.NewLine + Parameters!lblCreditType.Value + Fields!CreditTypeDescription.Value + System.Environment.NewLine + IIF(Fields!AreFeesApplicable.Value, Parameters!lblFees.Value + System.Environment.NewLine, System.String.Empty) + IIF(Fields!SchedulesCount.Value = 0, Parameters!lblNoSchedule.Value, IIF(Fields!SchedulesCount.Value &gt; 1, Parameters!lblMultipleMeetingTimes.Value, Fields!ScheduleStartTime.Value + " - " + Fields!ScheduleEndTime.Value + System.Environment.NewLine + Fields!ScheduleDayDesc.Value + System.Environment.NewLine + Fields!ScheduleOrgName.Value + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleBldgName.Value), ", " + Fields!ScheduleBldgName.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleFloorId.Value), Parameters!lblFloor.Value + Fields!ScheduleFloorId.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleRoomId.Value), Parameters!lblRoom.Value + Fields!ScheduleRoomId.Value, System.String.Empty)))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AdvisorApprovalInfo</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EventSubType4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!InstructorsCount.Value = 0, Parameters!lblNoInstructor.Value, IIF(Fields!InstructorsCount.Value &gt; 1, Parameters!lblMultipleInstructors.Value, Fields!InstructorName.Value))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EventSubType</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Credits4">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Credits.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Credits</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox61">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!IsRegistered.Value
+    , Parameters!lblRegistered.Value + System.Environment.NewLine
+        + IIF(Fields!IsPending.Value
+            , Parameters!lblDropPendingApproval.Value
+            , System.String.Empty
+        )
+        + IIF(Fields!IsDenied.Value
+            , Parameters!lblDropDenied.Value
+            , System.String.Empty
+        )
+    , IIF(Fields!IsDenied.Value
+        , Parameters!lblDenied.Value + System.Environment.NewLine
+            + IIF(Fields!IsInCart.Value
+                , Parameters!lblPermissionDenied.Value
+                , Parameters!lblApprovalDenied.Value
+            )
+        , IIF(Fields!AuthorizationNeeded.Value And Not(Fields!IsWaitListPending.Value)
+            , Parameters!lblPending.Value + System.Environment.NewLine
+                + Parameters!lblAdvisorAuthorizationNeeded.Value
+            , IIF(Fields!IsHolding.Value
+                Or (Not(Fields!IsInWaitlist.Value) And Fields!IsPending.Value)
+                Or (Fields!IsInWaitlist.Value And Not(Fields!IsPending.Value))
+                , Parameters!lblPending.Value + System.Environment.NewLine
+                    + IIF(Fields!IsInWaitlist.Value
+                        , Parameters!lblOnWaitlist.Value
+                        , IIF(Fields!IsInCart.Value
+                            , Parameters!lblPermissionRequested.Value
+                            , Parameters!lblAwaitingApproval.Value
+                        )
+                    )
+                , IIF(Fields!IsInCart.Value Or (Fields!IsInWaitlist.Value And Fields!IsPending.Value)
+                    , IIF(Fields!IsInWaitlist.Value
+                        , IIF(Fields!IsWaitListPending.Value
+                            , Parameters!lblInCart.Value
+                            , Parameters!lblPending.Value
+                        )
+                            + System.Environment.NewLine + Parameters!lblRegisterNow.Value
+                            + IIF(Not(string.IsNullOrEmpty(Fields!PendingExpiresDate.Value)) And Not(string.IsNullOrEmpty(Fields!PendingExpiresTime.Value))
+                                , System.Environment.NewLine
+                                    + Parameters!lblSeatAvailable.Value
+                                    + Fields!PendingExpiresDate.Value + " "
+                                    + Fields!PendingExpiresTime.Value + ". " + System.Environment.NewLine
+                                    + Parameters!lblSeatDeadline.Value
+                                , string.Empty
+                            )
+                            + IIF(Fields!AuthorizationNeeded.Value And Fields!IsWaitListPending.Value
+                                , System.Environment.NewLine + Parameters!lblAdvisorAuthorizationNeeded.Value
+                                , string.Empty
+                            )
+                        , IIF(Fields!IsApproved.Value
+                            , Parameters!lblInCart.Value
+                                + System.Environment.NewLine
+                                + Parameters!lblPermissionApproved.Value
+                            , Parameters!lblInCart.Value
+                        )
+                    )
+                    , string.Empty
+                )
+            )
+        )
+    )
+)</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox46</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details5" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>Pending</DataSetName>
+            <Top>2.79729cm</Top>
+            <Left>0.51717cm</Left>
+            <Height>0.57354cm</Height>
+            <Width>18.91647cm</Width>
+            <ZIndex>2</ZIndex>
+            <Visibility>
+              <Hidden>=IIF(CountRows() &gt; 0, false, true)</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Tablix Name="DeniedTable">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>7.00894cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.83475cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.35228cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.7205cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.57354cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AdvisorApprovalInfo8">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!EventId.Value + ": " + Fields!EventName.Value + System.Environment.NewLine + Parameters!lblSection.Value + Fields!Section.Value + " | " + Parameters!lblSession.Value + ": " + Fields!SessionDesc.Value + " | " + Parameters!lblSubtype.Value + Fields!EventSubType.Value + System.Environment.NewLine + Parameters!lblType.Value + Fields!EventType.Value + " | " + Parameters!lblDuration.Value + Fields!StartDate.Value + " - " + Fields!EndDate.Value + System.Environment.NewLine + Parameters!lblCreditType.Value + Fields!CreditTypeDescription.Value + System.Environment.NewLine + IIF(Fields!AreFeesApplicable.Value, Parameters!lblFees.Value + System.Environment.NewLine, System.String.Empty) + IIF(Fields!SchedulesCount.Value = 0, Parameters!lblNoSchedule.Value, IIF(Fields!SchedulesCount.Value &gt; 1, Parameters!lblMultipleMeetingTimes.Value, Fields!ScheduleStartTime.Value + " - " + Fields!ScheduleEndTime.Value + System.Environment.NewLine + Fields!ScheduleDayDesc.Value + System.Environment.NewLine + Fields!ScheduleOrgName.Value + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleBldgName.Value), ", " + Fields!ScheduleBldgName.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleFloorId.Value), Parameters!lblFloor.Value + Fields!ScheduleFloorId.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleRoomId.Value), Parameters!lblRoom.Value + Fields!ScheduleRoomId.Value, System.String.Empty)))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AdvisorApprovalInfo</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EventSubType5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!InstructorsCount.Value = 0, Parameters!lblNoInstructor.Value, IIF(Fields!InstructorsCount.Value &gt; 1, Parameters!lblMultipleInstructors.Value, Fields!InstructorName.Value))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EventSubType</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Credits5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Credits.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Credits</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox60">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!IsRegistered.Value
+    , Parameters!lblRegistered.Value + System.Environment.NewLine
+        + IIF(Fields!IsPending.Value
+            , Parameters!lblDropPendingApproval.Value
+            , System.String.Empty
+        )
+        + IIF(Fields!IsDenied.Value
+            , Parameters!lblDropDenied.Value
+            , System.String.Empty
+        )
+    , IIF(Fields!IsDenied.Value
+        , Parameters!lblDenied.Value + System.Environment.NewLine
+            + IIF(Fields!IsInCart.Value
+                , Parameters!lblPermissionDenied.Value
+                , Parameters!lblApprovalDenied.Value
+            )
+        , IIF(Fields!AuthorizationNeeded.Value And Not(Fields!IsWaitListPending.Value)
+            , Parameters!lblPending.Value + System.Environment.NewLine
+                + Parameters!lblAdvisorAuthorizationNeeded.Value
+            , IIF(Fields!IsHolding.Value
+                Or (Not(Fields!IsInWaitlist.Value) And Fields!IsPending.Value)
+                Or (Fields!IsInWaitlist.Value And Not(Fields!IsPending.Value))
+                , Parameters!lblPending.Value + System.Environment.NewLine
+                    + IIF(Fields!IsInWaitlist.Value
+                        , Parameters!lblOnWaitlist.Value
+                        , IIF(Fields!IsInCart.Value
+                            , Parameters!lblPermissionRequested.Value
+                            , Parameters!lblAwaitingApproval.Value
+                        )
+                    )
+                , IIF(Fields!IsInCart.Value Or (Fields!IsInWaitlist.Value And Fields!IsPending.Value)
+                    , IIF(Fields!IsInWaitlist.Value
+                        , IIF(Fields!IsWaitListPending.Value
+                            , Parameters!lblInCart.Value
+                            , Parameters!lblPending.Value
+                        )
+                            + System.Environment.NewLine + Parameters!lblRegisterNow.Value
+                            + IIF(Not(string.IsNullOrEmpty(Fields!PendingExpiresDate.Value)) And Not(string.IsNullOrEmpty(Fields!PendingExpiresTime.Value))
+                                , System.Environment.NewLine
+                                    + Parameters!lblSeatAvailable.Value
+                                    + Fields!PendingExpiresDate.Value + " "
+                                    + Fields!PendingExpiresTime.Value + ". " + System.Environment.NewLine
+                                    + Parameters!lblSeatDeadline.Value
+                                , string.Empty
+                            )
+                            + IIF(Fields!AuthorizationNeeded.Value And Fields!IsWaitListPending.Value
+                                , System.Environment.NewLine + Parameters!lblAdvisorAuthorizationNeeded.Value
+                                , string.Empty
+                            )
+                        , IIF(Fields!IsApproved.Value
+                            , Parameters!lblInCart.Value
+                                + System.Environment.NewLine
+                                + Parameters!lblPermissionApproved.Value
+                            , Parameters!lblInCart.Value
+                        )
+                    )
+                    , string.Empty
+                )
+            )
+        )
+    )
+)</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox46</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details6" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>Denied</DataSetName>
+            <Top>3.94437cm</Top>
+            <Left>0.51717cm</Left>
+            <Height>0.57354cm</Height>
+            <Width>18.91647cm</Width>
+            <ZIndex>3</ZIndex>
+            <Visibility>
+              <Hidden>=IIF(CountRows() &gt; 0 And ((Parameters!Filter.Value = 3) Or (Parameters!Filter.Value = 5) Or (Parameters!Filter.Value = 6) Or (Parameters!Filter.Value = 7)), false, true)</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Textbox Name="Textbox44">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!lblSession.Value + " - " + Parameters!SessionDesc.Value</Value>
+                    <Style>
+                      <FontSize>12pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox44</rd:DefaultName>
+            <Top>0.38168cm</Top>
+            <Left>0.51717cm</Left>
+            <Height>0.59091cm</Height>
+            <Width>11.84369cm</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Tablix Name="WaitListTable">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>7.00894cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.83475cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.35228cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>4.7205cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.57354cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="AdvisorApprovalInfo7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>="&lt;b&gt;" &amp; Fields!EventId.Value &amp; "&lt;/b&gt;" + ": " + Fields!EventName.Value + System.Environment.NewLine + Parameters!lblSection.Value + Fields!Section.Value + " | " + "&lt;b&gt;" + Parameters!lblSession.Value + ": " + "&lt;/b&gt;" + Fields!SessionDesc.Value + " | " + Parameters!lblSubtype.Value + Fields!EventSubType.Value + System.Environment.NewLine + Parameters!lblType.Value + Fields!EventType.Value + " | " + Parameters!lblDuration.Value + Fields!StartDate.Value + " - " + Fields!EndDate.Value + System.Environment.NewLine + Parameters!lblCreditType.Value + Fields!CreditTypeDescription.Value + System.Environment.NewLine + IIF(Fields!AreFeesApplicable.Value, Parameters!lblFees.Value + System.Environment.NewLine, System.String.Empty) + IIF(Fields!SchedulesCount.Value = 0, Parameters!lblNoSchedule.Value, IIF(Fields!SchedulesCount.Value &gt; 1, Parameters!lblMultipleMeetingTimes.Value, Fields!ScheduleStartTime.Value + " - " + Fields!ScheduleEndTime.Value + System.Environment.NewLine + Fields!ScheduleDayDesc.Value + System.Environment.NewLine + Fields!ScheduleOrgName.Value + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleBldgName.Value), ", " + Fields!ScheduleBldgName.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleFloorId.Value), Parameters!lblFloor.Value + Fields!ScheduleFloorId.Value, System.String.Empty) + IIF(Not System.String.IsNullOrEmpty(Fields!ScheduleRoomId.Value), Parameters!lblRoom.Value + Fields!ScheduleRoomId.Value, System.String.Empty)))</Value>
+                                  <MarkupType>HTML</MarkupType>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>AdvisorApprovalInfo</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="EventSubType2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!InstructorsCount.Value = 0, Parameters!lblNoInstructor.Value, IIF(Fields!InstructorsCount.Value &gt; 1, Parameters!lblMultipleInstructors.Value, Fields!InstructorName.Value))</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>EventSubType</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Credits2">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!Credits.Value</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Right</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Credits</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox58">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Fields!IsRegistered.Value
+    , Parameters!lblRegistered.Value + System.Environment.NewLine
+        + IIF(Fields!IsPending.Value
+            , Parameters!lblDropPendingApproval.Value
+            , System.String.Empty
+        )
+        + IIF(Fields!IsDenied.Value
+            , Parameters!lblDropDenied.Value
+            , System.String.Empty
+        )
+    , IIF(Fields!IsDenied.Value
+        , Parameters!lblDenied.Value + System.Environment.NewLine
+            + IIF(Fields!IsInCart.Value
+                , Parameters!lblPermissionDenied.Value
+                , Parameters!lblApprovalDenied.Value
+            )
+        , IIF(Fields!AuthorizationNeeded.Value And Not(Fields!IsWaitListPending.Value)
+            , Parameters!lblPending.Value + System.Environment.NewLine
+                + Parameters!lblAdvisorAuthorizationNeeded.Value
+            , IIF(Fields!IsHolding.Value
+                Or (Not(Fields!IsInWaitlist.Value) And Fields!IsPending.Value)
+                Or (Fields!IsInWaitlist.Value And Not(Fields!IsPending.Value))
+                , Parameters!lblPending.Value + System.Environment.NewLine
+                    + IIF(Fields!IsInWaitlist.Value
+                        , Parameters!lblOnWaitlist.Value
+                        , IIF(Fields!IsInCart.Value
+                            , Parameters!lblPermissionRequested.Value
+                            , Parameters!lblAwaitingApproval.Value
+                        )
+                    )
+                , IIF(Fields!IsInCart.Value Or (Fields!IsInWaitlist.Value And Fields!IsPending.Value)
+                    , IIF(Fields!IsInWaitlist.Value
+                        , IIF(Fields!IsWaitListPending.Value
+                            , Parameters!lblInCart.Value
+                            , Parameters!lblPending.Value
+                        )
+                            + System.Environment.NewLine + Parameters!lblRegisterNow.Value
+                            + IIF(Not(string.IsNullOrEmpty(Fields!PendingExpiresDate.Value)) And Not(string.IsNullOrEmpty(Fields!PendingExpiresTime.Value))
+                                , System.Environment.NewLine
+                                    + Parameters!lblSeatAvailable.Value
+                                    + Fields!PendingExpiresDate.Value + " "
+                                    + Fields!PendingExpiresTime.Value + ". " + System.Environment.NewLine
+                                    + Parameters!lblSeatDeadline.Value
+                                , string.Empty
+                            )
+                            + IIF(Fields!AuthorizationNeeded.Value And Fields!IsWaitListPending.Value
+                                , System.Environment.NewLine + Parameters!lblAdvisorAuthorizationNeeded.Value
+                                , string.Empty
+                            )
+                        , IIF(Fields!IsApproved.Value
+                            , Parameters!lblInCart.Value
+                                + System.Environment.NewLine
+                                + Parameters!lblPermissionApproved.Value
+                            , Parameters!lblInCart.Value
+                        )
+                    )
+                    , string.Empty
+                )
+            )
+        )
+    )
+)</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox46</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>="LightGray"</Color>
+                              <Style>Solid</Style>
+                              <Width>0.75pt</Width>
+                            </BottomBorder>
+                            <PaddingLeft>4pt</PaddingLeft>
+                            <PaddingRight>4pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="Details3" />
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>WaitList</DataSetName>
+            <Top>1.57965cm</Top>
+            <Left>0.51717cm</Left>
+            <Height>0.57354cm</Height>
+            <Width>18.91647cm</Width>
+            <ZIndex>5</ZIndex>
+            <Visibility>
+              <Hidden>=IIF(CountRows() &gt; 0 And (Parameters!Filter.Value = 2 Or Parameters!Filter.Value = 4 Or Parameters!Filter.Value = 6 Or Parameters!Filter.Value = 7), false, true)</Hidden>
+            </Visibility>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Tablix>
+          <Textbox Name="Textbox18">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!lblCredits.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Right</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox18</rd:DefaultName>
+            <Top>1.00787cm</Top>
+            <Left>12.36086cm</Left>
+            <Height>0.57178cm</Height>
+            <Width>2.35228cm</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>4pt</PaddingLeft>
+              <PaddingRight>4pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox19">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!lblStatus.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox19</rd:DefaultName>
+            <Top>1.00787cm</Top>
+            <Left>14.71314cm</Left>
+            <Height>0.57178cm</Height>
+            <Width>4.7205cm</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>4pt</PaddingLeft>
+              <PaddingRight>4pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox23">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Parameters!lblInstructors.Value</Value>
+                    <Style>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox23</rd:DefaultName>
+            <Top>1.00787cm</Top>
+            <Left>7.52611cm</Left>
+            <Height>0.57178cm</Height>
+            <Width>4.83475cm</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <VerticalAlign>Bottom</VerticalAlign>
+              <PaddingLeft>4pt</PaddingLeft>
+              <PaddingRight>4pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <Height>4.81503cm</Height>
+        <Style />
+      </Body>
+      <Width>20.11807cm</Width>
+      <Page>
+        <PageHeight>27.94cm</PageHeight>
+        <PageWidth>21.59cm</PageWidth>
+        <LeftMargin>0.2cm</LeftMargin>
+        <RightMargin>0.2cm</RightMargin>
+        <TopMargin>0.2cm</TopMargin>
+        <BottomMargin>0.2cm</BottomMargin>
+        <ColumnSpacing>1.27cm</ColumnSpacing>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="ScheduleIndex">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Session">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SessionDesc">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Filter">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblSection">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblSession">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblSubtype">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblType">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblDuration">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblCreditType">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblFees">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblMultipleMeetingTimes">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblFloor">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblRoom">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblNoSchedule">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblNoInstructor">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblMultipleInstructors">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblDropPendingApproval">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblDropDenied">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblPermissionDenied">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblApprovalDenied">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblOnWaitlist">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblPermissionRequested">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblAwaitingApproval">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblRegisterNow">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblSeatAvailable">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblPermissionApproved">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblDenied">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblInCart">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblPending">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblRegistered">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblCredits">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblInstructors">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblStatus">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblAdvisorAuthorizationNeeded">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="lblSeatDeadline">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <ReportParametersLayout>
+    <GridLayoutDefinition>
+      <NumberOfColumns>4</NumberOfColumns>
+      <NumberOfRows>9</NumberOfRows>
+      <CellDefinitions>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>ScheduleIndex</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Session</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>SessionDesc</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>0</RowIndex>
+          <ParameterName>Filter</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>lblSection</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>lblSession</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>lblSubtype</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>1</RowIndex>
+          <ParameterName>lblType</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>lblDuration</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>lblCreditType</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>lblFees</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>lblMultipleMeetingTimes</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>lblFloor</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>lblRoom</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>lblNoSchedule</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>lblNoInstructor</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>lblMultipleInstructors</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>lblDropPendingApproval</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>lblDropDenied</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>lblPermissionDenied</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>lblApprovalDenied</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>lblOnWaitlist</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>lblPermissionRequested</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>lblAwaitingApproval</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>lblRegisterNow</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>lblSeatAvailable</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>lblPermissionApproved</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>lblDenied</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>lblInCart</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>lblPending</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>lblRegistered</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>lblCredits</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>lblInstructors</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>lblStatus</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>lblAdvisorAuthorizationNeeded</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>lblSeatDeadline</ParameterName>
+        </CellDefinition>
+      </CellDefinitions>
+    </GridLayoutDefinition>
+  </ReportParametersLayout>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>8d17a29a-7200-4c4b-8fc3-bea4889633e0</rd:ReportID>
+</Report>

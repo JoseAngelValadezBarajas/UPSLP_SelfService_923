@@ -1,0 +1,7 @@
+{
+  "btnSave": "Guardar",
+  "lblEmail": "Correo electrónico",
+  "lblEmailType": "Tipo de correo electrónico",
+  "lblEmailTypeRequired": "Seleccione un tipo de correo electrónico",
+  "lblFormMessage": "Especifique los valores para los nuevos donadores."
+}

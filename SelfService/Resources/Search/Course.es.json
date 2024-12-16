@@ -1,0 +1,36 @@
+{
+  "formatResultsShowing": "{0}-{1} de {2}",
+  "lblHeaderTitle": "Curso",
+  "lblNewSearch": "Nueva búsqueda",
+  "lblNoResults": "No se encontraron resultados",
+  "lblPageTitle": "Buscar curso",
+  "courseSearchOptionsResources": {
+    "btnSearch": "Buscar",
+    "lblClassLevel": "Nivel de clase",
+    "lblClearAll": "Limpiar filtros",
+    "lblCollege": "Escuela",
+    "lblCourseCode": "Código de curso",
+    "lblCreditType": "Tipo de crédito",
+    "lblCurriculum": "Currículum",
+    "lblDepartment": "Departamento",
+    "lblFilters": "Filtros",
+    "lblNonTraditional": "No tradicional",
+    "lblPopulation": "Población",
+    "lblProgram": "Programa",
+    "lblSelect": "Seleccionar...",
+    "lblShareSearch": "Compartir búsqueda",
+    "lblSubtype": "Subtipo"
+  },
+  "courseCardResources": {
+    "formatTitleSection": "{0}: {1}",
+    "formatTitleSectionShort": "{0}: {1}...",
+    "lblDescription": "Descripción",
+    "lblFindSections": "Encontrar secciones",
+    "lblSubtypes": "Subtipos"
+  },
+  "shareSearchCourseLinkModalResources": {
+    "btnOk": "Aceptar",
+    "lblTitle": "Compartir enlace",
+    "lblUrlToShare": "Enlace a compartir"
+  }
+}

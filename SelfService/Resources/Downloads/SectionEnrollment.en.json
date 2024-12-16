@@ -1,0 +1,16 @@
+{
+  "lblAttendance": "Attendance",
+  "lblClassLevel": "Class level",
+  "lblClassLoad": "Class load",
+  "lblCredits": "Credits",
+  "lblCreditType": "Credit type",
+  "lblCurriculum": "Curriculum",
+  "lblEmail": "E-mail address",
+  "lblFullname": "Name",
+  "lblPeopleId": "ID",
+  "lblStatusAdd": "Add",
+  "lblStatusDrop": "Drop",
+  "lblStatusHeader": "Status",
+  "lblStatusHold": "Hold",
+  "lblWithdrawn": "Withdrawn"
+}

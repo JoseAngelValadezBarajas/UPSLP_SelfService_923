@@ -1,0 +1,23 @@
+{
+  "lblAdmin": "Administrator Area",
+  "lblAdminPages": "Address (Requests), Associations (Instructor), Campus Coordinators (Instructor), Demographic (Requests), Department Heads (Instructor), Gift Batch Defaults (Donations), Offices (Instructor), Preferred name (Requests) and User Management",
+  "lblDescription": "Specify the name format of each area. The pages that applies to each area are listed below.",
+  "lblGeneral": "General",
+  "lblGeneralPages": "Academic Plan, Continuing Education, Courses, Degree Requirements, My Schedule (Registration), What if?, Shared Access and Checklist",
+  "lblGrade": "Grade Report",
+  "lblGradePages": "Grade Report",
+  "lblMoreInformation": "More information",
+  "lblSave": "Save",
+  "lblSearch": "Search Area",
+  "lblSearchPages": "Section",
+  "lblSponsor": "Sponsor Agreement",
+  "lblSponsorPages": "",
+  "lblStaff": "Staff Area",
+  "lblStaffPages": "Approve Grades, Authorize Registration, Course Management, My Schedule (Classes), Manage Advisees, Setup Approvals and Shared Advisees",
+  "lblStatement": "Financial Statement",
+  "lblStatementInfo": "The name format for Financial Statement category uses the name part First name. The statement does not show the name parts Display name or Pronoun.",
+  "lblStatementPages": "Statement",
+  "lblTranscript": "Unofficial Transcript",
+  "lblTranscriptPages": "Unofficial Transcript",
+  "lblUnofficialTranscriptInfo": "The name format for Unofficial transcript category uses the name part First name. Unofficial transcript does not show the name parts Display name or Pronoun."
+}

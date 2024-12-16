@@ -1,0 +1,51 @@
+﻿@model SelfService.Models.Section.SectionViolationDownloadViewModel
+
+<table class="">
+    <tr>
+        <th>
+            @Html.Label(Model.Resources.LblName)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPeopleId)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblWithdrawn)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblCategory)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblViolation)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblDate)
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Students)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeopleId)
+            </td>
+            <td>
+                @if (item.Withdrawn)
+                {
+                    @Html.Label(Model.Resources.LblWithdrawn)
+                }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ViolationDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+        </tr>
+    }
+</table>

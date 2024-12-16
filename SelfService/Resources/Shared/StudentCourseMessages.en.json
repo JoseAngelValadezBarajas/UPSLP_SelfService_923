@@ -1,0 +1,17 @@
+{
+  "studentCourseMessages": {
+    "formatSeatAvailable": "A seat is now available for this course!<br />Please register online by {0} {1}.<br />After this deadline the seat will be offered to another student.",
+    "lblAdvisorStatus": "Advisor authorization needed",
+    "lblClassFull": "Class full",
+    "lblDropDenied": "Drop denied",
+    "lblDropRequested": "Drop pending approval",
+    "lblOnWaitList": "On waitlist",
+    "lblPeriodHasEnded": "Registration period has ended",
+    "lblPermissionApproved": "Permission approved",
+    "lblPermissionDenied": "Permission denied",
+    "lblPermissionRequested": "Permission requested",
+    "lblRegisterDenied": "Approval denied",
+    "lblRegisterRequested": "Awaiting approval",
+    "lblSeatAvailable": "Register now!"
+  }
+}

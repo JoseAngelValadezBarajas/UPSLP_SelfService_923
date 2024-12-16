@@ -1,0 +1,7 @@
+{
+  "btnSave": "Save",
+  "lblEmail": "Email",
+  "lblEmailType": "Email Type",
+  "lblEmailTypeRequired": "Select an email type",
+  "lblFormMessage": "Specify the values for new donors."
+}

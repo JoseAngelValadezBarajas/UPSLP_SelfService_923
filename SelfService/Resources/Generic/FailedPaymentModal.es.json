@@ -1,0 +1,9 @@
+{
+  "btnGoBalance": "Ver saldo",
+  "btnOk": "Aceptar",
+  "btnTryAgain": "Intentar de nuevo",
+  "lblContentText": "Falló el pago. Ver saldo e intentar de nuevo, o contactar al administrador del sistema.",
+  "lblContentTextApplication": "Falló el pago. No se procesará la solicitud. Intentar de nuevo o contactar al administrador del sistema.",
+  "lblContentTextOnlineDonation": "Falló el pago. Para mayor información, contacte al administrador del sistema.",
+  "lblTitle": "Falló el proceso de pago"
+}

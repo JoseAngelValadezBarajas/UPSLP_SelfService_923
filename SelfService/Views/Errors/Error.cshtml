@@ -1,0 +1,17 @@
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/Error.css" asp-append-version="true" />
+}
+
+<div id="root"></div>
+@if (@HttpContextAccessor.HttpContext.Session != null)
+{
+    <input id="hdnTitle" type="hidden" value="Server Error" />
+    <input id="hdnMessage" type="hidden" value="There was an error in PowerCampus Self-Service. Report this error to your Administrator, refer to the following id: @HttpContextAccessor.HttpContext.Session.Id" />
+}
+@section Scripts{
+    <script src="~/js/Error.js" asp-append-version="true"></script>
+    <script src="~/js/ErrorsVendors.js" asp-append-version="true"></script>
+}

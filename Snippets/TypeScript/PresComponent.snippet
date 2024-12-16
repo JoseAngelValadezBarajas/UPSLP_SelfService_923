@@ -1,0 +1,63 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>Presentation component</Title>
+    <Author>Ellucian</Author>
+    <Shortcut>presComponent</Shortcut>
+    <Description>Code snippet for a presentation component (functional component)</Description>
+    <SnippetTypes>
+      <SnippetType>React Components</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip>Name</ToolTip>
+        <Default>name</Default>
+      </Literal>
+      <Literal>
+        <ID>year</ID>
+        <ToolTip>Year</ToolTip>
+        <Default>year</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[/* Copyright $year$ Ellucian Company L.P. and its affiliates.
+ * File: $name$.tsx
+ * Type: Presentation component */
+
+// #region Imports
+import React from 'react';
+// #endregion Imports
+
+// #region Types
+export interface I$name$Props {
+  resources: I$name$ResProps;
+}
+
+export interface I$name$ResProps {
+  btnName: string;
+  formatName: string;
+  lblName: string;
+}
+// #endregion Types
+
+// #region Component
+const $name$: React.FC<I$name$Props> = (props: I$name$Props): JSX.Element => {
+  const {
+    resources
+  } = props;
+
+  return (
+    <span>
+      {"$name$"}
+    </span>
+  );
+};
+// #endregion Component
+
+// Export: Component
+export default $name$;]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

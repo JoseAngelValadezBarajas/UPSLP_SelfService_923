@@ -1,0 +1,93 @@
+﻿@model SelfService.Models.Section.OverallGradesDownloadViewModel
+
+<table class="">
+    <tr>
+        <th>
+            @Html.Label(Model.Resources.LblName)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblPeopleId)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblWithdrawn)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblCreditType)
+        </th>
+        @if (Model.ShowMidterm)
+        {
+            <th>
+                @Html.Label(Model.Resources.LblMidtermScore)
+            </th>
+            <th>
+                @Html.Label(Model.Resources.LblMidtermSubmitted)
+            </th>
+            <th>
+                @Html.Label(Model.Resources.LblMidtermApproved)
+            </th>
+        }
+        @if (Model.ShowProjectedGrade)
+        {
+            <th>
+                @Html.Label(Model.Resources.LblProjected)
+            </th>
+        }
+        <th>
+            @Html.Label(Model.Resources.LblFinalScore)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblFinalSubmitted)
+        </th>
+        <th>
+            @Html.Label(Model.Resources.LblFinalApproved)
+        </th>
+    </tr>
+
+    @foreach (var item in Model.Students)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PeopleId)
+            </td>
+            <td align="center">
+                @if (item.Withdrawn)
+                {
+                    @Html.Label(Model.Resources.LblWithdrawn)
+                }
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.CreditType)
+            </td>
+            @if (Model.ShowMidterm)
+            {
+                <td align="right">
+                    @Html.DisplayFor(modelItem => item.MidtermPoints)
+                </td>
+                <td align="center">
+                    @Html.DisplayFor(modelItem => item.MidtermInstructorGrade)
+                </td>
+                <td align="center">
+                    @Html.DisplayFor(modelItem => item.MidtermTranscriptGrade)
+                </td>
+            }
+            @if (Model.ShowProjectedGrade)
+            {
+                <td align="right">
+                    @Html.DisplayFor(modelItem => item.ProjectedGrade)
+                </td>
+            }
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.FinalPoints)
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.FinalInstructorGrade)
+            </td>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.FinalTranscriptGrade)
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,54 @@
+{
+  "blockItemRes": {
+    "blockSections": {
+      "blockSectionInstructors": {
+        "lblInstructors": "Instructors",
+        "lblNoInstructor": "Instructor has not yet been assigned"
+      },
+      "blockSectionSchedules": {
+        "formatBuilding": ", {0}",
+        "formatFloor": ", Floor {0}",
+        "formatOrganization": "{0}",
+        "formatRoom": ", Room {0}",
+        "formatStartEndTime": "{0} - {1}",
+        "lblNoSchedule": "No schedule",
+        "lblSchedules": "Schedule",
+        "lblTimeConflicts": "Time conflicts"
+      },
+      "btnCalendarView": "Calendar",
+      "btnListView": "List",
+      "formatCourseDescription": "{0}/{1}/{2}-{3}",
+      "lblCourse": "Course",
+      "lblCourseType": "Course type",
+      "lblName": "Name",
+      "lblTimeConflicts": "Time conflicts",
+      "lblType": "Type",
+      "scheduleCalendar": {
+        "formatTitleSection": "{0}: {1}",
+        "lblTimeConflicts": "Time conflicts"
+      }
+    },
+    "lblActive": "Active",
+    "lblAlerts": "Alerts",
+    "lblCourses": "Courses",
+    "lblCreated": "Created",
+    "lblEnable": "Enable",
+    "lblHideDetails": "Hide details",
+    "lblInactive": "Inactive",
+    "lblModified": "Modified",
+    "lblNoSections": "This block has no courses added",
+    "lblRemove": "Remove",
+    "lblSectionInUse": "A section of this block is already assigned to another group of this rule",
+    "lblShowDetails": "Show details",
+    "lblStatus": "Status"
+  },
+  "formatSelected": "{0} Selected",
+  "lblAddBlock": "Add block",
+  "lblEmptyBlock": "To start working, add a block",
+  "lblName": "Name",
+  "lblNewSearch": "New search",
+  "lblNoResults": "No results found",
+  "lblRecent": "Recent",
+  "lblRetrieveAll": "Retrieve all",
+  "lblSortBy": "Sort by"
+}

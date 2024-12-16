@@ -1,0 +1,19 @@
+{
+  "btnCancel": "Cancel",
+  "btnClearDisable": "Clear and disable",
+  "btnSave": "Save",
+  "lblCreateAccount": "Create an account",
+  "lblClearDisable": "Clear and Disable",
+  "lblClearDisableConfirmation": "Are you sure you want to clear the reCAPTCHA keys and disable the validation in all pages?",
+  "lblEnable": "Enable",
+  "lblForgotPassword": "Forgot password",
+  "lblInstructions": "Enter the reCAPTCHA keys, then enable the pages in which you want to include the validation.",
+  "lblMakeAGift":  "Make a gift",
+  "lblPage": "Page",
+  "lblSecretKey": "Secret key",
+  "lblSecretKeyRequired": "Enter a secret key",
+  "lblSiteKey": "Site key",
+  "lblSiteKeyRequired": "Enter a site key",
+  "lblSubmitApplication": "Submit application form",
+  "lblSubmitInquiry": "Submit inquiry form"
+}

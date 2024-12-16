@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "BalanceId",
+    "Text": "Balance"
+  },
+  {
+    "Id": "FinancialAidId",
+    "Text": "Financial Aid"
+  },
+  {
+    "Id": "Form1098TId",
+    "Text": "1098-T"
+  },
+  {
+    "Id": "StatementId",
+    "Text": "Statement"
+  }
+]

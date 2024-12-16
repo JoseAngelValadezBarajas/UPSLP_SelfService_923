@@ -1,0 +1,68 @@
+{
+  "balanceByChargesCredits": {
+    "lblAnticipatedFinancialAidHeader": "Ayuda financiera anticipada",
+    "lblChargesHeader": "Cargos",
+    "lblCreditsHeader": "Abonos",
+    "lblNoAnticipatedFinancialAid": "No existen registros de ayuda financiera anticipada para el período seleccionado.",
+    "lblNoCharges": "No hay registros de cargos para el período seleccionado.",
+    "lblNoCredits": "No hay registros de abonos para el período seleccionado."
+  },
+  "balanceBySummary": {
+    "lblAmount": "Monto",
+    "lblSummaryType": "Tipo de resumen"
+  },
+  "balanceBySummaryType": {
+    "lblDetailsNotAvailable": "Los detalles del saldo no están disponibles para el tipo de resumen."
+  },
+  "balanceDetailTable": {
+    "lblAmount": "Monto",
+    "lblDate": "Fecha",
+    "lblDescription": "Descripción",
+    "lblDueDate": "Fecha de vencimiento",
+    "lblEstimatedLateFee": "Multa estimada",
+    "lblPeriod": "Período",
+    "lblType": "Tipo",
+    "lblTypeChargeDesc": "Cargo",
+    "lblTypeCreditDesc": "Abono",
+    "lblTypeFinAidDesc": "Ayuda financiera",
+    "lblTypeReceiptDesc": "Recibo de caja"
+  },
+  "balanceFooter": {
+    "formatPeriodSession": "Período/Sesión {0}",
+    "lblAnticipatedBalance": "Saldo anticipado:",
+    "lblAnticipatedFinancialAid": "* Ayuda financiera anticipada:",
+    "lblBalance": "Saldo:",
+    "lblBalanceDue": "Saldo vencido:",
+    "lblChargesHeader": "Cargos",
+    "lblNotes": "* NOTA: La ayuda financiera anticipada no se considera definitiva hasta que se hayan cumplido todos los requisitos. Al final, usted es el responsable del saldo que se muestra si no cumple con los requisitos de ayuda financiera.",
+    "lblOtherPeriodsSessions": "De otros períodos/sesiones",
+    "lblSummaryTotal": "Resumen total:",
+    "lblTotal": "Total:"
+  },
+  "balanceHeader": {
+    "formatHeader": "Saldo {0}",
+    "lblInstructions": "Aquí está su historial de cuenta para el período seleccionado.",
+    "lblInstructionsSummary": "Aquí hay un resumen de su saldo de cuenta para el período seleccionado.",
+    "lblTotal": "Total"
+  },
+  "balanceOptions": {
+    "btnMakePayment": "Realizar pago",
+    "lblMakePayment": "Realizar pago",
+    "lblOptions": "Opciones",
+    "lblPaymentAmount": "Monto",
+    "lblPaymentAmountInvalid": "El monto es numérico, mayor a cero y permite dos decimales",
+    "lblPaymentAmountRequired": "Ingrese un monto",
+    "lblPaymentPeriod": "Período de pago",
+    "lblPaymentPeriodRequired": "Seleccione un período de pago",
+    "lblPeriod": "Período",
+    "lblView": "Vista"
+  },
+  "lblAll": "Todo",
+  "lblHeaderTitle": "",
+  "lblNoBalance": "No hay información disponible sobre el saldo",
+  "lblNoBalanceForPeriod": "Los datos del saldo no están disponibles para el período seleccionado. Vuelva más tarde.",
+  "lblOptionByCharges": "Detalle por cargos / abonos",
+  "lblOptionBySummary": "Resumen de saldo",
+  "lblOptionBySummaryType": "Detalle por tipo de resumen",
+  "lblPageTitle": ""
+}

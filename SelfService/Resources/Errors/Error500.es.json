@@ -1,0 +1,8 @@
+{
+  "lblGoBack": "Regresar",
+  "lblGoToHome": "Ir al inicio",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Error 500",
+  "lblText": "La página a la que intenta acceder no está disponible temporalmente. Intentar más tarde.",
+  "lblTitle": "500 - Error interno del servidor"
+}

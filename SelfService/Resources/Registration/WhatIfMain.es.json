@@ -1,0 +1,92 @@
+{
+  "academicPlanDisciplines": {
+    "academicPlanClassification": {
+      "academicPlanCourses": {
+        "formatSectionDetail": "[[{0}: {1}]]",
+        "lblAnd": "Y",
+        "lblCourseDetail": "Curso",
+        "lblCredits": "Créditos",
+        "lblMinGrade": "Calificación mínima ",
+        "lblMinimumGrade": "Calificación mínima",
+        "lblNoCoursesAvailable": "Actualmente no hay cursos disponibles.",
+        "lblOr": "O",
+        "lblRequired": "Requerido",
+        "lblSequence": "Secuencia",
+        "lblSubTypeDetail": "Subtipo",
+        "lblYes": "Sí"
+      },
+      "lblCompleted": "Completados",
+      "lblCredits": "Créditos",
+      "lblMax": "Máx",
+      "lblMin": "Mín",
+      "lblNoClassificationsAvailable": "Actualmente no hay clasificaciones disponibles.",
+      "lblPercentage": "%",
+      "lblRemaining": "Restantes",
+      "lblRequiredCredits": "Créditos requeridos completados",
+      "lblShowLess": "Menos",
+      "lblShowMore": "Más"
+    },
+    "lblCompleted": "Completados",
+    "lblCredits": "Créditos",
+    "lblMax": "Máx",
+    "lblMin": "Mín",
+    "lblPercentage": "%",
+    "lblRemaining": "Restantes",
+    "lblRequiredCredits": "Créditos requeridos completados",
+    "lblShowLess": "Menos",
+    "lblShowMore": "Más"
+  },
+  "academicPlanExtraCourses": {
+    "formatSectionDetail": "[[{0}: {1}]]",
+    "lblCoursesNotAssignedAcaPlan": "Cursos no asignados a este plan",
+    "lblCredits": "Créditos"
+  },
+  "academicPlanHeader": {
+    "formatName": "{0} {1} {2}",
+    "formatPeriod": "{0} {1}",
+    "formatYearTerm": "{0}/{1}",
+    "lblAcademicPlanInstructions": "Aquí hay un resumen del progreso hacia su grado.",
+    "lblCompleted": "Completados",
+    "lblContactAdvisor": "Si tiene preguntas, contacte a:",
+    "lblCourse": "Cursos",
+    "lblCredits": "Créditos",
+    "lblDiscipline": "Disciplinas",
+    "lblExpectedGraduationDate": "Fecha de graduación esperada: ",
+    "lblGpa": "PGA ",
+    "lblGraduationPeriod": "Graduado en ",
+    "lblMax": "Máx",
+    "lblMin": "Mín",
+    "lblOverall": "Total",
+    "lblPercentage": "%",
+    "lblRemaining": "Restantes",
+    "lblRequiredCredits": "Créditos requeridos completados",
+    "lblShowLess": "Menos",
+    "lblShowMore": "Más"
+  },
+  "availableWhatIf": {
+    "btnDelete": "Eliminar",
+    "formatName": "{0} {1} {2}",
+    "formatPercentage": "{0}%",
+    "formatPeriod": "{0}/{1}",
+    "lblEmptyState": "Para empezar a trabajar, agregue un plan",
+    "lblRequiredCredits": "Créditos requeridos completados",
+    "lblTitle": "Mis planes ¿Qué pasa si?"
+  },
+  "deleteWhatIfConfirmation": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Está seguro de que desea eliminar﻿ ﻿{0} {1} {2}? Al eliminar este plan, ya no aparecerá en su lista.",
+    "lblTitle": "Eliminar este plan ¿Qué pasa si?"
+  },
+  "lblBreadcrumbs": "¿Qué pasa si? / [[Mis planes ¿Qué pasa si?]] / Detalle",
+  "lblNoInformation": "Actualmente este plan está vacío.",
+  "whatIfOptions": {
+    "btnCreate": "Crear",
+    "lblDegree": "Grado",
+    "lblInstructions": "Cree un plan hipotético y compare los créditos del plan contra los créditos completados.",
+    "lblPeriod": "Período",
+    "lblProgram": "Programa",
+    "lblTitle": "Crear un plan ¿Qué pasa si?",
+    "lblWhatIfNoMore": "Ha alcanzado el número máximo de planes que puede tener a la vez. Elimine uno y vuelva a intentarlo."
+  }
+}

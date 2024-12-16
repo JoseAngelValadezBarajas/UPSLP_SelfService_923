@@ -1,0 +1,20 @@
+{
+  "btnApprove": "Approve",
+  "btnCancel": "Cancel",
+  "btnDeny": "Deny",
+  "formatModalTitle": "Request for {0}",
+  "lblAction": "Action",
+  "lblApproved": "Approved",
+  "lblCurrent": "Current",
+  "lblDateOfRequest": "Date of requests",
+  "lblDenied": "Denied",
+  "lblDisplayName": "Display name",
+  "lblGenderIdentity": "Gender identity",
+  "lblLegend": "Accept or deny user's preferred name change requests.",
+  "lblNoRequests": "There are no preferred name requests.",
+  "lblPronoun": "Pronoun",
+  "lblStudentName": "Student",
+  "lblUpdated": "Updated",
+  "lblUpdatedPending": "Updated (pending)",
+  "lblView": "View"
+}

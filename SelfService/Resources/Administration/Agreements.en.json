@@ -1,0 +1,36 @@
+{
+  "agreementsEdit": {
+    "btnCancel": "Cancel",
+    "btnDeactivate": "Deactivate",
+    "btnPublish": "Publish",
+    "btnSave": "Save",
+    "formatTitleEditing": "Editing {0}",
+    "lblAcceptance": "Acceptance",
+    "lblAcceptanceRequired": "Enter an acceptance",
+    "lblContent": "Content",
+    "lblContentHelpText": "This field accepts HTML. Use links with the target=\"_blank\" attribute to open the url in other tab.",
+    "lblContentRequired": "Enter a content",
+    "lblName": "Agreement name",
+    "lblNameDuplicated": "Agreement name is duplicated. Enter a unique name.",
+    "lblNameRequired": "Enter an agreement name",
+    "lblNotActive": "Not Active",
+    "lblPreview": "Preview",
+    "lblPublished": "Published",
+    "lblStatus": "Status",
+    "lblTitle": "Title",
+    "lblTitleRequired": "Enter a title"
+  },
+  "btnAdd": "Add agreement",
+  "lblInstructions": "Add an agreement for a student to acknowledge at the time of registration.",
+  "lblName": "Agreement name",
+  "lblNotActive": "Not Active",
+  "lblPublished": "Published",
+  "lblStatus": "Status",
+  "lblTitle": "Title",
+  "publishConfirmation": {
+    "btnAccept": "Publish",
+    "btnDecline": "Cancel",
+    "formatTitle": "Publish agreement",
+    "lblContent": "After publishing the agreement, it will not be editable."
+  }
+}

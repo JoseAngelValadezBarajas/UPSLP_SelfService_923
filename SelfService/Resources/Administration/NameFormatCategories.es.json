@@ -1,0 +1,23 @@
+{
+  "lblAdmin": "Área de administrador",
+  "lblAdminPages": "Dirección (solicitudes), Asociaciones (instructor), Coordinadores del campus (instructor), Datos demográficos (solicitudes), Jefes de departamento (instructor), Valores predefinidos de lotes de donativo (donativos), Oficinas (instructor), Nombre preferido (solicitudes) y User Management",
+  "lblDescription": "Especifique el formato de nombre de cada área. A continuación, se listan las páginas que aplican a cada área.",
+  "lblGeneral": "General",
+  "lblGeneralPages": "Plan académico, Educación continua, Cursos, Requisitos para el grado, Mi horario (inscripciones), ¿Qué pasa si?, Acceso compartido y Lista de tareas",
+  "lblGrade": "Reporte de calificaciones",
+  "lblGradePages": "Reporte de calificaciones",
+  "lblMoreInformation": "Más información",
+  "lblSave": "Guardar",
+  "lblSearch": "Área de búsqueda",
+  "lblSearchPages": "Sección",
+  "lblSponsor": "Acuerdo de patrocinador",
+  "lblSponsorPages": "",
+  "lblStaff": "Área de personal",
+  "lblStaffPages": "Aprobar calificaciones, Autorizar inscripción, Administración de cursos, Mi horario (clases), Administrar asesorados, Configurar aprobaciones y Asesorados compartidos",
+  "lblStatement": "Estado financiero",
+  "lblStatementInfo": "El formato de nombre para la categoría de estado financiero utiliza la parte del nombre «Nombre». El estado financiero no muestra las partes del nombre «Nombre a mostrar» ni «Pronombre».",
+  "lblStatementPages": "Estado de cuenta",
+  "lblTranscript": "Historial académico no oficial",
+  "lblTranscriptPages": "Historial académico no oficial",
+  "lblUnofficialTranscriptInfo": "El formato de nombre para la categoría de historial académico no oficial utiliza la parte del nombre «Nombre». El historial académico no oficial no muestra las partes del nombre «Nombre a mostrar» ni «Pronombre»."
+}

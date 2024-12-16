@@ -1,0 +1,42 @@
+{
+  "btnDelete": "Eliminar",
+  "btnEdit": "Editar",
+  "deleteEmergencyContactConfirmationDialog": {
+    "btnAccept": "Eliminar",
+    "btnDecline": "Cancelar",
+    "formatContent": "¿Estás seguro que desea eliminar su contacto principal? Al hacer esto, lo eliminará permanentemente.",
+    "formatContentOptional": "¿Estás seguro que desea eliminar su contacto secundario? Al hacer esto, lo eliminará permanentemente.",
+    "lblTitle": "Eliminar contacto de emergencia"
+  },
+  "emergencyContactSave": {
+    "btnCancel": "Cancelar",
+    "btnSave": "Guardar",
+    "lblCountry": "País",
+    "lblCountryRequired": "Seleccionar un país",
+    "lblEditEmergencyContact": "Editar contacto de emergencia",
+    "lblEmail": "Dirección de correo electrónico",
+    "lblEmailInvalid": "Ingresar un correo electrónico válido",
+    "lblEmailRequired": "Ingresar una dirección de correo electrónico",
+    "lblEmergencyContactIsDuplicated": "El nombre, el país y el número de teléfono están duplicados. Ingrese una combinación única de esos campos",
+    "lblName": "Nombre",
+    "lblNameRequired": "Ingresar un nombre",
+    "lblNotes": "Notas",
+    "lblNotesRequired": "Ingresar notas",
+    "lblPhoneNumber": "Número de teléfono",
+    "lblPhoneNumberRequired": "Ingresar un número de teléfono",
+    "lblRelationship": "Parentesco",
+    "lblRelationshipRequired": "Seleccionar un parentesco"
+  },
+  "lblCountry": "País",
+  "lblEmail": "Dirección de correo electrónico",
+  "lblEmergencyContactsHeader": "Contacto de emergencia",
+  "lblLegend": "Puede haber hasta 2 contactos de emergencia registrados.",
+  "lblName": "Nombre",
+  "lblNoContact": "No hay contactos de emergencia registrados",
+  "lblNotes": "Notas",
+  "lblPhoneNumber": "Número de teléfono",
+  "lblPrimaryContact": "Contacto principal",
+  "lblRelationship": "Parentesco",
+  "lblRequiredContacts": "Favor de ingresar los contactos requeridos",
+  "lblSecondaryContact": "Contacto secundario"
+}

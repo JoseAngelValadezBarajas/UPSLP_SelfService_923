@@ -1,0 +1,9 @@
+﻿{
+  "lblEmptyState": "No tiene ninguna opción asignada.",
+  "lblHeaderTitle": "",
+  "lblPageTitle": "Formularios",
+  "formsSetupTabs": {
+    "lblApplicationFormSetup": "Solicitud de admisión",
+    "lblInquiryFormSetup": "Solicitud de información"
+  }
+}

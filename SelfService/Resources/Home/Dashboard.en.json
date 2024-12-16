@@ -1,0 +1,37 @@
+{
+  "dashboardCalendar": {
+    "btnClassList": "Class list",
+    "btnDownload": "Download",
+    "btnViewCalendar": "View calendar",
+    "btnViewNotes": "View notes",
+    "formatBuilding": ", {0}",
+    "formatFloor": ", Floor {0}",
+    "formatOrganization": "{0}",
+    "formatRoom": ", Room {0}",
+    "formatSubtype": "Subtype: {0}",
+    "formatTime": "{0} - {1}",
+    "formatTitleSection": "{0}: {1}",
+    "lblNoEvents": "There are no calendar events for this day",
+    "lblNotes": "Notes",
+    "lblStudying": "Studying",
+    "lblTeaching": "Teaching",
+    "lblYourCalendar": "Your Calendar"
+  },
+  "dashboardChecklist": {
+    "btnViewChecklist": "View Checklist",
+    "lblMyTasks": "My Tasks",
+    "lblOverdue": "Overdue",
+    "lblToday": "Today",
+    "lblUpcoming": "Upcoming",
+    "lblUpToDate": "You're up to date!"
+  },
+  "dashboardStatus": {
+    "btnDegreeProgress": "View Degree Progress",
+    "lblAcademic": "Academic",
+    "lblCore": "Core",
+    "lblElective": "Elective",
+    "lblGraduationDate": "Target Graduation Date"
+  },
+  "lblHeaderTitle": "Today's Overview",
+  "lblPageTitle": "Home"
+}

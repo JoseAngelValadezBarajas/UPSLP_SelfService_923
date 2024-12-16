@@ -1,0 +1,29 @@
+{
+  "lblAccountInformation": "Account Information",
+  "lblContactInformation": "Contact Information",
+  "lblFirstName": "First name",
+  "lblGenericError": "There was an error during this operation, try again.",
+  "lblLastName": "Last name",
+  "lblLastNamePrefix": "Last name prefix",
+  "lblMiddleName": "Middle name",
+  "lblPassword": "Password",
+  "lblPrefix": "Prefix",
+  "lblSuffix": "Suffix",
+  "lblSystemId": "System ID",
+  "lblTitleName": "Name",
+  "lblUserName": "User name",
+  "passwordResetResources": {
+    "lblCancelPassword": "Cancel",
+    "lblChangePassword": "Change password",
+    "lblChangePwdLegend": "To change the password, re-enter your current password, review the information and follow the requirements.",
+    "lblCurrentPassword": "Current password",
+    "lblCurrentPasswordError": "Enter a current password",
+    "lblCurrentPasswordInvalid": "Current password is invalid. Password can not be changed.",
+    "lblSavePassword": "Save",
+    "lblSuccess": "Password changed successfully",
+    "passwordConfirmation": {
+      "lblConfirmPassword": "Confirm new password",
+      "lblPassword": "New password"
+    }
+  }
+}

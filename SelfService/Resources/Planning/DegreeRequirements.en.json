@@ -1,0 +1,45 @@
+{
+  "degreeRequirementsHeader": {
+    "lblCourse": "Courses",
+    "lblDiscipline": "Disciplines",
+    "lblMax": "Max",
+    "lblMin": "Min"
+  },
+  "degreeRequirementsDisciplines": {
+    "degreeRequirementsClassification": {
+      "degreeRequirementsCourses": {
+        "formatFindSections": "Find sections of {0}",
+        "formatSectionDetail": "[[{0}: {1}]]",
+        "formatViewDetails": "View details of {0}",
+        "lblAnd": "And",
+        "lblCourseDetail": "Course",
+        "lblFindSections": "Find sections",
+        "lblMinimumGrade": "Minimum grade",
+        "lblNoCoursesAvailable": "Currently no courses are available.",
+        "lblOr": "or",
+        "lblRequired": "Required",
+        "lblSequence": "Sequence",
+        "lblSubTypeDetail": "Subtype",
+        "lblViewDetails": "View details",
+        "lblYes": "Yes"
+      },
+      "lblCredits": "Credits",
+      "lblMax": "Max",
+      "lblMin": "Min",
+      "lblNoClassificationsAvailable": "Currently no classifications are available."
+    },
+    "lblCredits": "Credits",
+    "lblMax": "Max",
+    "lblMin": "Min"
+  },
+  "degreeRequirementsOptions": {
+    "lblDegree": "Degree",
+    "lblPeriod": "Period",
+    "lblProgram": "Program"
+  },
+  "lblHeaderTitle": "",
+  "lblNoDisciplinesAvailable": "Currently no disciplines are available.",
+  "lblNoPeriodsAvailable": "Currently no periods are available for creating degree requirements.",
+  "lblPageInstructions": "Select Period, Program and Degree.",
+  "lblPageTitle": ""
+}
